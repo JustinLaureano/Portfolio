@@ -1,472 +1,305 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+{% extends 'the_gathering/base.html' %}
 
-        <title>The Gathering</title>
-
-        <!-- Bootstrap CSS CDN -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <!-- Our Custom CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <!-- Scrollbar Custom CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-        
-    </head>
-    <body>
-
-        <div class="wrapper">
-            <!-- Sidebar Holder -->
-            <nav id="sidebar">
-                <div id="dismiss">
-                    <i class="fa fa-align-justify fa-lg" aria-hidden="true"></i>
-                </div>
-
-                <div class="sidebar-header">
-                </div>
-
-                <ul class="list-unstyled components">
-
-                    <li>
-                        <h4><a href="#">Home</a></h4>
-                    </li>
-                    <li>
-                        <a href="#">Eat</a>
-                    </li>
-                    <li>
-                        <a href="#">Drink</a>
-                    </li>
-                    <li>
-                        <a href="#">Shop</a>
-                    </li>
-                    <li>
-                        <a href="#">Listen</a>
-                    </li>
-                    <li>
-                        <hr/>
-                    </li>
-
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Menus</a>
-                    </li>
-                    <li>
-                        <a href="#">Private Events</a>
-                    </li>
-                    <li>
-                        <a href="#">Reservation</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <ul class="list-inline justify-content-left">
-
-                            <li class="list-inline-item cat-item">
-                                <a href="https://www.instagram.com/thegatheringfindlay/" >
-                                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item cat-item">
-                                <a href="https://www.facebook.com/FindlayGathering/" class="social">
-                                    <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- Page Content Holder -->
-            <div id="content">
+{% block content %}
                 
 
-                <header><!-- Header -->
-                    <div class="container">
-                        <div class="row">
+<header><!-- Header -->
+    <div class="container">
+        <div class="row">
 
-                            <div class="col">
-                                <div id="sidebarCollapse">
-                                    <i class="fa fa-align-justify fa-lg" aria-hidden="true"></i>
-                                </div>
-                            </div>
+            <div class="col">
+                <div id="sidebarCollapse">
+                    <i class="fa fa-align-justify fa-lg" aria-hidden="true"></i>
+                </div>
+            </div>
 
-                            <div class="col">
-                                    <img src="images/logo.png" alt="The Gathering - Fine Food &amp; Spirits" class="img-fluid">
-                            </div>
+            <div class="col">
+                    <img src="{% static 'images/logo.png' %}" alt="The Gathering - Fine Food &amp; Spirits" class="img-fluid">
+            </div>
 
-                            <div class="col">
-                                <ul class="list-unstyled components">
-                                    <li class="text-right">
-                                        419 422 5930
-                                    </li>
-                                </ul>
+            <div class="col">
+                <ul class="list-unstyled components">
+                    <li class="text-right">
+                        419 422 5930
+                    </li>
+                </ul>
 
-                            </div>
+            </div>
 
-                        </div> <!-- End row -->
+        </div> <!-- End row -->
 
-                    </div> <!-- End container -->
-                </header><!-- End Header -->
+    </div> <!-- End container -->
+</header><!-- End Header -->
 
-                <div class="row"> <!-- Horizontal Rule & Diamond -->
-                    <div class="col">
-                        <hr/>
-                    </div>
-                    <div class="diamond">
-                        
-                    </div>
-                    <div class="col">
-                        <hr/>
-                    </div>
-                </div> <!-- End Horizontal Rule & Diamond -->
+<div class="row"> <!-- Horizontal Rule & Diamond -->
+    <div class="col">
+        <hr/>
+    </div>
+    <div class="diamond">
 
-                <div class="row" id="welcome"> <!-- Welcome Content -->
-                    <div class="col-lg-6 align-self-end">
-                        <h1>Gather</h1>
-                        <h1>With Us</h1>
-                        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
-                        <button type="button" class="btn btn-link">View Menu</button>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="images/welcome_image.jpg" alt="Ragout" class="img-fluid welcome">
-                    </div>
-                </div> <!-- End Welcome -->
+    </div>
+    <div class="col">
+        <hr/>
+    </div>
+</div> <!-- End Horizontal Rule & Diamond -->
 
-                <div class="row"> <!-- Private Event -->
-                    <div class="col-md-4 text-center">
-                        <img src="images/event_stamp.png" alt="event stamp" class="img-fluid">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col text-center">
-                                <h2>Book your Private Event Today!</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 text-right">
-                                <p>All of our venues may be reserved for your private event. We offer custom menu planning and in house catering as well as wine pairing for any private event.</p>
-                            </div>
-                            <div class="col-md-6 text-right">
-                                <p>Our seasonal, handcrafted cuisine sourced from local farms and food producers sets us above the rest. From delicious finger foods to formal plated dinners, we can accomodate your next private function!</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                            </div>
-                            <div class="col-md-6 align-self-center text-center" id="learn_more">
-                                <button type="button" class="btn btn-link">Learn More</button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- End Private Event -->
+<div class="row" id="welcome"> <!-- Welcome Content -->
+    <div class="col-lg-6 align-self-end">
+        <h1>Gather</h1>
+        <h1>With Us</h1>
+        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
+        <button type="button" class="btn btn-link">View Menu</button>
+    </div>
+    <div class="col-lg-6">
+        <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
+    </div>
+</div> <!-- End Welcome -->
 
-                <div class="row" id="artwork"> <!-- Artwork -->
-                    <div class="col">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <img src="images/artwork/pasta.svg" width="90">
-                            </li>
-                            <li class="list-inline-item">
-                                <img src="images/artwork/artichoke.svg" width="70">
-                            </li>
-                            <li class="list-inline-item">
-                                <img src="images/artwork/onions.svg" width="90">
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- End Artwork -->
+<div class="row"> <!-- Private Event -->
+    <div class="col-md-4 text-center">
+        <img src="{% static 'images/event_stamp.png' %}" alt="event stamp" class="img-fluid">
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col text-center">
+                <h2>Book your Private Event Today!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-right">
+                <p>All of our venues may be reserved for your private event. We offer custom menu planning and in house catering as well as wine pairing for any private event.</p>
+            </div>
+            <div class="col-md-6 text-right">
+                <p>Our seasonal, handcrafted cuisine sourced from local farms and food producers sets us above the rest. From delicious finger foods to formal plated dinners, we can accomodate your next private function!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 align-self-center text-center" id="learn_more">
+                <button type="button" class="btn btn-link">Learn More</button>
+            </div>
+        </div>
+    </div>
+</div> <!-- End Private Event -->
 
-                <div class="row"> <!-- Horizontal Rule & Diamond -->
-                    <div class="col">
-                        <hr/>
-                    </div>
-                    <div class="diamond">
-                        
-                    </div>
-                    <div class="col">
-                        <hr/>
-                    </div>
-                </div> <!-- End Horizontal Rule & Diamond -->
+<div class="row" id="artwork"> <!-- Artwork -->
+    <div class="col">
+        <ul class="list-inline text-center">
+            <li class="list-inline-item">
+                <img src="{% static 'images/artwork/pasta.svg' %}" width="90">
+            </li>
+            <li class="list-inline-item">
+                <img src="{% static 'images/artwork/artichoke.svg' %}" width="70">
+            </li>
+            <li class="list-inline-item">
+                <img src="{% static 'images/artwork/onions.svg' %}" width="90">
+            </li>
+        </ul>
+    </div>
+</div> <!-- End Artwork -->
 
-                <div class="row"> <!-- Hours of Operation -->
-                    <div class="col-md-4 text-center">
-                        <h3>Monday - Thursday</h3>
-                        <h4>11-2</h4>
-                        <h4>5-9</h4>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h3>Friday</h3>
-                        <h4>11-2</h4>
-                        <h4>5-10</h4>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h3>Saturday</h3>
-                        <h4>5-10</h4>
-                    </div>
-                </div> <!-- End Hours of Operation -->
+<div class="row"> <!-- Horizontal Rule & Diamond -->
+    <div class="col">
+        <hr/>
+    </div>
+    <div class="diamond">
 
-                <div class="row"> <!-- Address -->
-                    <div class="col text-center">
-                        <ul class="list-inline hours">
-                            
-                            <li>
-                                THE GATHERING
-                            </li>
-                            <li class="h3">
-                                114 East Main Cross St.
-                            </li>
-                            <li class="h3">
-                                Findlay, OH 45840
-                            </li>
-                            <li>
-                                TEL. 1 419 422 5930
-                            </li>
-                            <hr class="divider"/>
-                            <li>
-                                THE ANVIL
-                            </li>
-                            <li class="h3">
-                                Upstairs at The Gathering
-                            </li>
-                            <li class="h3">
-                                114 East Main Cross St.
-                            </li>
-                            <li class="h3">
-                                Findlay, OH 45840
-                            </li>
-                            <li>
-                                TEL. 1 419 422 5930
-                            </li>
-                            <hr class="divider"/>
-                            <li>
-                                THE GATHERING - WINE
-                            </li>
-                            <li class="h3">
-                                235 South Main St.
-                            </li>
-                            <li class="h3">
-                                Findlay, OH 45840
-                            </li>
-                            <li>
-                                TEL. 1 567 525 3235
-                            </li>
-                            <hr class="divider"/>
-                            <li>
-                                <ul class="list-inline social">
+    </div>
+    <div class="col">
+        <hr/>
+    </div>
+</div> <!-- End Horizontal Rule & Diamond -->
 
-                                    <li class="list-inline-item cat-item">
-                                        <a href="https://www.instagram.com/thegatheringfindlay/" target="_blank" class="social">
-                                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item cat-item">
-                                        <a href="https://www.facebook.com/FindlayGathering/" target="_blank" 
-                                        class="social">
-                                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
+<div class="row"> <!-- Hours of Operation -->
+    <div class="col-md-4 text-center">
+        <h3>Monday - Thursday</h3>
+        <h4>11-2</h4>
+        <h4>5-9</h4>
+    </div>
+    <div class="col-md-4 text-center">
+        <h3>Friday</h3>
+        <h4>11-2</h4>
+        <h4>5-10</h4>
+    </div>
+    <div class="col-md-4 text-center">
+        <h3>Saturday</h3>
+        <h4>5-10</h4>
+    </div>
+</div> <!-- End Hours of Operation -->
 
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- End Address -->
+<div class="row"> <!-- Address -->
+    <div class="col text-center">
+        <ul class="list-inline hours">
 
-                <div class="container"> <!-- Container of Carousel -->
-                    <div id="carousel_menu" class="carousel slide" data-ride="carousel"> <!-- Carousel -->
-                        <ol class="carousel-indicators"> <!-- Indicators -->
-                            <li data-target="#carousel_menu" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel_menu" data-slide-to="1"></li>
-                            <li data-target="#carousel_menu" data-slide-to="2"></li>
-                            <li data-target="#carousel_menu" data-slide-to="3"></li>
-                        </ol> <!-- End Indicators -->
+            <li>
+                THE GATHERING
+            </li>
+            <li class="h3">
+                114 East Main Cross St.
+            </li>
+            <li class="h3">
+                Findlay, OH 45840
+            </li>
+            <li>
+                TEL. 1 419 422 5930
+            </li>
+            <hr class="divider"/>
+            <li>
+                THE ANVIL
+            </li>
+            <li class="h3">
+                Upstairs at The Gathering
+            </li>
+            <li class="h3">
+                114 East Main Cross St.
+            </li>
+            <li class="h3">
+                Findlay, OH 45840
+            </li>
+            <li>
+                TEL. 1 419 422 5930
+            </li>
+            <hr class="divider"/>
+            <li>
+                THE GATHERING - WINE
+            </li>
+            <li class="h3">
+                235 South Main St.
+            </li>
+            <li class="h3">
+                Findlay, OH 45840
+            </li>
+            <li>
+                TEL. 1 567 525 3235
+            </li>
+            <hr class="divider"/>
+            <li>
+                <ul class="list-inline social">
 
-                        <div class="carousel-inner"> <!-- Images -->
-                            
-                            <div class="carousel-item active">
-                                <div class="row align-items-center">
-                                    <div class="col-4">
-                                        <img class="d-block w-100" src="images/menu_eat.jpg" alt="Eat">
-                                    </div>
-                                    <div class="col-8">
-                                        <h4>EAT</h4>
-                                        <p>Offered at each of the Gathering properties, our Chef’s unique recipes provide guests an exceptional culinary experience at an affordable price.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="row align-items-center">
-                                    <div class="col-sm-4">
-                                        <img class="d-block w-100" src="images/menu_drink.jpg" alt="Drink">
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <h4>DRINK</h4>
-                                        <p>Gathering Wine’s selection of fine wines is unmatched in Findlay and most of Northwest Ohio. All of our wines are available for both on-property consumption and for retail purchase.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="row align-items-center">
-                                    <div class="col-sm-4">
-                                        <img class="d-block w-100" src="images/menu_shop.jpg" alt="Shop">
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <h4>SHOP</h4>
-                                        <p>We feature hundreds of wines from around the world all priced at Ohio state minimum. We source wines from more than fifteen distributors in Ohio and our shop also features climate-controlled storage so you can feel confident that that trophy bottle you’re eying has been well taken care of. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="carousel-item">
-                                <div class="row align-items-center">
-                                    <div class="col-sm-4">
-                                        <img class="d-block w-100" src="images/menu_listen.jpg" alt="Listen">
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <h4>LISTEN</h4>
-                                        <p>On Fridays and Saturdays join us for live music featuring local artists and complimentary appetizers. Grab a seat on our outdoor balcony overlooking the heart of Downtown Findlay!</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> <!-- End Images -->
-
-                        <!-- Left & Right Buttons -->
-                        <a class="carousel-control-prev" href="#carousel_menu" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
+                    <li class="list-inline-item cat-item">
+                        <a href="https://www.instagram.com/thegatheringfindlay/" target="_blank" class="social">
+                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
                         </a>
-                        <a class="carousel-control-next" href="#carousel_menu" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a><!-- End Left & Right Buttons -->
+                    </li>
+                    <li class="list-inline-item cat-item">
+                        <a href="https://www.facebook.com/FindlayGathering/" target="_blank"
+                        class="social">
+                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </li>
 
-                    </div> <!-- EndCarousel -->
-                </div> <!-- End Container of Carousel -->
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div> <!-- End Address -->
 
-                <div class="row align-items-center" id="hero-image"> <!-- Patio Hero -->
-                    <div class="col">
-                        <h1 class="hero-text text-center">Come Enjoy the Best Patio in Town</h1>
+<div class="container"> <!-- Container of Carousel -->
+    <div id="carousel_menu" class="carousel slide" data-ride="carousel"> <!-- Carousel -->
+        <ol class="carousel-indicators"> <!-- Indicators -->
+            <li data-target="#carousel_menu" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel_menu" data-slide-to="1"></li>
+            <li data-target="#carousel_menu" data-slide-to="2"></li>
+            <li data-target="#carousel_menu" data-slide-to="3"></li>
+        </ol> <!-- End Indicators -->
+
+        <div class="carousel-inner"> <!-- Images -->
+
+            <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="d-block w-100" src="{% static 'images/menu_eat.jpg' %}" alt="Eat">
                     </div>
-                </div> <!-- End Patio Hero -->
-
-                <div class="row justify-content-center"><!-- List of Events -->
-                    <div class="col-2"></div>
-
-                    <div class="col- text-center" id="sign-up">
-
-                        <img class="rounded-circle" src="images/artwork/artichoke.jpg" width="100">
-
-                        <h2><a href="">See list of events</a></h2>
-
-                        <div class="row"> <!-- Horizontal Rule & Diamond -->
-                            <div class="col">
-                                <hr class="sign-up" />
-                            </div>
-                            <div class="diamond">
-                                
-                            </div>
-                            <div class="col">
-                                <hr class="sign-up" />
-                            </div>
-                        </div> <!-- End Horizontal Rule & Diamond -->
-
-                        <span>We have live music and events scheduled <br/>on the patio every week.<span>
+                    <div class="col-8">
+                        <h4>EAT</h4>
+                        <p>Offered at each of the Gathering properties, our Chef’s unique recipes provide guests an exceptional culinary experience at an affordable price.</p>
                     </div>
+                </div>
+            </div>
 
-                    <div class="col-2"></div>
-                </div><!-- End List of Events -->
-
-                <div class="row"> <!-- Horizontal Rule & Diamond -->
-                    <div class="col">
-                        <hr/>
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-sm-4">
+                        <img class="d-block w-100" src="{% static 'images/menu_drink.jpg' %}" alt="Drink">
                     </div>
-                    <div class="diamond">
-                        
+                    <div class="col-sm-8">
+                        <h4>DRINK</h4>
+                        <p>Gathering Wine’s selection of fine wines is unmatched in Findlay and most of Northwest Ohio. All of our wines are available for both on-property consumption and for retail purchase.</p>
                     </div>
-                    <div class="col">
-                        <hr/>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-sm-4">
+                        <img class="d-block w-100" src="{% static 'images/menu_shop.jpg' %}" alt="Shop">
                     </div>
-                </div> <!-- End Horizontal Rule & Diamond -->
+                    <div class="col-sm-8">
+                        <h4>SHOP</h4>
+                        <p>We feature hundreds of wines from around the world all priced at Ohio state minimum. We source wines from more than fifteen distributors in Ohio and our shop also features climate-controlled storage so you can feel confident that that trophy bottle you’re eying has been well taken care of. </p>
+                    </div>
+                </div>
+            </div>
 
-                <footer> <!-- Footer -->
-                    <div class="container"> <!-- Container -->
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-sm-4">
+                        <img class="d-block w-100" src="{% static 'images/menu_listen.jpg' %}" alt="Listen">
+                    </div>
+                    <div class="col-sm-8">
+                        <h4>LISTEN</h4>
+                        <p>On Fridays and Saturdays join us for live music featuring local artists and complimentary appetizers. Grab a seat on our outdoor balcony overlooking the heart of Downtown Findlay!</p>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="row"> <!-- Row -->
-                            <div class="col-sm-2"> <!-- Logo -->
-                                <a href="#">
-                                    <img src="images/logo.png" alt="The Gathering - Fine Food &amp; Spirits" class="img-fluid">
-                                </a>
-                            </div> <!-- End Logo -->
+        </div> <!-- End Images -->
 
-                            <div class="col-sm-1"></div> <!-- Spacer -->
+        <!-- Left & Right Buttons -->
+        <a class="carousel-control-prev" href="#carousel_menu" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel_menu" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a><!-- End Left & Right Buttons -->
 
-                            <div class="col-sm-5"> <!-- Address & Copyright -->
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        114 East Main Cross St. Findlay, OH 45840
-                                    </li>
-                                    <li class="list-inline-item">
-                                        Tel. 1 419 422 5930
-                                    </li>
-                                </ul>
-                                <p class="text-muted">&copy; 2018 The Gathering </p>
-                            </div> <!-- End Address & Copyright -->
+    </div> <!-- EndCarousel -->
+</div> <!-- End Container of Carousel -->
 
-                            <div class="col-sm-4 text-sm-right text-xs-center"> <!-- Footer Navigation -->
+<div class="row align-items-center" id="hero-image"> <!-- Patio Hero -->
+    <div class="col">
+        <h1 class="hero-text text-center">Come Enjoy the Best Patio in Town</h1>
+    </div>
+</div> <!-- End Patio Hero -->
 
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="">Menu</a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="">About</a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="">Contact</a>
-                                    </li>
-                                </ul>
+<div class="row justify-content-center"><!-- List of Events -->
+    <div class="col-2"></div>
 
-                                <ul class="list-inline">
-                                    <li class="list-inline-item cat-item">
-                                        <a href="https://www.instagram.com/thegatheringfindlay/" >
-                                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item cat-item">
-                                        <a href="https://www.facebook.com/FindlayGathering/" class="social">
-                                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                </ul>
+    <div class="col- text-center" id="sign-up">
 
-                            </div><!-- End Footer Navigation -->
-                        </div> <!-- End Row -->
+        <img class="rounded-circle" src="{% static 'images/artwork/artichoke.jpg' %}" width="100">
 
-                    </div> <!-- End Container -->
-                </footer> <!-- End Footer -->
+        <h2><a href="">See list of events</a></h2>
 
+        <div class="row"> <!-- Horizontal Rule & Diamond -->
+            <div class="col">
+                <hr class="sign-up" />
+            </div>
+            <div class="diamond">
 
-        </div><!-- end wrapper -->
-        
-        <div class="overlay"></div>
+            </div>
+            <div class="col">
+                <hr class="sign-up" />
+            </div>
+        </div> <!-- End Horizontal Rule & Diamond -->
 
+        <span>We have live music and events scheduled <br/>on the patio every week.<span>
+    </div>
 
-        <!-- jQuery CDN -->
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <!-- Bootstrap Js CDN -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <!-- jQuery Custom Scroller CDN -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
-</html>
+    <div class="col-2"></div>
+</div><!-- End List of Events -->
+
+{% endblock %}

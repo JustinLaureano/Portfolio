@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>The Gathering</title>
+    <!-- Loads the path to your static files -->
+    {% load staticfiles %}
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+        <div id="dismiss">
+            <i class="fa fa-align-justify fa-lg" aria-hidden="true"></i>
+        </div>
+
+        <div class="sidebar-header">
+        </div>
+
+        <ul class="list-unstyled components">
+
+            <li>
+                <h4><a href="#">Home</a></h4>
+            </li>
+            <li>
+                <a href="#">Eat</a>
+            </li>
+            <li>
+                <a href="#">Drink</a>
+            </li>
+            <li>
+                <a href="#">Shop</a>
+            </li>
+            <li>
+                <a href="#">Listen</a>
+            </li>
+            <li>
+                <hr/>
+            </li>
+
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Menus</a>
+            </li>
+            <li>
+                <a href="#">Private Events</a>
+            </li>
+            <li>
+                <a href="#">Reservation</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <ul class="list-inline justify-content-left">
+
+                    <li class="list-inline-item cat-item">
+                        <a href="https://www.instagram.com/thegatheringfindlay/" >
+                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item cat-item">
+                        <a href="https://www.facebook.com/FindlayGathering/" class="social">
+                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Content Holder -->
+    <div id="content">
+
+        {% block content %}
+        {% endblock %}
+
+
+        <div class="row"> <!-- Horizontal Rule & Diamond -->
+            <div class="col">
+                <hr/>
+            </div>
+            <div class="diamond">
+
+            </div>
+            <div class="col">
+                <hr/>
+            </div>
+        </div> <!-- End Horizontal Rule & Diamond -->
+
+        <footer> <!-- Footer -->
+            <div class="container"> <!-- Container -->
+
+                <div class="row"> <!-- Row -->
+                    <div class="col-sm-2"> <!-- Logo -->
+                        <a href="#">
+                            <img src="{% static 'images/logo.png' %}" alt="The Gathering - Fine Food &amp; Spirits" class="img-fluid">
+                        </a>
+                    </div> <!-- End Logo -->
+
+                    <div class="col-sm-1"></div> <!-- Spacer -->
+
+                    <div class="col-sm-5"> <!-- Address & Copyright -->
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                114 East Main Cross St. Findlay, OH 45840
+                            </li>
+                            <li class="list-inline-item">
+                                Tel. 1 419 422 5930
+                            </li>
+                        </ul>
+                        <p class="text-muted">&copy; 2018 The Gathering </p>
+                    </div> <!-- End Address & Copyright -->
+
+                    <div class="col-sm-4 text-sm-right text-xs-center"> <!-- Footer Navigation -->
+
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="">Menu</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">About</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">Contact</a>
+                            </li>
+                        </ul>
+
+                        <ul class="list-inline">
+                            <li class="list-inline-item cat-item">
+                                <a href="https://www.instagram.com/thegatheringfindlay/" >
+                                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item cat-item">
+                                <a href="https://www.facebook.com/FindlayGathering/" class="social">
+                                    <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div><!-- End Footer Navigation -->
+                </div> <!-- End Row -->
+
+            </div> <!-- End Container -->
+        </footer> <!-- End Footer -->
+    </div> <!-- End Content -->
+</div><!-- end Wrapper -->
+
+<div class="overlay"></div>
+
+
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<!-- Bootstrap Js CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!-- jQuery Custom Scroller CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
