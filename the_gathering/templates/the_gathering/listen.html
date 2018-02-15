@@ -1,0 +1,20 @@
+{% extends 'the_gathering/base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+
+<div class="row" id="welcome"> <!-- Welcome Content -->
+    <div class="col-lg-6 align-self-end">
+        <h1>Listen</h1>
+        <h1>With Us</h1>
+        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
+        <button type="button" class="btn btn-link">View Menu</button>
+    </div>
+    <div class="col-lg-6">
+        <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
+    </div>
+</div> <!-- End Welcome -->
+
+
+
+{% endblock %}

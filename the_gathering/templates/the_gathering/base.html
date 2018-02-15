@@ -38,32 +38,32 @@
                         <a href="{% url 'the_gathering:eat' %}">Eat</a>
                     </li>
                     <li>
-                        <a href="#">Drink</a>
+                        <a href="{% url 'the_gathering:drink' %}">Drink</a>
                     </li>
                     <li>
-                        <a href="#">Shop</a>
+                        <a href="{% url 'the_gathering:shop' %}">Shop</a>
                     </li>
                     <li>
-                        <a href="#">Listen</a>
+                        <a href="{% url 'the_gathering:listen' %}">Listen</a>
                     </li>
                     <li>
                         <hr/>
                     </li>
 
                     <li>
-                        <a href="#">About</a>
+                        <a href="{% url 'the_gathering:about' %}">About</a>
                     </li>
                     <li>
-                        <a href="#">Menus</a>
+                        <a href="{% url 'the_gathering:menus' %}">Menus</a>
                     </li>
                     <li>
-                        <a href="#">Private Events</a>
+                        <a href="{% url 'the_gathering:private_events' %}">Private Events</a>
                     </li>
                     <li>
-                        <a href="#">Reservation</a>
+                        <a href="{% url 'the_gathering:reservations' %}">Reservation</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="{% url 'the_gathering:contact' %}">Contact</a>
                     </li>
                     <li>
                         <ul class="list-inline justify-content-left">
@@ -86,33 +86,30 @@
 
             <!-- Page Content Holder -->
             <div id="content">
-
                 <header><!-- Header -->
-                    <div class="container">
-                        <div class="row">
+                    <div class="row">
 
-                            <div class="col">
-                                <div id="sidebarCollapse">
-                                    <i class="fa fa-align-justify fa-lg" aria-hidden="true"></i>
-                                </div>
+                        <div class="col">
+                            <div id="sidebarCollapse">
+                                <i class="fa fa-align-justify fa-lg" aria-hidden="true"></i>
                             </div>
+                        </div>
 
-                            <div class="col">
-                                <img src="{% static 'images/logo.png' %}" alt="The Gathering - Fine Food &amp; Spirits" class="img-fluid">
-                            </div>
+                        <div class="col">
+                            <a href="{% url 'the_gathering:home' %}"><img src="{% static 'images/logo.png' %}" alt="The Gathering - Fine Food &amp; Spirits" class="img-fluid"></a>
+                    </div>
 
-                            <div class="col">
-                                <ul class="list-unstyled components">
-                                    <li class="text-right">
-                                        419 422 5930
-                                    </li>
-                                </ul>
+                    <div class="col">
+                        <ul class="list-unstyled components">
+                            <li class="text-right">
+                                419 422 5930
+                            </li>
+                        </ul>
 
-                            </div>
+                    </div>
 
-                        </div> <!-- End row -->
+                </div> <!-- End row -->
 
-                    </div> <!-- End container -->
                 </header><!-- End Header -->
 
                 <div class="row"> <!-- Horizontal Rule & Diamond -->
@@ -126,6 +123,8 @@
                         <hr/>
                     </div>
                 </div> <!-- End Horizontal Rule & Diamond -->
+
+
 
                 {% block content %}
                 {% endblock %}
