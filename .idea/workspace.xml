@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c477ca-15eb-480f-a9c5-08dee208a112" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/css/style.css" afterPath="$PROJECT_DIR$/the_gathering/static/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html" />
     </list>
@@ -16,18 +17,36 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="eat.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="550">
+                  <caret line="307" column="22" lean-forward="true" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,7 +70,6 @@
         <option value="$PROJECT_DIR$/portfolio/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/portfolio/urls.py" />
-        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/shop.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/listen.html" />
@@ -64,6 +82,8 @@
         <option value="$PROJECT_DIR$/the_gathering/urls.py" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/index.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html" />
+        <option value="$PROJECT_DIR$/the_gathering/static/css/style.css" />
+        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html" />
       </list>
     </option>
   </component>
@@ -104,6 +124,25 @@
               <item name="root" type="b2602c69:ProjectViewProjectNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
               <item name="the_gathering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="the_gathering" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="the_gathering" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="the_gathering" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,6 +268,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="23" width="2543" height="1399" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -239,7 +279,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30054644" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30054644" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14154339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -257,6 +297,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -286,14 +329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -396,10 +431,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="4085">
+          <caret line="215" column="7" lean-forward="true" selection-start-line="215" selection-start-column="7" selection-end-line="215" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="307" column="22" lean-forward="true" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
           <folding />
         </state>
       </provider>
