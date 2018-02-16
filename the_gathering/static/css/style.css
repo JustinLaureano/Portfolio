@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i');
 
-body, h4 {
+body, h4, h5 {
     font-family: 'Work Sans', sans-serif;
     background: #fcfcfc;
 }
@@ -19,6 +19,11 @@ h1 {
     line-height: .9em;
 }
 
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
 
 h3, .h3 {
     font-size: 1.4em;
@@ -28,6 +33,12 @@ h3, .h3 {
 h4 {
     font-size: .9em;
     font-weight: 400;
+    color: #6D6D6D;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 600;
     color: #6D6D6D;
 }
 
@@ -299,13 +310,6 @@ hr .sign-up {
 
 #sign-up img {
     margin-top: -100px;
-}
-
-.box-image {
-    width: 120%;
-    margin-top: -50px;
-    height: 70vh;
-    min-height: 620px;
 }
 
 footer {

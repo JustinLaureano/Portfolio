@@ -3,17 +3,48 @@
 {% block content %}
 
 
-<div class="row" id="welcome"> <!-- Welcome Content -->
-    <div class="col-lg-6 align-self-end">
+<div class="row"> <!-- Drink Intro -->
+    <div class="col-2"></div>
+    <div class="col-6 align-self-end">
         <h1>Drink</h1>
-        <h1>With Us</h1>
-        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
-        <button type="button" class="btn btn-link">View Menu</button>
+        <br>
+        <p>The drink selection incorporates natural wines, local and foreign craft beers, fine whiskey, craft cocktails and espresso coffee. Our incredible selection of spirits will rival that of any large city in the Midwest, all available at any othe the three downtown locations.</p>
     </div>
-    <div class="col-lg-6">
-        <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
+    <div class="col-4"></div>
+</div> <!-- End Drink Intro -->
+
+<div class="row"> <!-- Natural Wine -->
+    <div class="col-md-6">
+        <img src="{% static 'images/soup_sandwich.jpg' %}" alt="Sandwich and Soup" class="img-fluid welcome">
     </div>
-</div> <!-- End Welcome -->
+    <div class="col-md-6 align-self-center">
+        <h2>Natural Wine</h2>
+        <br>
+        <p>At the gathering we extend our sourcing approach and good food philosophy to our wine list. Enjoy while sitting in our wine shop, the sidewalk patio on downtown Findlay, or on the private back patio.</p>
+    </div>
+</div> <!-- End Natural Wine -->
+
+<div class="row"> <!-- Whiskey -->
+    <div class="col-md-6 order-2 order-md-1 align-self-center">
+        <h2>Fine Spirits</h2>
+        <br>
+        <p>We feature a full bar offering a vast selection of whiskey, bourbon, and other fine spirits, including special limited varieties.</p>
+    </div>
+    <div class="col-md-6 order-1 order-md-2">
+        <img src="{% static 'images/tap_handles.jpg' %}" alt="The Anvil Bar" class="img-fluid welcome">
+    </div>
+</div> <!-- End Whiskey -->
+
+<div class="row"> <!-- Cocktails -->
+    <div class="col-md-6">
+        <img src="{% static 'images/cranberry_margarita.jpg' %}" alt="Cocktail" class="img-fluid welcome">
+    </div>
+    <div class="col-md-6 align-self-center">
+        <h2>Cocktails</h2>
+        <br>
+        <p>Full bar featuring cocktails made with seasonal ingredients, showcasing local flavors.</p>
+    </div>
+</div> <!-- End Cocktails -->
 
 
 

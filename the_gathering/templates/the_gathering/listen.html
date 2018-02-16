@@ -2,19 +2,55 @@
 {% load staticfiles %}
 {% block content %}
 
-
-<div class="row" id="welcome"> <!-- Welcome Content -->
-    <div class="col-lg-6 align-self-end">
+<div class="row"> <!-- Shop Intro -->
+    <div class="col-2"></div>
+    <div class="col-6 align-self-end">
         <h1>Listen</h1>
-        <h1>With Us</h1>
-        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
-        <button type="button" class="btn btn-link">View Menu</button>
+        <br>
+        <p>With live music every weekend, frequent food, whiskey, and wine tastings, along with movie and trivia nights, there is always something to check out at the Gathering!</p>
     </div>
-    <div class="col-lg-6">
-        <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
+    <div class="col-4"></div>
+</div> <!-- End Eat Intro -->
+
+<div class="row"> <!-- Event -->
+    <div class="col-md-6">
+        <img src="{% static 'images/live_events/kev_cullen.jpg' %}" alt="Kev Cullen" class="img-fluid welcome">
     </div>
-</div> <!-- End Welcome -->
+    <div class="col-md-6 text-center align-self-center">
+        <h2>Live Music featuring Kevin Cullen</h2>
+        <h5>February 17</h5>
+        <h5>9pm - 12am</h5>
+        <h5>The Anvil</h5>
+        <br>
+        <p>Join us as we welcome Kevin Cullen to Anvil Whiskey Bar! </p>
+    </div>
+</div> <!-- End Event -->
 
+<div class="row"> <!-- Wine -->
+    <div class="col-md-6 order-2 order-md-1 align-self-center">
+        <h2>Live Music featuring Chris Knopp</h2>
+        <h5>February 23</h5>
+        <h5>9pm - 12am</h5>
+        <h5>The Anvil</h5>
+        <br>
+        <p>Join us as we welcome Chris Knopp to Anvil Whiskey Bar! </p>
+    </div>
+    <div class="col-md-6 order-1 order-md-2">
+        <img src="{% static 'images/live_events/chris_knopp.jpg' %}" alt="Chris Knopp" class="img-fluid welcome">
+    </div>
+</div> <!-- End Wine -->
 
-
+<div class="row"> <!-- Gift Cards -->
+    <div class="col-md-6">
+        <img src="{% static 'images/live_events/masquerade_party.png' %}" alt="Masquerade Party" class="img-fluid welcome">
+    </div>
+    <div class="col-md-6 align-self-center">
+        <h2>Mardi Gras Masquerade Party</h2>
+        <h5>February 24</h5>
+        <h5>7pm - 12am</h5>
+        <h5>The Anvil</h5>
+        <br>
+        <p>Join us as we welcome Chris Knopp to Anvil WhiskWe are bringing that New Orleans feeling to Anvil Whiskey Bar Saturday, February 24 with our Mardi Gras Masquerade Party starting at 7pm! We will be offering classic Cajun Cuisine, Featured Craft Cocktails & Live Jazz from Quick Trio starting at 9pm. Funky Attire and Masks encouraged! See you there!</p>
+    </div>
+</div> <!-- End Gift Cards -->
 {% endblock %}

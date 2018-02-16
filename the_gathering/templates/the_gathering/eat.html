@@ -2,34 +2,48 @@
 {% load staticfiles %}
 {% block content %}
 
-
-<div class="row"> <!-- Eat Content -->
-	<div class="col-2"></div>
+<div class="row"> <!-- Eat Intro -->
+    <div class="col-2"></div>
     <div class="col-6 align-self-end">
         <h1>Eat</h1>
+        <br>
         <p>Offered at each of the Gathering properties, our Chef’s unique recipes provide guests an exceptional culinary experience at an affordable price. From the best burger and soups in town for lunch, to remarkable handcrafted appetizers and dinner selections, to made-from-scratch desserts, The Gathering is truly a 5-star dining experience.</p>
     </div>
     <div class="col-4"></div>
-</div> <!-- End Eat -->
-<div class="row"> <!-- Eat Content -->
-    <div class="col-2"></div>
-    <div class="col-4">
-        <a href="{% url 'the_gathering:menus' %}" class="big"><strong>View Menu</strong></a>
-    </div>
-    <div class="col-6"></div>
-</div> <!-- End Eat -->
+</div> <!-- End Eat Intro -->
 
-<div class="row"> <!-- Eat Content -->
+<div class="row"> <!-- Dinner -->
     <div class="col-md-6">
-        <div class="box-image" style="background:url(../../static/images/soup_sandwich.jpg) no-repeat center center; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; -o-background-size: cover;"></div>
+        <img src="{% static 'images/salmon.jpg' %}" alt="Salmon" class="img-fluid welcome">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 align-self-center">
         <h2>Dinner Downtown</h2>
-        <p>
-            The Gathering features high-end steak, seafood, pasta and other distinctive, exquisite craft Americana dishes, combined with an incredible selection of wine, whiskey, bourbon, and craft beers.
-        </p>
+        <br>
+        <p>The Gathering features high-end steak, seafood, pasta and other distinctive, exquisite craft Americana dishes, combined with an incredible selection of wine, whiskey, bourbon, and craft beers.</p>
     </div>
-</div>
+</div> <!-- End Dinner -->
+
+<div class="row"> <!-- Lunch -->
+    <div class="col-md-6 order-2 order-md-1 align-self-center">
+        <h2>Lunch</h2>
+        <br>
+        <p>Our low-priced lunch featured an assortment of homemade soups, salads, sandwiches desserts, and more.</p>
+    </div>
+    <div class="col-md-6 order-1 order-md-2">
+        <img src="{% static 'images/soup_sandwich.jpg' %}" alt="Sandwich and Soup" class="img-fluid welcome">
+    </div>
+</div> <!-- End Lunch -->
+
+<div class="row"> <!-- Cocktails -->
+    <div class="col-md-6">
+        <img src="{% static 'images/event_room.jpg' %}" alt="Event Room" class="img-fluid welcome">
+    </div>
+    <div class="col-md-6 align-self-center">
+        <h2>Private Events</h2>
+        <br>
+        <p>In addition to the great day-to-day services, our customers have come to enjoy the outstanding atmosphere of hosting private events at each of our facilities, including our spacious back patio. Each of the venues offers unique attributes that allow us to customize the event to the clients’ needs and provide a truly differentiated experience.</p>
+    </div>
+</div> <!-- End Cocktails -->
 
 {% endblock %}
 

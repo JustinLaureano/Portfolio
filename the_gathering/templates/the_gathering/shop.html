@@ -2,19 +2,46 @@
 {% load staticfiles %}
 {% block content %}
 
-
-<div class="row" id="welcome"> <!-- Welcome Content -->
-    <div class="col-lg-6 align-self-end">
+<div class="row"> <!-- Shop Intro -->
+    <div class="col-2"></div>
+    <div class="col-6 align-self-end">
         <h1>Shop</h1>
-        <h1>With Us</h1>
-        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
-        <button type="button" class="btn btn-link">View Menu</button>
+        <br>
+        <p>We offer a selection of the finest wines from all over the world, and we want you to enjoy them when you are away from us as well. You can stop into the wine shop to view in person and speak to the knowledgeable staff for any questions.</p>
     </div>
-    <div class="col-lg-6">
-        <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
+    <div class="col-4"></div>
+</div> <!-- End Eat Intro -->
+
+<div class="row"> <!-- Gift Baskets -->
+    <div class="col-md-6">
+        <img src="{% static 'images/gift_basket.jpg' %}" alt="Gift Basket" class="img-fluid welcome">
     </div>
-</div> <!-- End Welcome -->
+    <div class="col-md-6 align-self-center">
+        <h2>Gift Baskets</h2>
+        <br>
+        <p>Check out our seasonal gift baskets on display in the Wine Shop.</p>
+    </div>
+</div> <!-- End Gift Baskets -->
 
+<div class="row"> <!-- Wine -->
+    <div class="col-md-6 order-2 order-md-1 align-self-center">
+        <h2>Fine Spirits</h2>
+        <br>
+        <p>We feature a full bar offering a vast selection of whiskey, bourbon, and other fine spirits, including special limited varieties.</p>
+    </div>
+    <div class="col-md-6 order-1 order-md-2">
+        <img src="{% static 'images/wine_rack.jpg' %}" alt="Wine Rack" class="img-fluid welcome">
+    </div>
+</div> <!-- End Wine -->
 
-
+<div class="row"> <!-- Gift Cards -->
+    <div class="col-md-6">
+        <img src="{% static 'images/gift_basket.jpg' %}" alt="Gift Cards" class="img-fluid welcome">
+    </div>
+    <div class="col-md-6 align-self-center">
+        <h2>Gift Cards</h2>
+        <br>
+        <p>Order gift cards here good at all Gathering Properties..</p>
+    </div>
+</div> <!-- End Gift Cards -->
 {% endblock %}
