@@ -37,7 +37,7 @@ h4 {
 }
 
 h5 {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
     color: #6D6D6D;
 }
@@ -312,6 +312,62 @@ hr .sign-up {
     margin-top: -100px;
 }
 
+#history {
+    margin-top: -100px;
+}
+
+.about {
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+
+#about_wine {
+    padding: 100px;
+}
+
+.about_gathering, .about_gathering h3 {
+    background: #070707;
+}
+
+.about_gathering h3, .about_gathering p {
+    color: #F9FCF8;
+}
+
+.about_gathering h3 {
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+#about_text {
+    padding: 200px 50px 200px 50px;
+}
+
+#about_rest {
+    background: #fcfcfc;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+}
+
+#lunch p, #dinner p, #wine p, #anvil p {
+    padding-left: 10px;
+}
+
+#lunch p strong, #dinner p strong {
+    font-weight: 600;
+}
+
+#lunch h1, #dinner h1, #wine h1, #anvil h1 {
+    margin-bottom: 50px;
+}
+
+#lunch h2, #dinner h2, #wine h2, #anvil h2 {
+    margin-bottom: 25px;
+}
+
 footer {
     margin-top: 100px;
 }
@@ -319,6 +375,26 @@ footer {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+
+@media (max-width: 575.98px) {
+    #history {
+        margin-top: -25px;
+    }
+
+    #about_text {
+        padding: 100px 50px 100px 50px;
+    }
+
+    .menu {
+        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+    }
+
+    #lunch h2, #dinner h2, #wine h2, #anvil h2 {
+        font-size: 1.5em;
+    }
+}
+
 
 @media (max-width: 1080px) {
     h1 {

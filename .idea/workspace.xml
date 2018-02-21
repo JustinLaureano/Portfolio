@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c477ca-15eb-480f-a9c5-08dee208a112" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/the_gathering/static/scripts/menu items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/images/wine_store.JPG" afterPath="$PROJECT_DIR$/the_gathering/static/images/wine_store.JPG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/admin.py" afterPath="$PROJECT_DIR$/the_gathering/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/models.py" afterPath="$PROJECT_DIR$/the_gathering/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/css/style.css" afterPath="$PROJECT_DIR$/the_gathering/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/listen.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/listen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/shop.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/shop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/views.py" afterPath="$PROJECT_DIR$/the_gathering/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,39 +24,41 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49790406">
+    <splitter split-orientation="horizontal" split-proportion="0.67303216">
       <split-first>
         <leaf>
-          <file leaf-file-name="drink.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html">
+          <file leaf-file-name="menus.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="35" selection-end-column="27" />
+                <state relative-caret-position="3097">
+                  <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
                   <folding>
-                    <element signature="n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#!!top" expanded="false" />
-                    <element signature="n#div#3;n#!!top" expanded="false" />
+                    <element signature="e#1492#1498#0" expanded="true" />
+                    <element signature="e#2116#2122#0" expanded="true" />
+                    <element signature="e#2697#2703#0" expanded="true" />
+                    <element signature="e#3324#3330#0" expanded="true" />
+                    <element signature="e#3793#3799#0" expanded="true" />
+                    <element signature="e#4464#4470#0" expanded="true" />
+                    <element signature="e#5091#5097#0" expanded="true" />
+                    <element signature="e#5551#5557#0" expanded="true" />
+                    <element signature="e#5738#5744#0" expanded="true" />
+                    <element signature="e#6080#6086#0" expanded="true" />
+                    <element signature="e#6542#6548#0" expanded="true" />
+                    <element signature="e#7445#7451#0" expanded="true" />
+                    <element signature="e#7654#7660#0" expanded="true" />
+                    <element signature="e#7817#7823#0" expanded="true" />
+                    <element signature="e#8055#8061#0" expanded="true" />
+                    <element signature="e#8220#8226#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shop.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/shop.html">
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/the_gathering/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="listen.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/listen.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+                <state relative-caret-position="604">
+                  <caret line="70" column="58" lean-forward="false" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
                   <folding />
                 </state>
               </provider>
@@ -65,8 +71,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="588">
-                  <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                <state relative-caret-position="569">
+                  <caret line="395" column="1" lean-forward="true" selection-start-line="395" selection-start-column="1" selection-end-line="395" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -79,8 +85,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -98,26 +104,29 @@
         <option value="$PROJECT_DIR$/portfolio/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/portfolio/urls.py" />
-        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html" />
-        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/private_events.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/reservations.html" />
-        <option value="$PROJECT_DIR$/the_gathering/views.py" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/contact.html" />
         <option value="$PROJECT_DIR$/the_gathering/urls.py" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/index.html" />
-        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html" />
-        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/shop.html" />
-        <option value="$PROJECT_DIR$/the_gathering/static/css/style.css" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/listen.html" />
+        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html" />
+        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html" />
+        <option value="$PROJECT_DIR$/the_gathering/static/scripts/menu items.py" />
+        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html" />
+        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" />
+        <option value="$PROJECT_DIR$/the_gathering/static/css/style.css" />
+        <option value="$PROJECT_DIR$/the_gathering/admin.py" />
+        <option value="$PROJECT_DIR$/the_gathering/views.py" />
+        <option value="$PROJECT_DIR$/the_gathering/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="57" />
+    <option name="x" value="-4" />
+    <option name="y" value="25" />
     <option name="width" value="2543" />
     <option name="height" value="1399" />
   </component>
@@ -159,13 +168,6 @@
               <item name="the_gathering" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="the_gathering" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="the_gathering" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -192,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.menu items">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -274,6 +276,28 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="menu items" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/the_gathering/static/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="root" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/the_gathering/static/scripts/menu items.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.menu items" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -289,7 +313,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="57" width="2543" height="1399" extended-state="0" />
+    <frame x="-4" y="25" width="2543" height="1399" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -299,7 +323,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27166277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30054644" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -309,7 +333,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968774" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -355,22 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/private_events.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -395,32 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="60" lean-forward="true" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -437,33 +419,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="35" selection-end-column="27" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#!!top" expanded="false" />
@@ -481,18 +440,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/the_gathering/fixtures/menus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/static/scripts/menu items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/listen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="551">
+          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3097">
+          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <element signature="e#1492#1498#0" expanded="true" />
+            <element signature="e#2116#2122#0" expanded="true" />
+            <element signature="e#2697#2703#0" expanded="true" />
+            <element signature="e#3324#3330#0" expanded="true" />
+            <element signature="e#3793#3799#0" expanded="true" />
+            <element signature="e#4464#4470#0" expanded="true" />
+            <element signature="e#5091#5097#0" expanded="true" />
+            <element signature="e#5551#5557#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#6080#6086#0" expanded="true" />
+            <element signature="e#6542#6548#0" expanded="true" />
+            <element signature="e#7445#7451#0" expanded="true" />
+            <element signature="e#7654#7660#0" expanded="true" />
+            <element signature="e#7817#7823#0" expanded="true" />
+            <element signature="e#8055#8061#0" expanded="true" />
+            <element signature="e#8220#8226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="395" column="1" lean-forward="true" selection-start-line="395" selection-start-column="1" selection-end-line="395" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="70" column="58" lean-forward="false" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
           <folding />
         </state>
       </provider>

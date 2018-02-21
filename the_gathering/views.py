@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import LunchMenu, DinnerMenu, WineMenu, AnvilMenu
 
 
 def home_page(request):
@@ -26,7 +27,14 @@ def about_page(request):
 
 
 def menus_page(request):
-    return render(request, 'the_gathering/about.html', {})
+    lunch_menu = LunchMenu.objects.all()
+    dinner_menu = DinnerMenu.objects.all()
+    wine_menu = WineMenu.objects.all()
+    anvil_menu = AnvilMenu.objects.all()
+
+    content = {'lunch_menu': lunch_menu, 'dinner_menu': dinner_menu,
+               'wine_menu': wine_menu, 'anvil_menu': anvil_menu}
+    return render(request, 'the_gathering/menus.html', content)
 
 
 def private_events_page(request):

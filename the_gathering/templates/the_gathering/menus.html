@@ -3,18 +3,185 @@
 {% block content %}
 
 
-<div class="row" id="welcome"> <!-- Welcome Content -->
-    <div class="col-lg-6 align-self-end">
-        <h1>Menus</h1>
-        <h1>to choose from</h1>
-        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
-        <button type="button" class="btn btn-link">View Menu</button>
-    </div>
-    <div class="col-lg-6">
-        <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
-    </div>
-</div> <!-- End Welcome -->
+<div class="row justify-content-center"> <!-- Menus -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="true">Lunch</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner" aria-selected="false">Dinner</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="wine-tab" data-toggle="tab" href="#wine" role="tab" aria-controls="wine" aria-selected="false">Wine</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="anvil-tab" data-toggle="tab" href="#anvil" role="tab" aria-controls="anvil" aria-selected="false">Anvil</a>
+        </li>
+    </ul>
+</div>
 
+<div class="row">
+    <div class="col-1 col-sm-2"></div>
+    <div class="col-10 col-sm-8 menu">
+        <div class="tab-content">
+            <div class="tab-pane active" id="lunch" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row justify-content-center text-center"><h1>The Gathering Lunch Menu</h1></div>
 
+                <h2>Lunch Soup</h2>
+
+                {% for option in lunch_menu %}
+                    {% if option.type == 'Lunch Soups' %}
+                    <h5>{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on|linebreaks }}</p>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Lunch Salads</h2>
+                <p class="menu_description">All dressings & bread are made in house daily, produce is locally sourced when available and our quality standards are met.</p>
+
+                {% for option in lunch_menu %}
+                    {% if option.type == 'Lunch Salads' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on|linebreaks }}</p>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Lunch Fare</h2>
+                <p class="menu_description">All Burger & Sandwiches are served with our Tasty House-made Chips.</p>
+
+                {% for option in lunch_menu %}
+                    {% if option.type == 'Lunch Fare' %}
+                    <h5 class="menu_item">{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on|linebreaks }}</p>
+                    {% endif %}
+                {% endfor %}
+                <p class="menu_description"><i>* Consumption of raw or undercooked foods may increase your chances of contracting a food borne illness.</i></p>
+
+                <h2>Lunch Sides</h2>
+
+                {% for option in lunch_menu %}
+                    {% if option.type == 'Lunch Sides' %}
+                    <h5 class="menu_item">{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on|linebreaks }}</p>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Lunch Sweets</h2>
+
+                {% for option in lunch_menu %}
+                    {% if option.type == 'Lunch Sweets' %}
+                    <h5 class="menu_item">{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on|linebreaks }}</p>
+                    {% endif %}
+                {% endfor %}
+
+            </div>
+
+            <div class="tab-pane" id="dinner" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="row justify-content-center text-center"><h1>The Gathering Dinner Menu</h1></div>
+
+                <h2>Appetizers</h2>
+
+                {% for option in dinner_menu %}
+                    {% if option.type == 'Appetizers' %}
+                    <h5>{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on|linebreaks }}</p>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Petite Salads</h2>
+                <p class="menu_description">All dressings & bread are made in house daily, produce is locally sourced when available and our quality standards are met.</p>
+
+                {% for option in dinner_menu %}
+                    {% if option.type == 'Petite Salads' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on|linebreaks }}</p>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Entrees</h2>
+
+                {% for option in dinner_menu %}
+                    {% if option.type == 'Entrees' %}
+                    <h5 class="menu_item">{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on }} &emsp; <strong>{{ option.add_on_price }}</strong></p>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>A la Carte & Small Plate Offerings</h2>
+
+                {% for option in dinner_menu %}
+                    {% if option.type == 'A la Carte' %}
+                    <h5 class="menu_item">{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on|linebreaks }}</p>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Desserts</h2>
+
+                {% for option in dinner_menu %}
+                    {% if option.type == 'Desserts' %}
+                    <h5 class="menu_item">{{ option.item }} &emsp; {{ option.price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    <p class="menu_description">{{ option.add_on|linebreaks }}</p>
+                    {% endif %}
+                {% endfor %}
+
+                <br/>
+                <p>- Split entrees subject to a $9 charge, 20% gratuity may be added to any order (updated 1/5/17)<br/>* Consumption of raw or undercooked foods may increase your chances of contracting a foodborne illness</p>
+
+            </div>
+
+            <div class="tab-pane" id="wine" role="tabpanel" aria-labelledby="messages-tab">
+                <div class="row justify-content-center text-center"><h1>The Gathering Wine Menu</h1></div>
+
+                <h2>Small Plates</h2>
+
+                {% for option in wine_menu %}
+                {% if option.type == 'Food' %}
+                <h5>{{ option.item }} &emsp; {{ option.taste_price }}</h5>
+                <p class="menu_description">{{ option.description|linebreaks }}</p>
+                {% endif %}
+                {% endfor %}
+
+                <h2>Red Wines &emsp; Taste | Glass</h2>
+
+                {% for option in wine_menu %}
+                {% if option.type == 'Red Wine' %}
+                <h5 >{{ option.item }} &emsp; {{ option.taste_price }} | {{ option.glass_price }}</h5>
+                <p class="menu_description">{{ option.description|linebreaks }}</p>
+                {% endif %}
+                {% endfor %}
+
+                <h2>White Wines &emsp; Taste | Glass</h2>
+
+                {% for option in wine_menu %}
+                {% if option.type == 'White Wine' %}
+                <h5 >{{ option.item }} &emsp; {{ option.taste_price }} | {{ option.glass_price }}</h5>
+                <p class="menu_description">{{ option.description|linebreaks }}</p>
+                {% endif %}
+                {% endfor %}
+
+                <br/>
+                <p>All bottles are priced at state minimum for retail (to go) purchase. Any bottle consumed on premise will be sold at retail plus $10.</p>
+
+            </div>
+            <div class="tab-pane" id="anvil" role="tabpanel" aria-labelledby="settings-tab">
+                <h1>Anvil</h1>
+            </div>
+        </div>
+    </div>
+    <div class="col-1 col-sm-2"></div>
+
+</div> <!-- End Menus -->
 
 {% endblock %}

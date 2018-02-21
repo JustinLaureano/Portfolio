@@ -3,18 +3,72 @@
 {% block content %}
 
 
-<div class="row" id="welcome"> <!-- Welcome Content -->
-    <div class="col-lg-6 align-self-end">
-        <h1>About</h1>
-        <h1>The Gathering</h1>
-        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
-        <button type="button" class="btn btn-link">View Menu</button>
+<div class="row"> <!-- About Us Intro -->
+    <div class="col-2"></div>
+    <div class="col-8 text-center align-self-end">
+        <h1>A Fine Collection of Food, Wine, and Spirits</h1>
+        <br>
+        <p>Whether you are looking for a casual or upscale fine dining experience, a superior selection of wine, spirits, or beer, the best outdoor patio experience in Findlay, an exclusive place to hold your next private event, or merely a place to relax, The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us!</p>
     </div>
-    <div class="col-lg-6">
-        <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
+    <div class="col-2"></div>
+</div> <!-- End About Us Intro -->
+
+<div class="row"> <!-- Hero Image -->
+    <div class="col-12">
+        <img src="{% static 'images/gathering_storefront_horizontal.jpg' %}" alt="The Gathering" class="img-fluid welcome">
     </div>
-</div> <!-- End Welcome -->
+</div> <!-- End Hero Image -->
 
+<div class="row about" id="history"> <!-- History -->
+    <div class="col-1"></div>
+    <div class="col-10 about_gathering">
 
+        <div class="row">
+            <div class="col-lg-6 align-self-center">
+                <img src="{% static 'images/artwork/wine.png' %}" alt="The Gathering" class="img-fluid welcome">
+            </div>
+
+            <div class="col-lg-6 order-2 order-md-1 text-left align-self-end" id="about_text">
+                <h3>Our History</h3>
+                <br>
+                <p>Founded in 2010, Michael and Robin Gardner purchased the properties of what was once the Gathering and Downtowner transforming into The Gathering, Gathering Wine, and the Anvil Whiskey Bar – the premier dining and entertainment experience in downtown Findlay.<br/> The Gathering properties offer a unique blend of the finest culinary, wine, and spirits experiences in all of Northwest Ohio, featuring high-end steak, seafood, pasta and other distinctive, exquisite craft Americana dishes, combined with an incredible selection of wine, whiskey, bourbon, and craft beers. In fact, the wine selection and bourbon selection rival that of any large city in the Midwest.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-1"></div>
+</div> <!-- End History -->
+
+<div class="row" id="about_rest"> <!-- The Gathering -->
+    <div class="col-lg-6 text-left align-self-center">
+        <h3>The Gathering</h3>
+        <br>
+        <p>Offered at each of the Gathering properties, our Chef’s unique recipes provide guests an exceptional culinary experience at an affordable price. From the best burger and soups in town for lunch, to remarkable handcrafted appetizers and dinner selections, to made-from-scratch desserts, The Gathering is truly a 5-star dining experience.</p>
+    </div>
+    <div class="col-6">
+        <img src="{% static 'images/gathering_storefront_vertical.jpg' %}" alt="The Gathering" class="img-fluid welcome">
+    </div>
+</div> <!-- End The Gathering -->
+
+<div class="row about">
+    <div class="col-1"></div>
+    <div class="col-10 about_gathering">
+        <div class="row">
+            <div class="col text-center align-self-center" id="about_wine">
+                <h3>The Gathering</h3>
+                <br>
+                <p>Offered at each of the Gathering properties, our Chef’s unique recipes provide guests an exceptional culinary experience at an affordable price. From the best burger and soups in town for lunch, to remarkable handcrafted appetizers and dinner selections, to made-from-scratch desserts, The Gathering is truly a 5-star dining experience.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-1"></div>
+</div>
+
+<div class="row"> <!-- Hero Image -->
+    <div class="col">
+        <img src="{% static 'images/wine_store.jpg' %}" alt="The Gathering Wine Store" class="img-fluid welcome">
+    </div>
+</div> <!-- End Hero Image -->
 
 {% endblock %}
