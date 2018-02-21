@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c477ca-15eb-480f-a9c5-08dee208a112" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/the_gathering/static/scripts/menu items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/images/wine_store.JPG" afterPath="$PROJECT_DIR$/the_gathering/static/images/wine_store.JPG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/admin.py" afterPath="$PROJECT_DIR$/the_gathering/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/models.py" afterPath="$PROJECT_DIR$/the_gathering/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/css/style.css" afterPath="$PROJECT_DIR$/the_gathering/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/views.py" afterPath="$PROJECT_DIR$/the_gathering/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +19,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.67303216">
       <split-first>
         <leaf>
-          <file leaf-file-name="menus.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="menus.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3097">
-                  <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+                <state relative-caret-position="1203">
+                  <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="233" selection-end-column="31" />
                   <folding>
                     <element signature="e#1492#1498#0" expanded="true" />
                     <element signature="e#2116#2122#0" expanded="true" />
@@ -44,22 +36,19 @@
                     <element signature="e#5738#5744#0" expanded="true" />
                     <element signature="e#6080#6086#0" expanded="true" />
                     <element signature="e#6542#6548#0" expanded="true" />
-                    <element signature="e#7445#7451#0" expanded="true" />
-                    <element signature="e#7654#7660#0" expanded="true" />
-                    <element signature="e#7817#7823#0" expanded="true" />
-                    <element signature="e#8055#8061#0" expanded="true" />
-                    <element signature="e#8220#8226#0" expanded="true" />
+                    <element signature="e#7453#7459#0" expanded="true" />
+                    <element signature="e#7670#7676#0" expanded="true" />
+                    <element signature="e#7841#7847#0" expanded="true" />
+                    <element signature="e#8087#8093#0" expanded="true" />
+                    <element signature="e#8260#8266#0" expanded="true" />
+                    <element signature="e#9052#9058#0" expanded="true" />
+                    <element signature="e#9359#9365#0" expanded="true" />
+                    <element signature="e#9700#9706#0" expanded="true" />
+                    <element signature="e#9979#9985#0" expanded="true" />
+                    <element signature="e#10286#10292#0" expanded="true" />
+                    <element signature="e#10585#10591#0" expanded="true" />
+                    <element signature="e#10860#10866#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/the_gathering/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="604">
-                  <caret line="70" column="58" lean-forward="false" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -116,11 +105,11 @@
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/drink.html" />
         <option value="$PROJECT_DIR$/the_gathering/static/scripts/menu items.py" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html" />
-        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" />
         <option value="$PROJECT_DIR$/the_gathering/static/css/style.css" />
         <option value="$PROJECT_DIR$/the_gathering/admin.py" />
         <option value="$PROJECT_DIR$/the_gathering/views.py" />
         <option value="$PROJECT_DIR$/the_gathering/models.py" />
+        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" />
       </list>
     </option>
   </component>
@@ -514,31 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3097">
-          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding>
-            <element signature="e#1492#1498#0" expanded="true" />
-            <element signature="e#2116#2122#0" expanded="true" />
-            <element signature="e#2697#2703#0" expanded="true" />
-            <element signature="e#3324#3330#0" expanded="true" />
-            <element signature="e#3793#3799#0" expanded="true" />
-            <element signature="e#4464#4470#0" expanded="true" />
-            <element signature="e#5091#5097#0" expanded="true" />
-            <element signature="e#5551#5557#0" expanded="true" />
-            <element signature="e#5738#5744#0" expanded="true" />
-            <element signature="e#6080#6086#0" expanded="true" />
-            <element signature="e#6542#6548#0" expanded="true" />
-            <element signature="e#7445#7451#0" expanded="true" />
-            <element signature="e#7654#7660#0" expanded="true" />
-            <element signature="e#7817#7823#0" expanded="true" />
-            <element signature="e#8055#8061#0" expanded="true" />
-            <element signature="e#8220#8226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -569,9 +533,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="70" column="58" lean-forward="false" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+        <state relative-caret-position="735">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1203">
+          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="233" selection-end-column="31" />
+          <folding>
+            <element signature="e#1492#1498#0" expanded="true" />
+            <element signature="e#2116#2122#0" expanded="true" />
+            <element signature="e#2697#2703#0" expanded="true" />
+            <element signature="e#3324#3330#0" expanded="true" />
+            <element signature="e#3793#3799#0" expanded="true" />
+            <element signature="e#4464#4470#0" expanded="true" />
+            <element signature="e#5091#5097#0" expanded="true" />
+            <element signature="e#5551#5557#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#6080#6086#0" expanded="true" />
+            <element signature="e#6542#6548#0" expanded="true" />
+            <element signature="e#7453#7459#0" expanded="true" />
+            <element signature="e#7670#7676#0" expanded="true" />
+            <element signature="e#7841#7847#0" expanded="true" />
+            <element signature="e#8087#8093#0" expanded="true" />
+            <element signature="e#8260#8266#0" expanded="true" />
+            <element signature="e#9052#9058#0" expanded="true" />
+            <element signature="e#9359#9365#0" expanded="true" />
+            <element signature="e#9700#9706#0" expanded="true" />
+            <element signature="e#9979#9985#0" expanded="true" />
+            <element signature="e#10286#10292#0" expanded="true" />
+            <element signature="e#10585#10591#0" expanded="true" />
+            <element signature="e#10860#10866#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

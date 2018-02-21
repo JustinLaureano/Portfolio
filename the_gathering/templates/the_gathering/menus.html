@@ -147,28 +147,28 @@
                 <h2>Small Plates</h2>
 
                 {% for option in wine_menu %}
-                {% if option.type == 'Food' %}
-                <h5>{{ option.item }} &emsp; {{ option.taste_price }}</h5>
-                <p class="menu_description">{{ option.description|linebreaks }}</p>
-                {% endif %}
+                    {% if option.type == 'Food' %}
+                    <h5>{{ option.item }} &emsp; {{ option.taste_price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    {% endif %}
                 {% endfor %}
 
                 <h2>Red Wines &emsp; Taste | Glass</h2>
 
                 {% for option in wine_menu %}
-                {% if option.type == 'Red Wine' %}
-                <h5 >{{ option.item }} &emsp; {{ option.taste_price }} | {{ option.glass_price }}</h5>
-                <p class="menu_description">{{ option.description|linebreaks }}</p>
-                {% endif %}
+                    {% if option.type == 'Red Wine' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.taste_price }} | {{ option.glass_price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    {% endif %}
                 {% endfor %}
 
                 <h2>White Wines &emsp; Taste | Glass</h2>
 
                 {% for option in wine_menu %}
-                {% if option.type == 'White Wine' %}
-                <h5 >{{ option.item }} &emsp; {{ option.taste_price }} | {{ option.glass_price }}</h5>
-                <p class="menu_description">{{ option.description|linebreaks }}</p>
-                {% endif %}
+                    {% if option.type == 'White Wine' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.taste_price }} | {{ option.glass_price }}</h5>
+                    <p class="menu_description">{{ option.description|linebreaks }}</p>
+                    {% endif %}
                 {% endfor %}
 
                 <br/>
@@ -176,7 +176,66 @@
 
             </div>
             <div class="tab-pane" id="anvil" role="tabpanel" aria-labelledby="settings-tab">
-                <h1>Anvil</h1>
+                <div class="row justify-content-center text-center"><h1>The Gathering Wine Menu</h1></div>
+
+                <h2>Small Plates</h2>
+
+                {% for option in anvil_menu %}
+                    {% if option.type == 'Food' %}
+                    <h5>{{ option.item }} &emsp; {{ option.price }}</h5>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Kentucky Straight Bourbon</h2>
+
+                {% for option in anvil_menu %}
+                    {% if option.type == 'Kentucky Straight Bourbon' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Bourbon Whiskey, Blends, Irish, Miscreants</h2>
+
+                {% for option in anvil_menu %}
+                    {% if option.type == 'Bourbon Whiskey, Blends, Irish, Miscreants' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Rye Whiskey</h2>
+
+                {% for option in anvil_menu %}
+                    {% if option.type == 'Rye Whiskey' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Single Malt Scotch Whisky</h2>
+
+                {% for option in anvil_menu %}
+                    {% if option.type == 'Single Malt Scotch Whisky' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>Blended Scotch Whisky</h2>
+
+                {% for option in anvil_menu %}
+                    {% if option.type == 'Blended Scotch Whisky' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                    {% endif %}
+                {% endfor %}
+
+                <h2>The Elite</h2>
+
+                {% for option in anvil_menu %}
+                    {% if option.type == 'The Elite' %}
+                    <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                    {% endif %}
+                {% endfor %}
+
+                <br/>
+                <p>We cannot guarantee all whiskey will always be in stock. For this we apologize. “The great demand for some spirits far exceeds the production.” Furthermore prices may change (up & down) due to availability.<br/>2 oz. Pours</p>
             </div>
         </div>
     </div>
