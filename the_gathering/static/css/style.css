@@ -352,7 +352,7 @@ hr .sign-up {
     padding: 50px;
 }
 
-#lunch p, #dinner p, #wine p, #anvil p {
+#lunch p, #dinner p, #wine p, #anvil p, #anvil h5 {
     padding-left: 10px;
 }
 
@@ -365,6 +365,7 @@ hr .sign-up {
 }
 
 #lunch h2, #dinner h2, #wine h2, #anvil h2 {
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 

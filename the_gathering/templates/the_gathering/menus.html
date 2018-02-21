@@ -228,10 +228,36 @@
 
                 <h2>The Elite</h2>
 
+                <h3>Cognac</h3>
+
                 {% for option in anvil_menu %}
-                    {% if option.type == 'The Elite' %}
+                    {% if option.type == 'The Elite' and option.description == "Cognac" %}
                     <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
                     {% endif %}
+                {% endfor %}
+
+                <h3>Gin</h3>
+
+                {% for option in anvil_menu %}
+                {% if option.type == 'The Elite' and option.description == "Gin" %}
+                <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                {% endif %}
+                {% endfor %}
+
+                <h3>Blended Scotch</h3>
+
+                {% for option in anvil_menu %}
+                {% if option.type == 'The Elite' and option.description == "Blended Scotch" %}
+                <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                {% endif %}
+                {% endfor %}
+
+                <h3>Single Malt Scotch</h3>
+
+                {% for option in anvil_menu %}
+                {% if option.type == 'The Elite' and option.description == "Single Malt Scotch" %}
+                <h5 >{{ option.item }} &emsp; {{ option.price }}</h5>
+                {% endif %}
                 {% endfor %}
 
                 <br/>
