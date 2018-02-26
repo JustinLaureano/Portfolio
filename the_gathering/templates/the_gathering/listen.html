@@ -2,7 +2,7 @@
 {% load staticfiles %}
 {% block content %}
 
-<div class="row"> <!-- Shop Intro -->
+<div class="row" id="listen-intro"> <!-- Listen Intro -->
     <div class="col-2"></div>
     <div class="col-6 align-self-end">
         <h1>Listen</h1>
@@ -10,13 +10,13 @@
         <p>With live music every weekend, frequent food, whiskey, and wine tastings, along with movie and trivia nights, there is always something to check out at the Gathering!</p>
     </div>
     <div class="col-4"></div>
-</div> <!-- End Eat Intro -->
+</div> <!-- End Listen Intro -->
 
-<div class="row"> <!-- Event -->
-    <div class="col-md-6">
+<div class="row" id="listen-event"> <!-- Event -->
+    <div class="col-md-6" id="listen-event-image">
         <img src="{% static 'images/live_events/kev_cullen.jpg' %}" alt="Kev Cullen" class="img-fluid welcome">
     </div>
-    <div class="col-md-6 text-center align-self-center">
+    <div class="col-md-6 text-center align-self-center" id="listen-event-text">
         <h2>Live Music featuring Kevin Cullen</h2>
         <h5>February 17</h5>
         <h5>9pm - 12am</h5>
@@ -26,7 +26,7 @@
     </div>
 </div> <!-- End Event -->
 
-<div class="row"> <!-- Wine -->
+<div class="row"> <!-- Event -->
     <div class="col-md-6 order-2 order-md-1 align-self-center">
         <h2>Live Music featuring Chris Knopp</h2>
         <h5>February 23</h5>
@@ -38,9 +38,9 @@
     <div class="col-md-6 order-1 order-md-2">
         <img src="{% static 'images/live_events/chris_knopp.jpg' %}" alt="Chris Knopp" class="img-fluid welcome">
     </div>
-</div> <!-- End Wine -->
+</div> <!-- End Event -->
 
-<div class="row"> <!-- Gift Cards -->
+<div class="row"> <!-- Event -->
     <div class="col-md-6">
         <img src="{% static 'images/live_events/masquerade_party.png' %}" alt="Masquerade Party" class="img-fluid welcome">
     </div>
@@ -52,5 +52,5 @@
         <br>
         <p>Join us as we welcome Chris Knopp to Anvil WhiskWe are bringing that New Orleans feeling to Anvil Whiskey Bar Saturday, February 24 with our Mardi Gras Masquerade Party starting at 7pm! We will be offering classic Cajun Cuisine, Featured Craft Cocktails & Live Jazz from Quick Trio starting at 9pm. Funky Attire and Masks encouraged! See you there!</p>
     </div>
-</div> <!-- End Gift Cards -->
+</div> <!-- End Event -->
 {% endblock %}

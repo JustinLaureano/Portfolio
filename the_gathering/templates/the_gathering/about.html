@@ -3,7 +3,7 @@
 {% block content %}
 
 
-<div class="row"> <!-- About Us Intro -->
+<div class="row" id="about-intro"> <!-- About Us Intro -->
     <div class="col-2"></div>
     <div class="col-8 text-center align-self-end">
         <h1>A Fine Collection of Food, Wine, and Spirits</h1>
@@ -13,7 +13,7 @@
     <div class="col-2"></div>
 </div> <!-- End About Us Intro -->
 
-<div class="row"> <!-- Hero Image -->
+<div class="row" id="about-gathering-hero"> <!-- Hero Image -->
     <div class="col-12">
         <img src="{% static 'images/gathering_storefront_horizontal.jpg' %}" alt="The Gathering" class="img-fluid welcome">
     </div>
@@ -24,7 +24,7 @@
     <div class="col-10 about_gathering">
 
         <div class="row">
-            <div class="col-lg-6 align-self-center">
+            <div class="col-lg-6 align-self-center" id="about-history-left">
                 <img src="{% static 'images/artwork/wine.png' %}" alt="The Gathering" class="img-fluid welcome">
             </div>
 
@@ -40,7 +40,7 @@
 </div> <!-- End History -->
 
 <div class="row" id="about_rest"> <!-- The Gathering -->
-    <div class="col-lg-6 text-left align-self-center">
+    <div class="col-lg-6 text-left align-self-center" id="about-gathering-text">
         <h3>The Gathering</h3>
         <br>
         <p>Offered at each of the Gathering properties, our Chef’s unique recipes provide guests an exceptional culinary experience at an affordable price. From the best burger and soups in town for lunch, to remarkable handcrafted appetizers and dinner selections, to made-from-scratch desserts, The Gathering is truly a 5-star dining experience.</p>
@@ -50,34 +50,34 @@
     </div>
 </div> <!-- End The Gathering -->
 
-<div class="row about"> <!-- The Gathering Wine -->
+<div class="row about" id="about-wine-box"> <!-- The Gathering Wine -->
     <div class="col-1"></div>
     <div class="col-10 about_gathering">
         <div class="row">
             <div class="col text-center align-self-center" id="about_wine">
-                <h3>The Gathering Wine</h3>
+                <h3 id="about-wine-title">The Gathering Wine</h3>
                 <br>
-                <p>Gathering Wine, located at 235 S. Main St. in downtown Findlay, is the city’s finest retail wine shop and wine bar featuring over six-hundred wines from around the world. Gathering Wine features a rotating menu of seventeen wines by the glass, or create your own flight of tasting portions as you relax in the upscale atmosphere of the bar, or adjourn to the patio and enjoy the outdoors.</p>
+                <p id="about-wine-text">Gathering Wine, located at 235 S. Main St. in downtown Findlay, is the city’s finest retail wine shop and wine bar featuring over six-hundred wines from around the world. Gathering Wine features a rotating menu of seventeen wines by the glass, or create your own flight of tasting portions as you relax in the upscale atmosphere of the bar, or adjourn to the patio and enjoy the outdoors.</p>
             </div>
         </div>
     </div>
     <div class="col-1"></div>
 </div> <!-- End The Gathering Wine -->
 
-<div class="row"> <!-- Hero Image -->
+<div class="row" id="about-wine-hero"> <!-- Hero Image -->
     <div class="col">
         <img src="{% static 'images/wine_store.jpg' %}" alt="The Gathering Wine Store" class="img-fluid welcome">
     </div>
 </div> <!-- End Hero Image -->
 
-<div class="row about"> <!-- The Patio -->
+<div class="row about" id="about-patio-box"> <!-- The Patio -->
     <div class="col-1"></div>
     <div class="col-10 about_gathering">
         <div class="row">
             <div class="col text-center align-self-center" id="about_patio">
-                <h3>The Courtyard Patio</h3>
+                <h3 id="about-patio-title">The Courtyard Patio</h3>
                 <br>
-                <p>The Patio, which adjoins The Gathering and Gathering Wine, is the perfect place to relax and enjoy a drink. The courtyard setting offers a secluded place to unwind and features two large murals by local artist, Oscar Velasquez. With live entertainment and an outdoor grill, the patio provides the perfect retreat from hustle and bustle of downtown.</p>
+                <p id="about-patio-text">The Patio, which adjoins The Gathering and Gathering Wine, is the perfect place to relax and enjoy a drink. The courtyard setting offers a secluded place to unwind and features two large murals by local artist, Oscar Velasquez. With live entertainment and an outdoor grill, the patio provides the perfect retreat from hustle and bustle of downtown.</p>
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@
     <div class="col-lg-6">
         <img src="{% static 'images/anvil_liquor.jpg' %}" alt="The Gathering" class="img-fluid welcome">
     </div>
-    <div class="col-lg-6 text-left align-self-center">
+    <div class="col-lg-6 text-left align-self-center" id="about-anvil-text">
         <h3>The Anvil</h3>
         <br>
         <p>Anvil Whiskey Bar, located upstairs at The Gathering, is Findlay’s ultimate whiskey bar featuring over one-hundred twenty fine bourbons and scotches, as well as fourteen craft beers on tap and a full bar. Hang out and enjoy live entertainment every Friday and Saturday night and relax on our balcony overlooking the city. Anvil Whiskey Bar is the ultimate spot for private events in Findlay, Ohio.</p>
