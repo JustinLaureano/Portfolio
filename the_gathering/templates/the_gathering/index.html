@@ -4,22 +4,22 @@
 
 
 <div class="row" id="welcome"> <!-- Welcome Content -->
-    <div class="col-lg-6 align-self-end">
+    <div class="col-lg-6 align-self-end" id="welcome-left">
         <h1>Gather</h1>
         <h1>With Us</h1>
         <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
         <button type="button" class="btn btn-link">View Menu</button>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6" id="welcome-right">
         <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
     </div>
 </div> <!-- End Welcome -->
 
 <div class="row"> <!-- Private Event -->
-    <div class="col-md-4 text-center">
+    <div class="col-md-4 text-center" id="private-stamp">
         <img src="{% static 'images/event_stamp.png' %}" alt="event stamp" class="img-fluid">
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8" id="private-text">
         <div class="row">
             <div class="col text-center">
                 <h2>Book your Private Event Today!</h2>
@@ -59,7 +59,7 @@
     </div>
 </div> <!-- End Artwork -->
 
-<div class="row"> <!-- Horizontal Rule & Diamond -->
+<div class="row hor-rule"> <!-- Horizontal Rule & Diamond -->
     <div class="col">
         <hr/>
     </div>
@@ -71,7 +71,7 @@
     </div>
 </div> <!-- End Horizontal Rule & Diamond -->
 
-<div class="row"> <!-- Hours of Operation -->
+<div class="row hours-of-op"> <!-- Hours of Operation -->
     <div class="col-md-4 text-center">
         <h3>Monday - Thursday</h3>
         <h4>11-2</h4>
@@ -88,7 +88,7 @@
     </div>
 </div> <!-- End Hours of Operation -->
 
-<div class="row"> <!-- Address -->
+<div class="row address"> <!-- Address -->
     <div class="col text-center">
         <ul class="list-inline hours">
 
@@ -155,7 +155,7 @@
     </div>
 </div> <!-- End Address -->
 
-<div class="container"> <!-- Container of Carousel -->
+<div class="container" id="carousel-container"> <!-- Container of Carousel -->
     <div id="carousel_menu" class="carousel slide" data-ride="carousel"> <!-- Carousel -->
         <ol class="carousel-indicators"> <!-- Indicators -->
             <li data-target="#carousel_menu" data-slide-to="0" class="active"></li>
@@ -235,7 +235,7 @@
     </div>
 </div> <!-- End Patio Hero -->
 
-<div class="row justify-content-center"><!-- List of Events -->
+<div class="row justify-content-center" id="event-list"><!-- List of Events -->
     <div class="col-2"></div>
 
     <div class="col- text-center" id="sign-up">

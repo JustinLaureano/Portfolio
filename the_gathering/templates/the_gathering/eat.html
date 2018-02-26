@@ -2,7 +2,7 @@
 {% load staticfiles %}
 {% block content %}
 
-<div class="row"> <!-- Eat Intro -->
+<div class="row" id="eat-intro"> <!-- Eat Intro -->
     <div class="col-2"></div>
     <div class="col-6 align-self-end">
         <h1>Eat</h1>
@@ -13,10 +13,10 @@
 </div> <!-- End Eat Intro -->
 
 <div class="row"> <!-- Dinner -->
-    <div class="col-md-6">
+    <div class="col-md-6" id="eat-dinner-left">
         <img src="{% static 'images/salmon.jpg' %}" alt="Salmon" class="img-fluid welcome">
     </div>
-    <div class="col-md-6 align-self-center">
+    <div class="col-md-6 align-self-center" id="eat-dinner-right">
         <h2>Dinner Downtown</h2>
         <br>
         <p>The Gathering features high-end steak, seafood, pasta and other distinctive, exquisite craft Americana dishes, combined with an incredible selection of wine, whiskey, bourbon, and craft beers.</p>
@@ -24,26 +24,26 @@
 </div> <!-- End Dinner -->
 
 <div class="row"> <!-- Lunch -->
-    <div class="col-md-6 order-2 order-md-1 align-self-center">
+    <div class="col-md-6 order-2 order-md-1 align-self-center" id="eat-lunch-left">
         <h2>Lunch</h2>
         <br>
         <p>Our low-priced lunch featured an assortment of homemade soups, salads, sandwiches desserts, and more.</p>
     </div>
-    <div class="col-md-6 order-1 order-md-2">
+    <div class="col-md-6 order-1 order-md-2" id="eat-lunch-right">
         <img src="{% static 'images/soup_sandwich.jpg' %}" alt="Sandwich and Soup" class="img-fluid welcome">
     </div>
 </div> <!-- End Lunch -->
 
-<div class="row"> <!-- Cocktails -->
-    <div class="col-md-6">
+<div class="row"> <!-- Private Events -->
+    <div class="col-md-6" id="eat-private-left">
         <img src="{% static 'images/event_room.jpg' %}" alt="Event Room" class="img-fluid welcome">
     </div>
-    <div class="col-md-6 align-self-center">
+    <div class="col-md-6 align-self-center" id="eat-private-right">
         <h2>Private Events</h2>
         <br>
         <p>In addition to the great day-to-day services, our customers have come to enjoy the outstanding atmosphere of hosting private events at each of our facilities, including our spacious back patio. Each of the venues offers unique attributes that allow us to customize the event to the clients’ needs and provide a truly differentiated experience.</p>
     </div>
-</div> <!-- End Cocktails -->
+</div> <!-- End Private Events -->
 
 {% endblock %}
 
