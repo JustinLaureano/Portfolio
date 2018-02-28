@@ -277,6 +277,7 @@ delay: 300,
 origin: 'right',
 distance: '500px'
 });
+
 // menus
 sr.reveal('#myTab', {
 duration: 2000,
