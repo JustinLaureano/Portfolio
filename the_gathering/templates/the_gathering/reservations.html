@@ -3,57 +3,44 @@
 {% block content %}
 
 
-<div class="row" id="welcome"> <!-- Welcome Content -->
-    <div class="col-lg-6 align-self-end">
-        <h1>Make a</h1>
-        <h1>Reservation</h1>
-        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
-        <button type="button" class="btn btn-link">View Menu</button>
-    </div>
-    <div class="col-lg-6">
-        <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
-    </div>
-</div> <!-- End Welcome -->
-
-<div class="row">
-
-    <div class="col-sm-3"></div><!-- end col-sm-3 -->
-
-    <div class="col-sm-6" id="maincontent">
+<div class="row" id="reservation-intro"> <!-- Reservation Intro -->
+    <div class="col-2"></div>
+    <div class="col-6 align-self-end">
         <h1>Reservations</h1>
-        <hr>
-
-        <div class="row">
-            <h2>For parties larger than 10 people, please call at <a href="tel: 419 422 5930">(419) 422-5930</a></h2>
-        </div>
-
         <br>
+        <p>We source and prepare all ingredients and dishes fresh everyday. For this reason, we recommend that you place a reservation to ensure that all of our menu items will be adequately available. Walk-in's are of course always welcome as well. For parties larger than 12, please call us at 419-422-5930.</p>
+    </div>
+    <div class="col-4"></div>
+</div> <!-- End Reservation Intro -->
 
-        <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4">
-                <h3>Number of People</h3>
-                <select class="form-control">
-                    <option>1 person</option>
-                    <option selected>2 people</option>
-                    <option>3 people</option>
-                    <option>4 people</option>
-                    <option>5 people</option>
-                    <option>6 people</option>
-                    <option>7 people</option>
-                    <option>8 people</option>
-                    <option>9 people</option>
-                    <option>10 people</option>
+<div class="row"> <!-- Reservation Field -->
+    <div class="col-md-6" id="reservation-left">
+        <img src="{% static 'images/fondue.jpg' %}" alt="Dining Room" class="img-fluid welcome">
+    </div>
+    <div class="col-md-6 align-self-center" id="reservation-right">
+        <form>
+            <h2>Make A Reservation</h2>
+            <div class="form-group">
+                <label for="reservation-size"><h5>Size of Party</h5></label>
+                <select class="form-control" id="reservation-size">
+                    <option>1</option>
+                    <option selected>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
                 </select>
             </div>
-            <div class="col-4"></div>
-        </div><!-- end row -->
 
-        <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4">
-                <h3>Time</h3>
-                <select class="form-control">
+            <div class="form-group">
+                <label for="reservation-time"><h5>Time</h5></label>
+                <select class="form-control" id="reservation-time">
                     <option disabled>Lunch</option>
                     <option>11:00 am</option>
                     <option>11:15 am</option>
@@ -88,111 +75,23 @@
                     <option>9:30 pm</option>
                 </select>
             </div>
-            <div class="col-4"></div>
-        </div><!-- end row -->
 
-        <div class="row">
-            <div class="col-3"></div><!-- end col-3 -->
-            <div class="col-6">
-                <h3>Date</h3>
-
-                <div class="col-3">
-                    <select class="form-control">
-                        <option>Jan</option>
-                        <option>Feb</option>
-                        <option>Mar</option>
-                        <option>Apr</option>
-                        <option>May</option>
-                        <option>June</option>
-                        <option>July</option>
-                        <option>Aug</option>
-                        <option>Sept</option>
-                        <option>Oct</option>
-                        <option>Nov</option>
-                        <option>Dec</option>
-                    </select>
-                </div><!-- end col-3 -->
-
-                <div class="col-3">
-                    <select class="form-control">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                        <option>11</option>
-                        <option>12</option>
-                        <option>13</option>
-                        <option>14</option>
-                        <option>15</option>
-                        <option>16</option>
-                        <option>17</option>
-                        <option>18</option>
-                        <option>19</option>
-                        <option>20</option>
-                        <option>21</option>
-                        <option>22</option>
-                        <option>23</option>
-                        <option>24</option>
-                        <option>25</option>
-                        <option>26</option>
-                        <option>27</option>
-                        <option>28</option>
-                        <option>29</option>
-                        <option>30</option>
-                        <option>31</option>
-                    </select>
-                </div><!-- end col-3 -->
-
-                <div class="col-6">
-                    <select class="form-control">
-                        <option>2015</option>
-                        <option>2016</option>
-                    </select>
-                </div><!-- end col-6 -->
-
-            </div><!-- end row -->
-
-            <div class="col-3"></div><!-- end col-3 -->
-
-        </div><!-- end row -->
-
-        <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4">
-                <br>
-                <input class="btn btn-default" type="submit" value="Submit" id="alertMe">
-            </div>
-            <div class="col-4"></div>
-        </div><!-- end row -->
-
-        <br>
-
-        <div class="row">
-            <div class="col-2"></div><!-- end col-2 -->
-
-            <div class="col-8">
-                <div class="alert alert-success alert-block fade in" id="successAlert">
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-
-                    <h2>Your Reservation has been submitted successfully.</a></h2>
+            <div class="row">
+                <div class='col-sm-3'>
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-            </div><!-- end col-8 -->
-            <div class="col-2"></div><!-- end col-2 -->
-        </div><!-- end row -->
+            </div>
 
-
-    </div><!-- end col-sm-6 main content -->
-
-    <div class="col-sm-3"></div><!-- end col-sm-3 -->
-
-</div><!-- end row -->
-
-
+            <button type="submit" class="btn btn-primary">Place Reservation</button>
+        </form>
+    </div>
+</div> <!-- End Reservation Field -->
 
 {% endblock %}
