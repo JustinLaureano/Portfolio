@@ -3,7 +3,7 @@
 {% block content %}
 
 
-<div class="row" id="drink-intro"> <!-- Drink Intro -->
+<div class="row intro-text" id="drink-intro"> <!-- Drink Intro -->
     <div class="col-2"></div>
     <div class="col-6 align-self-end">
         <h1>Drink</h1>
@@ -13,33 +13,33 @@
     <div class="col-4"></div>
 </div> <!-- End Drink Intro -->
 
-<div class="row"> <!-- Natural Wine -->
+<div class="row box-row"> <!-- Natural Wine -->
     <div class="col-md-6" id="drink-wine-left">
-        <img src="{% static 'images/wine_rack.jpg' %}" alt="Wine Shop Wine Selection" class="img-fluid welcome">
+        <div class="box-image" style="background: url({% static 'images/wine_rack.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
-    <div class="col-md-6 align-self-center" id="drink-wine-right">
+    <div class="col-md-6 box-text bg-white" id="drink-wine-right">
         <h2>Natural Wine</h2>
         <br>
         <p>At the gathering we extend our sourcing approach and good food philosophy to our wine list. Enjoy while sitting in our wine shop, the sidewalk patio on downtown Findlay, or on the private back patio.</p>
     </div>
 </div> <!-- End Natural Wine -->
 
-<div class="row"> <!-- Whiskey -->
-    <div class="col-md-6 order-2 order-md-1 align-self-center" id="drink-whiskey-left">
+<div class="row box-row"> <!-- Whiskey -->
+    <div class="col-md-6 order-2 order-md-1 box-text bg-black" id="drink-whiskey-left">
         <h2>Fine Spirits</h2>
         <br>
-        <p>We feature a full bar offering a vast selection of whiskey, bourbon, and other fine spirits, including special limited varieties.</p>
+        <p class="bg-black">We feature a full bar offering a vast selection of whiskey, bourbon, and other fine spirits, including special limited varieties.</p>
     </div>
     <div class="col-md-6 order-1 order-md-2" id="drink-whiskey-right">
-        <img src="{% static 'images/tap_handles.jpg' %}" alt="The Anvil Bar" class="img-fluid welcome">
+        <div class="box-image-black float-right" style="background: url({% static 'images/tap_handles.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
 </div> <!-- End Whiskey -->
 
-<div class="row"> <!-- Cocktails -->
+<div class="row box-row"> <!-- Cocktails -->
     <div class="col-md-6" id="drink-cocktail-left">
-        <img src="{% static 'images/cranberry_margarita.jpg' %}" alt="Cocktail" class="img-fluid welcome">
+        <div class="box-image" style="background: url({% static 'images/cranberry_margarita.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
-    <div class="col-md-6 align-self-center" id="drink-cocktail-right">
+    <div class="col-md-6 box-text bg-white" id="drink-cocktail-right">
         <h2>Cocktails</h2>
         <br>
         <p>Full bar featuring cocktails made with seasonal ingredients, showcasing local flavors.</p>
