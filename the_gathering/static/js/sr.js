@@ -290,4 +290,18 @@ origin: 'bottom',
 });
 // private events
 // reservations
+sr.reveal('#reservation-intro', {
+duration: 2000,
+origin: 'bottom',
+});
+sr.reveal('#reservation-left', {
+duration: 2000,
+origin: 'left',
+distance: '800px'
+});
+sr.reveal('#reservation-right', {
+duration: 2000,
+origin: 'right',
+distance: '800px'
+});
 // contact

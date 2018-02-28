@@ -2,7 +2,7 @@
 {% load staticfiles %}
 {% block content %}
 
-<div class="row" id="eat-intro"> <!-- Eat Intro -->
+<div class="row intro-text" id="eat-intro"> <!-- Eat Intro -->
     <div class="col-2"></div>
     <div class="col-6 align-self-end">
         <h1>Eat</h1>
@@ -12,11 +12,11 @@
     <div class="col-4"></div>
 </div> <!-- End Eat Intro -->
 
-<div class="row"> <!-- Dinner -->
+<div class="row box-row"> <!-- Dinner -->
     <div class="col-md-6" id="eat-dinner-left">
-        <img src="{% static 'images/salmon.jpg' %}" alt="Salmon" class="img-fluid welcome">
+        <div class="box-image" style="background: url({% static 'images/eat_salmon.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
-    <div class="col-md-6 align-self-center" id="eat-dinner-right">
+    <div class="col-md-6 box-text bg-white" id="eat-dinner-right">
         <h2>Dinner Downtown</h2>
         <br>
         <p>The Gathering features high-end steak, seafood, pasta and other distinctive, exquisite craft Americana dishes, combined with an incredible selection of wine, whiskey, bourbon, and craft beers.</p>
