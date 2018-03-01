@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import LunchMenu, DinnerMenu, WineMenu, AnvilMenu
+from .models import LunchMenu, DinnerMenu, WineMenu, AnvilMenu, LiveEvent
 
 
 def home_page(request):
@@ -19,7 +19,9 @@ def shop_page(request):
 
 
 def listen_page(request):
-    return render(request, 'the_gathering/listen.html', {})
+    live_event = LiveEvent.objects.all()
+    return render(request, 'the_gathering/listen.html', {'live_event':
+                                                        live_event})
 
 
 def about_page(request):

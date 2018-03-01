@@ -12,19 +12,22 @@
     <div class="col-4"></div>
 </div> <!-- End Listen Intro -->
 
+
+{% for event in live_event %}
 <div class="row box-row" id="listen-event"> <!-- Event -->
     <div class="col-md-6" id="listen-event-image">
-        <div class="box-image" style="background: url({% static 'images/live_events/kev_cullen.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
+        <div class="box-image" style="background: url({{ event.event_image.url }}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
     <div class="col-md-6 text-center box-text bg-white" id="listen-event-text">
-        <h2>Live Music featuring Kevin Cullen</h2>
-        <h5>February 17</h5>
-        <h5>9pm - 12am</h5>
-        <h5>The Anvil</h5>
+        <h2>{{ event.event_name }}</h2>
+        <h5>{{ event.event_date }}</h5>
+        <h5>{{ event.event_time }}</h5>
+        <h5>{{ event.event_venue }}</h5>
         <br>
-        <p>Join us as we welcome Kevin Cullen to Anvil Whiskey Bar! </p>
+        <p>{{ event.event_description }}</p>
     </div>
 </div> <!-- End Event -->
+{% endfor %}
 
 <div class="row box-row"> <!-- Event -->
     <div class="col-md-6 order-2 order-md-1 box-text bg-black">
