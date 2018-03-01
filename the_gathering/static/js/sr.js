@@ -148,7 +148,7 @@ duration: 2000,
 origin: 'left',
 distance: '800px'
 });
-sr.reveal('#drink-gift-basket-right', {
+sr.reveal('#shop-gift-basket-right', {
 duration: 2000,
 origin: 'right',
 distance: '800px'
