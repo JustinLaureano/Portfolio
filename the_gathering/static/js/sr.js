@@ -195,82 +195,55 @@ sr.reveal('#about-intro', {
 duration: 2000,
 origin: 'bottom',
 });
-sr.reveal('#about-gathering-hero', {
-duration: 2000,
-origin: 'bottom',
-distance: '200px'
-});
-sr.reveal('#history', {
-duration: 2000,
-origin: 'bottom',
-distance: '200px'
-});
 sr.reveal('#about-history-left', {
 duration: 2000,
-delay: 300,
 origin: 'left',
-distance: '500px'
+distance: '800px'
 });
-sr.reveal('#about_text', {
+sr.reveal('#about-history-right', {
 duration: 2000,
-delay: 300,
 origin: 'right',
-distance: '500px'
+distance: '800px'
 });
-sr.reveal('#about_rest', {
+sr.reveal('#about-gathering-left', {
 duration: 2000,
-origin: 'bottom',
-distance: '500px'
-});
-sr.reveal('#about-gathering-text', {
-duration: 2000,
-delay: 300,
 origin: 'left',
-distance: '500px'
+distance: '800px'
 });
-sr.reveal('#about-wine-box', {
+sr.reveal('#about-gathering-right', {
 duration: 2000,
-origin: 'bottom',
-});
-sr.reveal('#about-wine-title', {
-duration: 2000,
-delay: 500,
-origin: 'top',
-});
-sr.reveal('#about-wine-text', {
-duration: 2000,
-delay: 500,
-origin: 'bottom',
-});
-sr.reveal('#about-wine-hero', {
-duration: 2000,
-origin: 'bottom',
-distance: '0px'
-});
-sr.reveal('#about-patio-box', {
-duration: 2000,
-origin: 'bottom',
-});
-sr.reveal('#about-patio-title', {
-duration: 2000,
-delay: 500,
-origin: 'top',
-});
-sr.reveal('#about-patio-text', {
-duration: 2000,
-delay: 500,
-origin: 'bottom',
-});
-sr.reveal('#about_anvil', {
-duration: 2000,
-origin: 'bottom',
-distance: '500px'
-});
-sr.reveal('#about-anvil-text', {
-duration: 2000,
-delay: 300,
 origin: 'right',
-distance: '500px'
+distance: '800px'
+});
+sr.reveal('#about-wine-left', {
+duration: 2000,
+origin: 'left',
+distance: '800px'
+});
+sr.reveal('#about-wine-right', {
+duration: 2000,
+origin: 'right',
+distance: '800px'
+});
+sr.reveal('#about-patio-left', {
+duration: 2000,
+origin: 'left',
+distance: '800px'
+});
+sr.reveal('#about-patio-right', {
+duration: 2000,
+origin: 'right',
+distance: '800px'
+});
+sr.reveal('#about-anvil-left', {
+duration: 2000,
+origin: 'left',
+distance: '800px'
+});
+sr.reveal('#about-anvil-right', {
+duration: 2000,
+origin: 'right',
+distance: '800px'
 });
 
 // menus

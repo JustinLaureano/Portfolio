@@ -353,37 +353,6 @@ hr .sign-up {
     margin-top: -100px;
 }
 
-.about {
-    margin-top: -25px;
-    margin-bottom: 0px;
-}
-
-#about_wine, #about_patio {
-    padding: 100px;
-}
-
-.about_gathering, .about_gathering h3 {
-    background: #070707;
-}
-
-.about_gathering h3, .about_gathering p {
-    color: #F9FCF8;
-}
-
-.about_gathering h3 {
-    font-size: 2.5em;
-    font-weight: 400;
-}
-
-#about_text {
-    padding: 200px 50px 200px 50px;
-}
-
-#about_rest, #about_anvil {
-    background: #fcfcfc;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
-}
-
 .menu {
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
     padding: 50px;
