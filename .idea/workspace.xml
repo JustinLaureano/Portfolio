@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c477ca-15eb-480f-a9c5-08dee208a112" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/css/style.css" afterPath="$PROJECT_DIR$/the_gathering/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/js/sr.js" afterPath="$PROJECT_DIR$/the_gathering/static/js/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/contact.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/reservations.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/reservations.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,30 +21,26 @@
     <splitter split-orientation="horizontal" split-proportion="0.4888293">
       <split-first>
         <leaf>
-          <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="627">
-                  <caret line="33" column="121" lean-forward="false" selection-start-line="33" selection-start-column="121" selection-end-line="33" selection-end-column="121" />
+                <state relative-caret-position="728">
+                  <caret line="61" column="84" lean-forward="false" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="84" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="eat.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html">
+          <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/contact.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+                <state relative-caret-position="266">
+                  <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
                   <folding>
                     <element signature="n#div#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -54,12 +51,29 @@
               </provider>
             </entry>
           </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
           <file leaf-file-name="sr.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/the_gathering/static/js/sr.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="894">
-                  <caret line="242" column="23" lean-forward="false" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
+                <state relative-caret-position="234">
+                  <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="reservations.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/reservations.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="611">
+                  <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="39" />
+                  <folding>
+                    <element signature="n#div#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -90,13 +104,11 @@
         <option value="$PROJECT_DIR$/portfolio/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/portfolio/urls.py" />
-        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/contact.html" />
         <option value="$PROJECT_DIR$/the_gathering/urls.py" />
         <option value="$PROJECT_DIR$/the_gathering/static/scripts/menu items.py" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/private_events.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/index.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" />
-        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/reservations.html" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html" />
         <option value="$PROJECT_DIR$/the_gathering/static/js/main.js" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/eat.html" />
@@ -107,8 +119,10 @@
         <option value="$PROJECT_DIR$/the_gathering/views.py" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/listen.html" />
         <option value="$PROJECT_DIR$/the_gathering/static/css/style.css" />
-        <option value="$PROJECT_DIR$/the_gathering/static/js/sr.js" />
         <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html" />
+        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/reservations.html" />
+        <option value="$PROJECT_DIR$/the_gathering/static/js/sr.js" />
+        <option value="$PROJECT_DIR$/the_gathering/templates/the_gathering/contact.html" />
       </list>
     </option>
   </component>
@@ -339,7 +353,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27166277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18969555" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18969555" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.105157934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -394,14 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -440,14 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/reservations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -550,14 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -579,23 +569,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/the_gathering/static/js/sr.js">
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/reservations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="242" column="23" lean-forward="false" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="611">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="121" lean-forward="false" selection-start-line="33" selection-start-column="121" selection-end-line="33" selection-end-column="121" />
+        <state relative-caret-position="728">
+          <caret line="61" column="84" lean-forward="false" selection-start-line="61" selection-start-column="72" selection-end-line="61" selection-end-column="84" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/static/js/sr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_gathering/templates/the_gathering/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

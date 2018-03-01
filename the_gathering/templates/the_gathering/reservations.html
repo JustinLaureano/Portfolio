@@ -3,7 +3,7 @@
 {% block content %}
 
 
-<div class="row" id="reservation-intro"> <!-- Reservation Intro -->
+<div class="row intro-text" id="reservation-intro"> <!-- Reservation Intro -->
     <div class="col-2"></div>
     <div class="col-6 align-self-end">
         <h1>Reservations</h1>
@@ -13,11 +13,11 @@
     <div class="col-4"></div>
 </div> <!-- End Reservation Intro -->
 
-<div class="row"> <!-- Reservation Field -->
+<div class="row box-row"> <!-- Reservation Field -->
     <div class="col-md-6" id="reservation-left">
-        <img src="{% static 'images/fondue.jpg' %}" alt="Dining Room" class="img-fluid welcome">
+        <div class="box-image" style="background: url({% static 'images/fondue.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
-    <div class="col-md-6 align-self-center" id="reservation-right">
+    <div class="col-md-6 box-text bg-white" id="reservation-right">
         <form>
             <h2>Make A Reservation</h2>
             <div class="form-group">
@@ -77,7 +77,7 @@
             </div>
 
             <div class="row">
-                <div class='col-sm-3'>
+                <div class='col-sm-12'>
                     <div class="form-group">
                         <div class='input-group date' id='datetimepicker1'>
                             <input type='text' class="form-control" />

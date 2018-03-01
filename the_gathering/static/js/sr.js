@@ -272,4 +272,39 @@ duration: 2000,
 origin: 'right',
 distance: '800px'
 });
+
 // contact
+sr.reveal('#contact-intro', {
+duration: 2000,
+origin: 'bottom',
+});
+sr.reveal('#contact-gathering-left', {
+duration: 2000,
+origin: 'left',
+distance: '800px'
+});
+sr.reveal('#contact-gathering-right', {
+duration: 2000,
+origin: 'right',
+distance: '800px'
+});
+sr.reveal('#contact-wine-left', {
+duration: 2000,
+origin: 'left',
+distance: '800px'
+});
+sr.reveal('#contact-wine-right', {
+duration: 2000,
+origin: 'right',
+distance: '800px'
+});
+sr.reveal('#contact-anvil-left', {
+duration: 2000,
+origin: 'left',
+distance: '800px'
+});
+sr.reveal('#contact-anvil-right', {
+duration: 2000,
+origin: 'right',
+distance: '800px'
+});

@@ -3,18 +3,53 @@
 {% block content %}
 
 
-<div class="row" id="welcome"> <!-- Welcome Content -->
-    <div class="col-lg-6 align-self-end">
-        <h1>Drink</h1>
-        <h1>With Us</h1>
-        <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
-        <button type="button" class="btn btn-link">View Menu</button>
+<div class="row intro-text" id="contact-intro"> <!-- Contact Intro -->
+    <div class="col-2"></div>
+    <div class="col-6 align-self-end">
+        <h1>Contact Us</h1>
+        <br>
+        <p>We would love to answer any questions you may have regarding event planning, special requests, or our food and products.</p>
     </div>
-    <div class="col-lg-6">
-        <img src="{% static 'images/welcome_image.jpg' %}" alt="Ragout" class="img-fluid welcome">
-    </div>
-</div> <!-- End Welcome -->
+    <div class="col-4"></div>
+</div> <!-- End Contact Intro -->
 
+<div class="row box-row"> <!-- Contact Gathering -->
+    <div class="col-md-6" id="contact-gathering-left">
+        <div class="box-image" style="background: url({% static 'images/gathering_storefront_vertical.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
+    </div>
+    <div class="col-md-6 box-text bg-white" id="contact-gathering-right">
+        <h2>The Gathering</h2>
+        <br>
+        <h3>Phone</h3>
+        <p>419 422 5930</p>
+        <h3>Location</h3>
+        <p>114 East Main Cross St.</br>Findlay, OH 45840</p>
+        <h3>Hours</h3>
+        <p><strong>Monday - Thursday</strong></br>11-2</br>5-9</br><strong>Friday</strong></br>11-2</br>5-10</br><strong>Saturday</strong></br>5-10</p>
+    </div>
+</div> <!-- End Contact Gathering -->
+
+<div class="row box-row"> <!-- Contact Wine -->
+    <div class="col-md-6 order-2 order-md-1 box-text bg-black" id="contact-wine-left">
+        <h2>The Gathering</h2>
+        <br>
+        <p class="bg-black">Offered at each of the Gathering properties, our Chef’s unique recipes provide guests an exceptional culinary experience at an affordable price. From the best burger and soups in town for lunch, to remarkable handcrafted appetizers and dinner selections, to made-from-scratch desserts, The Gathering is truly a 5-star dining experience.</p>
+    </div>
+    <div class="col-md-6 order-1 order-md-2" id="contact-wine-right">
+        <div class="box-image-black float-right" style="background: url({% static 'images/wine_rack.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
+    </div>
+</div> <!-- End Contact Wine -->
+
+<div class="row box-row"> <!-- Contact Anvil -->
+    <div class="col-md-6" id="contact-anvil-left">
+        <div class="box-image" style="background: url({% static 'images/anvil_bartop.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
+    </div>
+    <div class="col-md-6 box-text bg-white" id="contact-anvil-right">
+        <h2>The Gathering Wine</h2>
+        <br>
+        <p>Gathering Wine, located at 235 S. Main St. in downtown Findlay, is the city’s finest retail wine shop and wine bar featuring over six-hundred wines from around the world. Gathering Wine features a rotating menu of seventeen wines by the glass, or create your own flight of tasting portions as you relax in the upscale atmosphere of the bar, or adjourn to the patio and enjoy the outdoors.</p>
+    </div>
+</div> <!-- End Contact Anvil -->
 
 
 {% endblock %}
