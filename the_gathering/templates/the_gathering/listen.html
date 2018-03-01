@@ -14,11 +14,12 @@
 
 
 {% for event in live_event %}
+{% if not forloop.counter|divisibleby:"2" %}
 <div class="row box-row" id="listen-event"> <!-- Event -->
-    <div class="col-md-6" id="listen-event-image">
+    <div class="col-md-6 listen-event-image" id="listen-event-image">
         <div class="box-image" style="background: url({{ event.event_image.url }}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
-    <div class="col-md-6 text-center box-text bg-white" id="listen-event-text">
+    <div class="col-md-6 text-center box-text bg-white listen-event-text" id="listen-event-text">
         <h2>{{ event.event_name }}</h2>
         <h5>{{ event.event_date }}</h5>
         <h5>{{ event.event_time }}</h5>
@@ -27,20 +28,23 @@
         <p>{{ event.event_description }}</p>
     </div>
 </div> <!-- End Event -->
-{% endfor %}
-
+{% else %}
 <div class="row box-row"> <!-- Event -->
-    <div class="col-md-6 order-2 order-md-1 box-text bg-black">
-        <h2>Live Music featuring Chris Knopp</h2>
-        <h5 class="bg-black">February 23</h5>
-        <h5 class="bg-black">9pm - 12am</h5>
-        <h5 class="bg-black">The Anvil</h5>
+    <div class="col-md-6 order-2 order-md-1 box-text bg-black listen-event-text">
+        <h2>{{ event.event_name }}</h2>
+        <h5 class="bg-black">{{ event.event_date }}</h5>
+        <h5 class="bg-black">{{ event.event_time }}</h5>
+        <h5 class="bg-black">{{ event.event_venue }}</h5>
         <br>
-        <p class="bg-black">Join us as we welcome Chris Knopp to Anvil Whiskey Bar! </p>
+        <p class="bg-black">{{ event.event_description }}</p>
     </div>
-    <div class="col-md-6 order-1 order-md-2">
-        <div class="box-image-black float-right" style="background: url({% static 'images/live_events/chris_knopp.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
+    <div class="col-md-6 order-1 order-md-2 listen-event-image">
+        <div class="box-image-black float-right" style="background: url({{ event.event_image.url }}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
 </div> <!-- End Event -->
+{% endif %}
+{% endfor %}
+
+
 
 {% endblock %}

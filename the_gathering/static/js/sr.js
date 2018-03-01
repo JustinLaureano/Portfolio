@@ -83,13 +83,11 @@ distance: '800px'
 });
 sr.reveal('#eat-lunch-left', {
 duration: 2000,
-delay: 300,
 origin: 'left',
 distance: '800px'
 });
 sr.reveal('#eat-lunch-right', {
 duration: 2000,
-delay: 300,
 origin: 'right',
 distance: '800px'
 });
@@ -121,13 +119,11 @@ distance: '800px'
 });
 sr.reveal('#drink-whiskey-left', {
 duration: 2000,
-delay: 300,
 origin: 'left',
 distance: '800px'
 });
 sr.reveal('#drink-whiskey-right', {
 duration: 2000,
-delay: 300,
 origin: 'right',
 distance: '800px'
 });
@@ -159,13 +155,11 @@ distance: '800px'
 });
 sr.reveal('#shop-wine-left', {
 duration: 2000,
-delay: 300,
 origin: 'left',
 distance: '800px'
 });
 sr.reveal('#shop-wine-right', {
 duration: 2000,
-delay: 300,
 origin: 'right',
 distance: '800px'
 });
@@ -179,16 +173,17 @@ duration: 2000,
 origin: 'right',
 distance: '800px'
 });
+
 // listen
 sr.reveal('#listen-intro', {
 duration: 2000,
 origin: 'bottom',
 });
-sr.reveal('#listen-event-image', {
+sr.reveal('.listen-event-image', {
 duration: 2000,
 origin: 'bottom'
 });
-sr.reveal('#listen-event-text', {
+sr.reveal('.listen-event-text', {
 duration: 2000,
 delay: 200,
 origin: 'top',
