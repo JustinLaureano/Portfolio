@@ -2,7 +2,7 @@
 {% load staticfiles %}
 {% block content %}
 
-<div class="row" id="shop-intro"> <!-- Shop Intro -->
+<div class="row intro-text" id="shop-intro"> <!-- Shop Intro -->
     <div class="col-2"></div>
     <div class="col-6 align-self-end">
         <h1>Shop</h1>
@@ -12,36 +12,37 @@
     <div class="col-4"></div>
 </div> <!-- End Eat Intro -->
 
-<div class="row"> <!-- Gift Baskets -->
+<div class="row box-row"> <!-- Gift Baskets -->
     <div class="col-md-6" id="shop-gift-basket-left">
-        <img src="{% static 'images/gift_basket.jpg' %}" alt="Gift Basket" class="img-fluid welcome">
+        <div class="box-image" style="background: url({% static 'images/gift_basket.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
-    <div class="col-md-6 align-self-center" id="shop-gift-basket-right">
+    <div class="col-md-6 box-text bg-white" id="shop-gift-basket-right">
         <h2>Gift Baskets</h2>
         <br>
         <p>Check out our seasonal gift baskets on display in the Wine Shop.</p>
     </div>
 </div> <!-- End Gift Baskets -->
 
-<div class="row"> <!-- Wine -->
-    <div class="col-md-6 order-2 order-md-1 align-self-center" id="shop-wine-left">
+<div class="row box-row"> <!-- Wine -->
+    <div class="col-md-6 order-2 order-md-1 box-text bg-black" id="shop-wine-left">
         <h2>Fine Wines</h2>
         <br>
-        <p>We feature a full bar offering a vast selection of whiskey, bourbon, and other fine spirits, including special limited varieties.</p>
+        <p class="bg-black">We feature a full bar offering a vast selection of whiskey, bourbon, and other fine spirits, including special limited varieties.</p>
     </div>
     <div class="col-md-6 order-1 order-md-2" id="shop-wine-right">
-        <img src="{% static 'images/wine_rack.jpg' %}" alt="Wine Rack" class="img-fluid welcome">
+        <div class="box-image-black float-right" style="background: url({% static 'images/wine_rack.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
 </div> <!-- End Wine -->
 
-<div class="row"> <!-- Gift Cards -->
+<div class="row box-row"> <!-- Gift Cards -->
     <div class="col-md-6" id="shop-giftcard-left">
-        <img src="{% static 'images/gift_basket.jpg' %}" alt="Gift Cards" class="img-fluid welcome">
+        <div class="box-image" style="background: url({% static 'images/dessert_closeup.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
-    <div class="col-md-6 align-self-center" id="shop-giftcard-right">
+    <div class="col-md-6 box-text bg-white" id="shop-giftcard-right">
         <h2>Gift Cards</h2>
         <br>
         <p>Order gift cards here good at all Gathering Properties..</p>
     </div>
 </div> <!-- End Gift Cards -->
+
 {% endblock %}

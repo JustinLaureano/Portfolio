@@ -2,7 +2,7 @@
 {% load staticfiles %}
 {% block content %}
 
-<div class="row" id="listen-intro"> <!-- Listen Intro -->
+<div class="row intro-text" id="listen-intro"> <!-- Listen Intro -->
     <div class="col-2"></div>
     <div class="col-6 align-self-end">
         <h1>Listen</h1>
@@ -12,11 +12,11 @@
     <div class="col-4"></div>
 </div> <!-- End Listen Intro -->
 
-<div class="row" id="listen-event"> <!-- Event -->
+<div class="row box-row" id="listen-event"> <!-- Event -->
     <div class="col-md-6" id="listen-event-image">
-        <img src="{% static 'images/live_events/kev_cullen.jpg' %}" alt="Kev Cullen" class="img-fluid welcome">
+        <div class="box-image" style="background: url({% static 'images/live_events/kev_cullen.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
-    <div class="col-md-6 text-center align-self-center" id="listen-event-text">
+    <div class="col-md-6 text-center box-text bg-white" id="listen-event-text">
         <h2>Live Music featuring Kevin Cullen</h2>
         <h5>February 17</h5>
         <h5>9pm - 12am</h5>
@@ -26,31 +26,18 @@
     </div>
 </div> <!-- End Event -->
 
-<div class="row"> <!-- Event -->
-    <div class="col-md-6 order-2 order-md-1 align-self-center">
+<div class="row box-row"> <!-- Event -->
+    <div class="col-md-6 order-2 order-md-1 box-text bg-black">
         <h2>Live Music featuring Chris Knopp</h2>
-        <h5>February 23</h5>
-        <h5>9pm - 12am</h5>
-        <h5>The Anvil</h5>
+        <h5 class="bg-black">February 23</h5>
+        <h5 class="bg-black">9pm - 12am</h5>
+        <h5 class="bg-black">The Anvil</h5>
         <br>
-        <p>Join us as we welcome Chris Knopp to Anvil Whiskey Bar! </p>
+        <p class="bg-black">Join us as we welcome Chris Knopp to Anvil Whiskey Bar! </p>
     </div>
     <div class="col-md-6 order-1 order-md-2">
-        <img src="{% static 'images/live_events/chris_knopp.jpg' %}" alt="Chris Knopp" class="img-fluid welcome">
+        <div class="box-image-black float-right" style="background: url({% static 'images/live_events/chris_knopp.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
 </div> <!-- End Event -->
 
-<div class="row"> <!-- Event -->
-    <div class="col-md-6">
-        <img src="{% static 'images/live_events/masquerade_party.png' %}" alt="Masquerade Party" class="img-fluid welcome">
-    </div>
-    <div class="col-md-6 align-self-center">
-        <h2>Mardi Gras Masquerade Party</h2>
-        <h5>February 24</h5>
-        <h5>7pm - 12am</h5>
-        <h5>The Anvil</h5>
-        <br>
-        <p>Join us as we welcome Chris Knopp to Anvil WhiskWe are bringing that New Orleans feeling to Anvil Whiskey Bar Saturday, February 24 with our Mardi Gras Masquerade Party starting at 7pm! We will be offering classic Cajun Cuisine, Featured Craft Cocktails & Live Jazz from Quick Trio starting at 9pm. Funky Attire and Masks encouraged! See you there!</p>
-    </div>
-</div> <!-- End Event -->
 {% endblock %}

@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i');
 
-body, h4, h5 {
+body, h4 {
     font-family: 'Work Sans', sans-serif;
     background: #fcfcfc;
 }

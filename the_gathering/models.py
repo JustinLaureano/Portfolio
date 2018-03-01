@@ -78,3 +78,23 @@ class AnvilMenu(models.Model):
 
     def __str__(self):
         return self.item
+
+
+class LiveEvent(models.Model):
+    VENUE = (
+        ('The Gathering', 'The Gathering'),
+        ('The Gathering Wine', 'The Gathering Wine'),
+        ('The Anvil', 'The Anvil'),
+        ('The Courtyard Patio', 'The Courtyard Patio')
+    )
+
+    event_name = models.CharField(max_length=100)
+    event_date = models.CharField(max_length=120)
+    event_time = models.CharField(max_length=120)
+    event_venue = models.CharField(max_length=30, choices=VENUE, blank=True)
+    event_description = models.TextField(max_length=800, blank=True)
+    event_image = models.ImageField(upload_to='static/image/live_events/',
+                                    default='static/images/logo.png')
+
+    def __str__(self):
+        return self.event_name
