@@ -61,7 +61,6 @@ distance: '200px'
 });
 sr.reveal('#footer', {
 duration: 2000,
-delay: 200,
 origin: 'bottom',
 distance: '200px'
 });

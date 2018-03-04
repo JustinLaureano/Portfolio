@@ -181,6 +181,10 @@ header {
     margin-bottom: 30px;
 }
 
+.logo {
+    height: 100px;
+}
+
 #welcome {
     margin-bottom: 100px;
 }
@@ -217,7 +221,7 @@ header {
 }
 
 .box-image {
-    height: 620px;
+    height: 720px;
     width: 120% !important;
     margin-top: -50px;
 }
@@ -422,6 +426,8 @@ hr .sign-up {
 footer {
     margin-top: 100px;
 }
+
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES
