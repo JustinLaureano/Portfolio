@@ -3,15 +3,54 @@
 {% block content %}
 
 
-<div class="row">
-    <div class="col-lg-6">
-        <h1>Hello</h1>
+<div class="row align-items-center" id="hero-image"> <!-- Patio Hero -->
+    <div class="col">
+        <h1 class="hero-text text-center">Come Enjoy the Best Patio in Town</h1>
     </div>
-    <div class="col-lg-6">
-        <h2>
-            hello
-        </h2>
-    </div>
-</div>
+</div> <!-- End Patio Hero -->
+
+<div class="row justify-content-center" id="event-list"><!-- List of Events -->
+    <div class="col-md-1"></div>
+
+    <a href="#">
+        <div class="col-md-4 text-center" id="sign-up">
+            <img class="rounded-circle" src="{% static 'images/artwork/artichoke.jpg' %}" width="100">
+            <h2>See list of events</h2>
+            <div class="row"> <!-- Horizontal Rule & Diamond -->
+                <div class="col">
+                    <hr class="sign-up" />
+                </div>
+                <div class="diamond">
+                </div>
+                <div class="col">
+                    <hr class="sign-up" />
+                </div>
+            </div> <!-- End Horizontal Rule & Diamond -->
+            <p>We have live music and events scheduled<br/> on the patio every week.</p>
+        </div>
+    </a>
+
+    <div class="col-md-2"></div>
+
+    <a href="#">
+        <div class="col-md-4 text-center" id="view-menu">
+            <img class="rounded-circle" src="{% static 'images/artwork/artichoke.jpg' %}" width="100">
+            <h2><a href="">View Menu</a></h2>
+            <div class="row"> <!-- Horizontal Rule & Diamond -->
+                <div class="col">
+                    <hr class="sign-up" />
+                </div>
+                <div class="diamond">
+                </div>
+                <div class="col">
+                    <hr class="sign-up" />
+                </div>
+            </div> <!-- End Horizontal Rule & Diamond -->
+            <p>Take a look at our special private menu offerings. “From chicken wings to chateaubriand”. We truly will create anything to make your event one of a kind.</p>
+        </div>
+    </a>
+
+    <div class="col-md-1"></div>
+</div><!-- End List of Events -->
 
 {% endblock %}

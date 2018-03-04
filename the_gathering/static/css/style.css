@@ -338,14 +338,14 @@ hr .sign-up {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-#sign-up {
+#sign-up, #view-menu {
     margin-top: -80px;
     background: #0d0d0f;
     padding: 35px 40px 35px 40px;
     color: #fff;
 }
 
-#sign-up img {
+#sign-up img, #view-menu img {
     margin-top: -100px;
 }
 
@@ -416,9 +416,17 @@ footer {
 }
 
 
+
+
 @media (max-width: 1080px) {
     h1 {
         font-size: 3em;
+    }
+}
+
+@media (max-width: 768px) {
+    #view-menu {
+        margin-top: 100px;
     }
 }
 
