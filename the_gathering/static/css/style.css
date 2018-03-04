@@ -301,7 +301,8 @@ hr .sign-up {
 
 #carousel_menu {
     box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .carousel-indicators li {
@@ -321,21 +322,6 @@ hr .sign-up {
 
 .carousel-inner {
     overflow: visible !important;
-}
-
-#hero-image {
-    background: url('../images/hero_charcuterie.jpg') no-repeat center center;
-    height: 600px;
-    margin-top: 150px;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
-}
-
-.hero-text {
-    width: 80%;
-    margin: auto;
-    padding: .3em;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .bg-image {
@@ -374,7 +360,7 @@ hr .sign-up {
     padding-right:20px;
     background: #0d0d0f;
     margin-bottom: 75px;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
 }
 
 .box-button img {
