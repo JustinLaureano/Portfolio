@@ -262,4 +262,57 @@
     <div class="col-2"></div>
 </div><!-- End List of Events -->
 
+<div class="row full">
+    <div class="col-sm-12 text-center">
+        <div class="bg-image flex-section justify-content-center" style="background: url({% static 'images/charcuterie_patio.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;">
+            <h1 class="content white">Best Patio In Town</h1>
+            <div class="overlay"></div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-10 offset-md-1 col-sm-12">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="box-button negative-top-sm text-center">
+                    <a href="{% url 'the_gathering:private_events' %}">
+                        <img class="rounded-circle" src="{% static 'images/artwork/artichoke.jpg' %}" width="100" height="100">
+                        <h2 class="white">Check Out Venues</h2>
+                        <div class="row"> <!-- Horizontal Rule & Diamond -->
+                            <div class="col">
+                                <hr class="sign-up" />
+                            </div>
+                            <div class="diamond">
+                            </div>
+                            <div class="col">
+                                <hr class="sign-up" />
+                            </div>
+                        </div> <!-- End Horizontal Rule & Diamond -->
+                        <p class="white">We offer an atmosphere for any occasion.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="box-button negative-top-sm text-center">
+                    <a href="{% url 'the_gathering:events' %}">
+                        <img class="rounded-circle" src="{% static 'images/artwork/pasta.jpg' %}" width="100" height="100">
+                        <h2 class="white">Live Events</h2>
+                        <div class="row"> <!-- Horizontal Rule & Diamond -->
+                            <div class="col">
+                                <hr class="sign-up" />
+                            </div>
+                            <div class="diamond">
+                            </div>
+                            <div class="col">
+                                <hr class="sign-up" />
+                            </div>
+                        </div> <!-- End Horizontal Rule & Diamond -->
+                        <p class="white">Check out whats happening on our Patio and more.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}

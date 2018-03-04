@@ -18,9 +18,9 @@ def shop_page(request):
     return render(request, 'the_gathering/shop.html', {})
 
 
-def listen_page(request):
+def events_page(request):
     live_event = LiveEvent.objects.all()
-    return render(request, 'the_gathering/listen.html', {'live_event':
+    return render(request, 'the_gathering/events.html', {'live_event':
                                                         live_event})
 
 

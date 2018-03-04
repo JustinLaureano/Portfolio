@@ -256,8 +256,8 @@ duration: 2000,
 delay: 400,
 origin: 'bottom',
 });
+
 // private events
-// reservations
 sr.reveal('.full', {
 duration: 2000,
 origin: 'bottom',
@@ -266,6 +266,26 @@ sr.reveal('.box-button', {
 duration: 2000,
 delay: 200,
 origin: 'bottom',
+});
+sr.reveal('.private-event-about', {
+duration: 2000,
+origin: 'bottom',
+});
+
+// reservations
+sr.reveal('#reservation-intro', {
+duration: 2000,
+origin: 'bottom',
+});
+sr.reveal('#reservation-left', {
+duration: 2000,
+origin: 'left',
+distance: '800px'
+});
+sr.reveal('#reservation-right', {
+duration: 2000,
+origin: 'right',
+distance: '800px'
 });
 
 // contact
