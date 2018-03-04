@@ -258,19 +258,14 @@ origin: 'bottom',
 });
 // private events
 // reservations
-sr.reveal('#reservation-intro', {
+sr.reveal('.full', {
 duration: 2000,
 origin: 'bottom',
 });
-sr.reveal('#reservation-left', {
+sr.reveal('.box-button', {
 duration: 2000,
-origin: 'left',
-distance: '800px'
-});
-sr.reveal('#reservation-right', {
-duration: 2000,
-origin: 'right',
-distance: '800px'
+delay: 200,
+origin: 'bottom',
 });
 
 // contact
