@@ -16,6 +16,51 @@
     </div>
 </div> <!-- End Welcome -->
 
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 align-self-end" id="welcome-left">
+            <h1>Gather</h1>
+            <h1>With Us</h1>
+            <p>If you’re looking for a casual or upscale fine dining experience – look no further than The Gathering, Gathering Wine, and Anvil Whiskey Bar. Our restaurant complex has a superior selection of wine, spirits, beer, and the best outdoor patio experience in Findlay. We’re an exclusive place to hold your next private event, or merely a place to relax. The Gathering, Gathering Wine, and Anvil Whiskey Bar offer an unsurpassed diversification of options that our staff wants to share with you.  Come “gather” with us! </p>
+            <button type="button" class="btn btn-link"><a href="{% url 'the_gathering:menus' %}">View Menu</a></button>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <img src="{% static 'images/artwork/approved_stamp.png' %}" alt="event stamp" class="img-fluid approved-stamp">
+                <div id="main-carousel" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="{% static 'images/welcome_image.jpg' %}" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="{% static 'images/welcome_image.jpg' %}" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="{% static 'images/welcome_image.jpg' %}" alt="Third slide">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group" role="group" aria-label="First group">
+                        <button type="button" data-target="#main-carousel" data-slide="prev" class="btn btn-secondary">Prev</button>
+                        <button type="button" data-target="#main-carousel" data-slide="next" class="btn btn-secondary">Next</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
 <div class="row"> <!-- Private Event -->
     <div class="col-md-4 text-center" id="private-stamp">
         <img src="{% static 'images/event_stamp.png' %}" alt="event stamp" class="img-fluid">
