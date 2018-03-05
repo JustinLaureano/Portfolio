@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c477ca-15eb-480f-a9c5-08dee208a112" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/images/scallops.jpg" afterPath="$PROJECT_DIR$/the_gathering/static/images/scallops.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/css/style.css" afterPath="$PROJECT_DIR$/the_gathering/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/index.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,8 +73,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="575">
-                  <caret line="479" column="8" lean-forward="false" selection-start-line="479" selection-start-column="8" selection-end-line="479" selection-end-column="8" />
+                <state relative-caret-position="486">
+                  <caret line="475" column="5" lean-forward="false" selection-start-line="475" selection-start-column="5" selection-end-line="475" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -627,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="479" column="8" lean-forward="false" selection-start-line="479" selection-start-column="8" selection-end-line="479" selection-end-column="8" />
+        <state relative-caret-position="486">
+          <caret line="475" column="5" lean-forward="false" selection-start-line="475" selection-start-column="5" selection-end-line="475" selection-end-column="5" />
           <folding />
         </state>
       </provider>
