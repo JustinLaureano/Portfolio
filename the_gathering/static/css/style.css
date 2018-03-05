@@ -61,20 +61,24 @@ span {
 }
 
 .btn-light {
-    position: absolute;
-    margin-top: -20px !important;
-    margin-left: 10px !important;
-    margin-right: -10px !important;
     background-color: #fff !important;
     border-color: #fff !important;
     border-radius: unset!important;
-    padding: 10% 15% !important;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
+
 .btn-light:hover {
     background-color: #000 !important;
     border-color: #000 !important;
     color: #fff !important;
+}
+
+.btn-carousel {
+    position: absolute;
+    margin-top: -20px !important;
+    margin-left: 10px !important;
+    margin-right: -10px !important;
+    padding: 10% 15% !important;
 }
 
 /* ---------------------------------------------------
@@ -249,7 +253,7 @@ header {
 }
 
 .box-image {
-    height: 720px;
+    height: 65vh;
     width: 120% !important;
     margin-top: -50px;
 }
