@@ -60,6 +60,23 @@ span {
     font-weight: 300;
 }
 
+.btn-light {
+    position: absolute;
+    margin-top: -20px !important;
+    margin-left: 10px !important;
+    margin-right: -10px !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+    border-radius: unset!important;
+    padding: 10% 15% !important;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.btn-light:hover {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -192,12 +209,16 @@ header {
 }
 
 #welcome {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 .img-fluid.welcome {
     box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.3);
+}
+
+.slideshow {
+    height: 620px;
 }
 
 .row {
@@ -453,6 +474,13 @@ footer {
     #lunch h2, #dinner h2, #wine h2, #anvil h2 {
         font-size: 1.5em;
     }
+
+    .btn-light {
+        position: absolute;
+        top: -20px !important;
+        padding: 5% !important;
+    }
+
 }
 
 @media (max-width: 768px) {
