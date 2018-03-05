@@ -182,10 +182,16 @@ header {
 }
 
 .logo {
-    height: 100px;
+}
+
+.approved-stamp {
+    position: absolute;
+    top: -30px;
+    right: -10px;
 }
 
 #welcome {
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
