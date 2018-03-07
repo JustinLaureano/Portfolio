@@ -25,28 +25,28 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="form-group">
                         <label for="reservation-name">Your Name</label>
-                        <input type="text" id="reservation-name" required>
+                        <input type="text" id="reservation-name" class="form-control" required>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="form-group">
-                        <label for="reservation-phone">Telephone Number</label>
-                        <input type="tel" id="reservation-phone" placeholder="123-456-8901" required>
+                        <label for="reservation-phone">Phone Number</label>
+                        <input type="tel" id="reservation-phone" class="form-control" placeholder="123-456-8901" required>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="form-group">
                         <label for="reservation-date">Date</label>
                         <input type="date" id="reservation-date" class="form-control" name="date" required/>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="form-group">
                         <label for="reservation-time">Time</label>
                         <select class="form-control" id="reservation-time" required>
@@ -88,7 +88,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="form-group">
                         <label for="reservation-size">Party Size</label>
                         <select class="form-control" id="reservation-size" required>
@@ -107,7 +107,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="form-group">
                         <label for="reservation-size">Venue</label>
                         <select class="form-control" id="reservation-venue" required>
@@ -125,5 +125,51 @@
         </form>
     </div>
 </div> <!-- End Reservation Field -->
+
+<div class="row">
+    <div class="col-sm-8 offset-sm-2" id="confirmation">
+        <div class="row">
+            <div class="close">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Your Reservation Has Been Placed Successfully.</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Name</h5>
+                <p id="confirmation-name"></p>
+            </div>
+            <div class="col-md-6">
+                <h5>Phone Number</h5>
+                <p id="confirmation-number"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Date</h5>
+                <p id="confirmation-date"></p>
+            </div>
+            <div class="col-md-6">
+                <h5>Time</h5>
+                <p id="confirmation-time"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Party Size</h5>
+                <p id="confirmation-size"></p>
+            </div>
+            <div class="col-md-6">
+                <h5>Venue</h5>
+                <p id="confirmation-venue"></p>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock %}
