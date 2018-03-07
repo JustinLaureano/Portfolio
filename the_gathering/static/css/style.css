@@ -495,8 +495,12 @@ footer {
 
 @media (max-width: 768px) {
     #welcome {
-            margin-bottom: 50px;
-        }
+        margin-bottom: 50px;
+    }
+
+    .box-row {
+        margin-bottom: 150px;
+    }
 
     .box-text {
         min-height: auto;
@@ -509,6 +513,7 @@ footer {
 
     .box-image, .box-image-black {
         width: 100% !important;
+        height: 40vh;
     }
 }
 
