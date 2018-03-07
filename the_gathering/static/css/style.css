@@ -476,6 +476,11 @@ hr .sign-up {
 #confirmation {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     padding: 5%;
+    display: none;
+    background-color: #fff;
+    position: fixed;
+    top: 30%;
+    z-index: 999;
 }
 
 .close {
