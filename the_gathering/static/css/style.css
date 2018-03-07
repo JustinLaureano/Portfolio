@@ -202,9 +202,6 @@ header {
     margin-bottom: 30px;
 }
 
-.logo {
-}
-
 .approved-stamp {
     position: absolute;
     top: -30px;
@@ -213,8 +210,12 @@ header {
 }
 
 #welcome {
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 75px;
+    margin-bottom: 150px;
+}
+
+#welcome-left {
+    margin-bottom: 50px;
 }
 
 .img-fluid.welcome {
@@ -493,7 +494,22 @@ footer {
 }
 
 @media (max-width: 768px) {
+    #welcome {
+            margin-bottom: 50px;
+        }
 
+    .box-text {
+        min-height: auto;
+    }
+
+    .intro-text {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .box-image, .box-image-black {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 992px) {
@@ -510,6 +526,10 @@ footer {
 
 @media (min-width: 1080px) {
     p {
-        font-size: 1.1em;
+        font-size: 1em;
+    }
+
+    #welcome {
+        margin-bottom: 250px;
     }
 }
