@@ -479,7 +479,7 @@ hr .sign-up {
     display: none;
     background-color: #fff;
     position: fixed;
-    top: 30%;
+    top: 20%;
     z-index: 999;
 }
 
