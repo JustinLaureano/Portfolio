@@ -294,6 +294,14 @@ sr.reveal('#private-event-anvil-right', {
 duration: 2000,
 origin: 'bottom',
 });
+sr.reveal('#private-event-patio-left', {
+duration: 2000,
+origin: 'bottom',
+});
+sr.reveal('#private-event-patio-right', {
+duration: 2000,
+origin: 'bottom',
+});
 
 // reservations
 sr.reveal('#reservation-intro', {

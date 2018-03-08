@@ -287,8 +287,8 @@ header {
     padding-top: 10%;
 }
 
-#reservation-right {
-    padding-top: 8%;
+#reservation-right, #private-event-patio-left {
+    padding-top: 7%;
 }
 
 .bg-white {
