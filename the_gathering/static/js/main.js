@@ -39,4 +39,14 @@ $(document).ready(function () {
         console.log("Yes");
     });
 
+    var menuNav = $('.menu-nav');
+
+    $(window).scroll(function () {
+        if( $(this).scrollTop() > 233 ) {
+            menuNav.addClass('menu-nav-scrolled');
+        } else {
+            menuNav.removeClass('menu-nav-scrolled');
+        }
+    });
+
 });

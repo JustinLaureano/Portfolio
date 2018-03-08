@@ -246,13 +246,12 @@ distance: '800px'
 });
 
 // menus
-sr.reveal('#myTab', {
+sr.reveal('.menu-nav', {
 duration: 2000,
 origin: 'bottom',
 });
 sr.reveal('#menu-all', {
 duration: 2000,
-delay: 400,
 origin: 'bottom',
 });
 
