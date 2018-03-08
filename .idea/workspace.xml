@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c477ca-15eb-480f-a9c5-08dee208a112" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/images/live_events/snl_trivia.jpg" afterPath="$PROJECT_DIR$/the_gathering/static/images/live_events/snl_trivia.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/css/style.css" afterPath="$PROJECT_DIR$/the_gathering/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/js/main.js" afterPath="$PROJECT_DIR$/the_gathering/static/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/static/js/sr.js" afterPath="$PROJECT_DIR$/the_gathering/static/js/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" afterPath="$PROJECT_DIR$/the_gathering/templates/the_gathering/menus.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +57,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="811">
-                  <caret line="469" column="32" lean-forward="false" selection-start-line="469" selection-start-column="32" selection-end-line="469" selection-end-column="32" />
+                <state relative-caret-position="483">
+                  <caret line="258" column="18" lean-forward="false" selection-start-line="258" selection-start-column="18" selection-end-line="258" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -130,7 +127,7 @@
     <option name="x" value="7" />
     <option name="y" value="27" />
     <option name="width" value="2513" />
-    <option name="height" value="1399" />
+    <option name="height" value="1336" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -322,7 +319,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="27" width="2513" height="1399" extended-state="0" />
+    <frame x="7" y="27" width="2513" height="1336" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -334,7 +331,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27166277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18969555" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19950739" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10643464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -594,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/the_gathering/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="469" column="32" lean-forward="false" selection-start-line="469" selection-start-column="32" selection-end-line="469" selection-end-column="32" />
+        <state relative-caret-position="483">
+          <caret line="258" column="18" lean-forward="false" selection-start-line="258" selection-start-column="18" selection-end-line="258" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -256,7 +256,7 @@ header {
 }
 
 .box-image {
-    height: 65vh;
+    height: 620px;
     width: 120% !important;
     margin-top: -50px;
 }
@@ -285,12 +285,8 @@ header {
     z-index: 2;
 }
 
-#about-history-right {
-    padding-top: 10%;
-}
-
-#reservation-right, #private-event-patio-left {
-    padding-top: 7%;
+#about-history-right, #reservation-right, #private-event-patio-left {
+    padding-top: 6%;
 }
 
 .bg-white {
@@ -457,6 +453,10 @@ hr .sign-up {
     top: 0;
     width: 106%;
     margin-left: -7%;
+}
+
+.nav-tabs {
+    font-size: 1.1em;
 }
 
 .nav-tabs, .nav-link, .nav-tabs .nav-link, .nav-link.active, .nav-tabs
