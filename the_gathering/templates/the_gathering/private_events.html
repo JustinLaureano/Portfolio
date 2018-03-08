@@ -3,15 +3,15 @@
 {% block content %}
 
 
-<div class="row full">
+<div class="row full"> <!-- Hero Image -->
     <div class="col-sm-12 text-center">
         <div class="bg-image flex-section justify-content-center" style="background: url({% static 'images/private_anvil.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;">
             <h1 class="content white">Private Events</h1>
             <div class="overlay"></div>
         </div>
     </div>
-</div>
-<div class="row">
+</div> <!-- End Hero Image -->
+<div class="row"> <!-- Box Buttons -->
     <div class="col-md-10 offset-md-1 col-sm-12">
         <div class="row">
             <div class="col-sm-6">
@@ -54,40 +54,75 @@
             </div>
         </div>
     </div>
-</div>
+</div> <!-- End Box Buttons -->
 
-<div class="row">
-    <div class="col-md-8 offset-md-2 text-center">
-        <p class=" private-event-about">
-            In addition to the great day-to-day services, our customers have come to enjoy the outstanding atmosphere of hosting private events at each of our facilities, including our spacious back patio. Each of the venues offers unique attributes that allow us to customize the event to the clients’ needs and provide a truly differentiated experience. From Bachelor/Bachelorette parties and weddings to board meetings to company holiday parties, or simply a great place to “gather” family and friends, you can reserve any of our venues exclusively for your use so you and your guests can cherish the intimate setting of a private event.
-        </p>
-        <div class="row"> <!-- Horizontal Rule & Diamond -->
-            <div class="col">
-                <hr class="sign-up" />
-            </div>
-            <div class="diamond">
-            </div>
-            <div class="col">
-                <hr class="sign-up" />
-            </div>
-        </div> <!-- End Horizontal Rule & Diamond -->
+<section class="private-event-text"> <!-- About Private Events -->
+    <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+            <p class="private-event-about">
+                In addition to the great day-to-day services, our customers have come to enjoy the outstanding atmosphere of hosting private events at each of our facilities, including our spacious back patio. Each of the venues offers unique attributes that allow us to customize the event to the clients’ needs and provide a truly differentiated experience. From Bachelor/Bachelorette parties and weddings to board meetings to company holiday parties, or simply a great place to “gather” family and friends, you can reserve any of our venues exclusively for your use so you and your guests can cherish the intimate setting of a private event.
+            </p>
+            <div class="row"> <!-- Horizontal Rule & Diamond -->
+                <div class="col">
+                    <hr class="sign-up" />
+                </div>
+                <div class="diamond">
+                </div>
+                <div class="col">
+                    <hr class="sign-up" />
+                </div>
+            </div> <!-- End Horizontal Rule & Diamond -->
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-sm-10 offset-sm-1">
-        <ul class="list-unstyled column-list text-center private-event-about">
-            <li>Private Dining</li>
-            <li>Office Lunches</li>
-            <li>Wine Tasting & Classes</li>
-            <li>Bachelor / Bachelorette Parties</li>
-            <li>Weddings</li>
-            <li>Baby Showers</li>
-            <li>Board Meetings</li>
-            <li>Company Holiday Parties</li>
-            <li>Tasting Menus</li>
-        </ul>
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1">
+            <ul class="list-unstyled column-list text-center private-event-about">
+                <li>Private Dining</li>
+                <li>Office Lunches</li>
+                <li>Wine Tasting & Classes</li>
+                <li>Bachelor / Bachelorette Parties</li>
+                <li>Weddings</li>
+                <li>Baby Showers</li>
+                <li>Board Meetings</li>
+                <li>Company Holiday Parties</li>
+                <li>Tasting Menus</li>
+            </ul>
+        </div>
     </div>
-</div>
+</section><!-- End About Private Events -->
+
+<div class="row box-row"> <!-- The Gathering -->
+    <div class="col-md-6" id="private-event-gathering-left">
+        <div class="box-image" style="background: url({% static 'images/eat_salmon.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
+    </div>
+    <div class="col-md-6 box-text bg-white" id="private-event-gathering-right">
+        <h2>The Gathering</h2>
+        <br>
+        <p>The Gathering features high-end steak, seafood, pasta and other distinctive, exquisite craft Americana dishes, combined with an incredible selection of wine, whiskey, bourbon, and craft beers.</p>
+    </div>
+</div> <!-- End The Gathering -->
+
+<div class="row box-row"> <!-- Wine Store -->
+    <div class="col-md-6 order-2 order-md-1 box-text bg-black" id="private-event-wine-left">
+        <h2>The Gathering Wine</h2>
+        <br>
+        <p class="bg-black">Our low-priced lunch featured an assortment of homemade soups, salads, sandwiches desserts, and more.</p>
+    </div>
+    <div class="col-md-6 order-1 order-md-2" id="private-event-wine-right">
+        <div class="box-image-black float-right" style="background: url({% static 'images/soup_sandwich.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
+    </div>
+</div> <!-- End Wine Store -->
+
+<div class="row box-row"> <!-- Anvil -->
+    <div class="col-md-6" id="private-event-anvil-left">
+        <div class="box-image" style="background: url({% static 'images/event_room.jpg' %}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
+    </div>
+    <div class="col-md-6 box-text bg-white" id="private-event-anvil-right">
+        <h2>The Anvil</h2>
+        <br>
+        <p>In addition to the great day-to-day services, our customers have come to enjoy the outstanding atmosphere of hosting private events at each of our facilities, including our spacious back patio. Each of the venues offers unique attributes that allow us to customize the event to the clients’ needs and provide a truly differentiated experience.</p>
+    </div>
+</div> <!-- End Anvil -->
 
 
 {% endblock %}

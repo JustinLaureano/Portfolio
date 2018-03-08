@@ -270,6 +270,30 @@ sr.reveal('.private-event-about', {
 duration: 2000,
 origin: 'bottom',
 });
+sr.reveal('#private-event-gathering-left', {
+duration: 2000,
+origin: 'bottom',
+});
+sr.reveal('#private-event-gathering-right', {
+duration: 2000,
+origin: 'bottom',
+});
+sr.reveal('#private-event-wine-left', {
+duration: 2000,
+origin: 'bottom',
+});
+sr.reveal('#private-event-wine-right', {
+duration: 2000,
+origin: 'bottom',
+});
+sr.reveal('#private-event-anvil-left', {
+duration: 2000,
+origin: 'bottom',
+});
+sr.reveal('#private-event-anvil-right', {
+duration: 2000,
+origin: 'bottom',
+});
 
 // reservations
 sr.reveal('#reservation-intro', {
