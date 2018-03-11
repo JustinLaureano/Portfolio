@@ -16,14 +16,37 @@
 </head>
 <body>
     <div class="bg"> <!-- Background container -->
-        <a href="{% url 'justin_laureano:home' %}">JustinLaureano</a>
-        <a href="{% url 'justin_laureano:about' %}">About</a>
-        <a href="{% url 'justin_laureano:project' %}">Work</a>
-        <a href="{% url 'justin_laureano:contact' %}">Contact</a>
-        <a href="{% url 'the_gathering:home' %}" target="_blank">The Gathering</a>
+
+        <header> <!-- Header -->
+            <a href="{% url 'justin_laureano:home' %}">JustinLaureano</a>
+            <a href="{% url 'justin_laureano:about' %}">About</a>
+            <a href="{% url 'justin_laureano:project' %}">Work</a>
+            <a href="{% url 'justin_laureano:contact' %}">Contact</a>
+            <a href="{% url 'the_gathering:home' %}" target="_blank">The Gathering</a>
+        </header> <!-- End Header -->
 
         {% block content %}
         {% endblock %}
+
+        <footer> <!-- Footer -->
+
+            <div class="row">
+
+                <div class="col"> <!-- Logo Area -->
+
+                </div> <!-- End Footer Area -->
+
+                <div class="col"> <!-- Social Links -->
+
+                </div> <!-- End Social Links -->
+
+                <div class="col"> <!-- Copyright -->
+
+                </div> <!-- End Copyright -->
+
+            </div>
+
+        </footer> <!-- End Footer -->
 
     </div> <!-- End Background container -->
 
