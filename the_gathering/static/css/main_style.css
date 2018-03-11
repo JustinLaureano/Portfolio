@@ -3,9 +3,14 @@ body, html {
 }
 
 .bg {
+    position: relative;
     background-color: #999;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1 {
+    font-size: 6em;
 }
