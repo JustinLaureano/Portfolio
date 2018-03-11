@@ -17,36 +17,67 @@
 <body>
     <div class="bg"> <!-- Background container -->
 
-        <header> <!-- Header -->
-            <a href="{% url 'justin_laureano:home' %}">JustinLaureano</a>
-            <a href="{% url 'justin_laureano:about' %}">About</a>
-            <a href="{% url 'justin_laureano:project' %}">Work</a>
-            <a href="{% url 'justin_laureano:contact' %}">Contact</a>
-            <a href="{% url 'the_gathering:home' %}" target="_blank">The Gathering</a>
-        </header> <!-- End Header -->
+        <div class="container-fluid"> <!-- Container Fluid -->
 
-        {% block content %}
-        {% endblock %}
+            <header> <!-- Header -->
+                <div class="row justify-content-between">
 
-        <footer> <!-- Footer -->
+                    <div class="col-auto mr-auto">
+                        <a href="{% url 'justin_laureano:home' %}">JUSTIN<strong>LAUREANO</strong></a>
+                    </div>
 
-            <div class="row">
+                    <div class="col-auto">
+                        <ul class="list-inline list-unstyled">
+                            <li class="list-inline-item">
+                                <a href="{% url 'justin_laureano:about' %}">About</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="{% url 'justin_laureano:project' %}">Work</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="{% url 'justin_laureano:contact' %}">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="col"> <!-- Logo Area -->
+                </div>
 
-                </div> <!-- End Footer Area -->
+            </header> <!-- End Header -->
 
-                <div class="col"> <!-- Social Links -->
+            {% block content %}
+            {% endblock %}
 
-                </div> <!-- End Social Links -->
+            <footer> <!-- Footer -->
 
-                <div class="col"> <!-- Copyright -->
+                <div class="row">
 
-                </div> <!-- End Copyright -->
+                    <div class="col-auto mr-auto"> <!-- Logo Area -->
+                        <a href="{% url 'justin_laureano:home' %}">JUSTIN<strong>LAUREANO</strong></a>
+                    </div> <!-- End Logo Area -->
 
-            </div>
+                    <div class="col-auto mr-auto"> <!-- Social Links -->
+                        <ul class="list-inline list-unstyled">
+                            <li class="list-inline-item">
+                                <a href="">Email</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">Github</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div> <!-- End Social Links -->
 
-        </footer> <!-- End Footer -->
+                    <div class="col-auto"> <!-- Copyright -->
+                        <p>&copy;  Copyright 2018 Justin Laureano</p>
+                    </div> <!-- End Copyright -->
+
+                </div>
+
+            </footer> <!-- End Footer -->
+
+        </div> <!-- End Container Fluid -->
 
     </div> <!-- End Background container -->
 
