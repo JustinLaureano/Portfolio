@@ -61,15 +61,34 @@ a {
     color: #fff;
 }
 
+
+/* ---------------------------------------------------
+    LAYOUT STYLE
+----------------------------------------------------- */
+
 .short {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-/* ---------------------------------------------------
-    LAYOUT STYLE
------------------------------------------------------ */
+.outer {
+    display: table;
+    position: absolute;
+    height: 95%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: /*whatever width you want*/;
+}
 
 .m-t-10 {
     margin-top: 10%;
@@ -90,7 +109,7 @@ a {
 }
 
 .bg-text {
-
+    margin-bottom: -75px;
 }
 
 
