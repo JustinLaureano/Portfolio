@@ -18,13 +18,11 @@ body, html {
 
 .bg {
     position: relative;
-
     background: #0f0f0f; /* Old browsers */
     background: -moz-linear-gradient(-45deg, #0f0f0f 0%, #0a0a0a 25%, #0a0a0a 25%, #0a0a0a 33%, #0a0a0a 75%, #0f0f0f 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #0f0f0f 0%,#0a0a0a 25%,#0a0a0a 25%,#0a0a0a 33%,#0a0a0a 75%,#0f0f0f 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #0f0f0f 0%,#0a0a0a 25%,#0a0a0a 25%,#0a0a0a 33%,#0a0a0a 75%,#0f0f0f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0f0f', endColorstr='#0f0f0f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,8 +55,17 @@ p {
     font-weight: 300;
 }
 
+li {
+
+}
+
 a {
     color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffcc00;
 }
 
 
@@ -72,31 +79,41 @@ a {
     width: 100%;
 }
 
-.outer {
-    display: table;
-    position: absolute;
-    height: 95%;
-    width: 100%;
+.m-t-20 {
+    margin-top: 20%;
 }
 
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.inner {
-    margin-left: auto;
-    margin-right: auto;
-    width: /*whatever width you want*/;
+.m-t-12 {
+    margin-top: 10%;
 }
 
 .m-t-10 {
     margin-top: 10%;
 }
 
+.m-t-5 {
+    margin-top: 5%;
+}
+
 .overlap {
     position: absolute;
     right: 30px;
+}
+
+.side-nav {
+    font-size: 1.5em;
+}
+
+.side-nav ul li {
+    font-weight: 300;
+    transition: font-size 2s;
+    transition: font-weight .2s ease-in;
+
+    &:hover {
+        font-size: 3em;
+        font-weight: 700;
+        cursor: pointer;
+    }
 }
 
 .padding-left {
@@ -127,6 +144,10 @@ a {
     STATE STYLE
 ----------------------------------------------------- */
 
+.side-nav ul li:hover {
+
+    font-weight: 700;
+}
 
 
 
@@ -153,6 +174,9 @@ a {
 }
 
 @media (max-width: 992px) {
+    .side-nav {
+        font-size: 1.2em;
+    }
 
 }
 
