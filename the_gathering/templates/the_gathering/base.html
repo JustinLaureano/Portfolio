@@ -154,7 +154,7 @@
                     </div>
                         
                     <div class="row justify-content-around my-5">
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <h3 class="mb-4">The Anvil</h3>
                             <a href="tel:567-525-3235">
                                 <p class="h6 white mb-2">567 525 3235</p>
@@ -166,7 +166,7 @@
                             
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <h3 class="mb-4">The Gathering</h3>
                             <a href="tel:419-422-5930">
                                 <p class="h6 white mb-2">419 422 5930</p>
@@ -177,7 +177,7 @@
                             <p>Sat: 5-10</p>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <h3 class="mb-4">Gathering Wine</h3>
                             <a href="tel:567-525-3235">
                                 <p class="h6 white mb-2">567 525 3235</p>
@@ -189,20 +189,19 @@
                         </div>
                     </div>
                         
-                    <div class="row justify-content-around">
+                    <div class="row justify-content-center" id="footer-nav-list">
                         <div class="col-12 footer-nav">
-                        <ul class="list-inline">
-                            <li class="list-inline-item px-3"><a href="#">Eat</a></li>
-                            <li class="list-inline-item px-3"><a href="#">Drink</a></li>
-                            <li class="list-inline-item px-3"><a href="#">Shop</a></li>
-                            <li class="list-inline-item px-3"><a href="#">Events</a></li>
-                            <li class="list-inline-item px-3"><a href="#">About</a></li>
-                            <li class="list-inline-item px-3"><a href="#">Menus</a></li>
-                            <li class="list-inline-item px-3"><a href="#">Private</a></li>
-                            <li class="list-inline-item px-3"><a href="#">Reservation</a></li>
-                        </ul>        
+                            <ul class="list-inline" >
+                                <li class="list-inline-item px-2"><a href="{% url 'the_gathering:eat' %}">Eat</a></li>
+                                <li class="list-inline-item px-2"><a href="{% url 'the_gathering:drink' %}">Drink</a></li>
+                                <li class="list-inline-item px-2"><a href="{% url 'the_gathering:shop' %}">Shop</a></li>
+                                <li class="list-inline-item px-2"><a href="{% url 'the_gathering:events' %}">Events</a></li>
+                                <li class="list-inline-item px-2"><a href="{% url 'the_gathering:about' %}">About</a></li>
+                                <li class="list-inline-item px-2"><a href="{% url 'the_gathering:menus' %}">Menus</a></li>
+                                <li class="list-inline-item px-2"><a href="{% url 'the_gathering:private_events' %}">Private</a></li>
+                                <li class="list-inline-item px-2"><a href="{% url 'the_gathering:reservations' %}">Reservations</a></li>
+                            </ul>        
                         </div>
-                          
                     </div>
                         
                     <div class="row justify-content-between mb-0">
