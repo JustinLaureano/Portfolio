@@ -580,8 +580,17 @@ hr .sign-up {
     margin: 75px -40px -60px -40px;
 }
 
+.base-footer h3 {
+    color: #FAB302;
+}
+
+.base-footer p {
+    color: #fff;
+    margin-bottom: 0rem;
+}
+
 .base-footer .logo {
-    margin-top: -34px;
+    margin-top: -50px;
 }
 
 .footer-nav li:hover {
