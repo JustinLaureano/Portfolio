@@ -234,6 +234,7 @@ ul ul a {
     background-color: #222223;
     height: 225px;
     margin: -40px -40px 125px -40px;
+    text-transform: uppercase;
 }
   
 .logo {
@@ -626,9 +627,9 @@ hr .sign-up {
     }
 
     .menu-nav-scrolled {
-            width: 115%;
-            padding-left: 15%;
-        }
+        width: 115%;
+        padding-left: 15%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -665,6 +666,51 @@ hr .sign-up {
 
     .menu-nav-scrolled {
         margin-left: -22%;
+    }
+}
+
+@media(max-width: 500px) {
+    .header-nav {
+        display: none;
+    }
+    
+    .hamburger {
+        position: absolute;
+    }
+
+    .main-nav {
+        flex: 0 0 82.666667%;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+    .header-nav {
+        display: none;
+    }
+    
+    .hamburger {
+        position: absolute;
+    }
+
+    .main-nav {
+        flex: 0 0 82.666667%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 880px) {
+    .header-nav {
+        display: none;
+    }
+    
+    .hamburger {
+        position: absolute;
+    }
+
+    .main-nav {
+        flex: 0 0 82.666667%;
+        margin-left: 14%;
     }
 }
 
