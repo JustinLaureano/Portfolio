@@ -236,11 +236,11 @@ ul ul a {
     background-color: #fff;
     margin-top: -20px;
     border-radius: 50%;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
 }
   
 .logo:hover {
-    border: 1px solid #fab302;
+    border: 2px solid #fab302;
 }
   
 .hamburger {
@@ -248,6 +248,10 @@ ul ul a {
 }
   
 .hamburger:hover {
+    color: #fab302;
+}
+
+.header-social li:hover {
     color: #fab302;
 }
 

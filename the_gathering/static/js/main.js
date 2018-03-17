@@ -42,7 +42,7 @@ $(document).ready(function () {
     var menuNav = $('.menu-nav');
 
     $(window).scroll(function () {
-        if( $(this).scrollTop() > 233 ) {
+        if( $(this).scrollTop() > 350 ) {
             menuNav.addClass('menu-nav-scrolled');
         } else {
             menuNav.removeClass('menu-nav-scrolled');
