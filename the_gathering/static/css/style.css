@@ -208,6 +208,10 @@ ul ul a {
     CONTENT STYLE
 ----------------------------------------------------- */
 
+.white {
+    color: #fff;
+}
+
 #content {
     padding: 40px;
     padding-top: 40px;
@@ -230,13 +234,13 @@ ul ul a {
   
 .logo {
     background-color: #fff;
-    margin-top: -50px;
+    margin-top: -20px;
     border-radius: 50%;
-    border: 3px solid #fff;
+    border: 1px solid #fff;
 }
   
 .logo:hover {
-    border: 3px solid #fab302;
+    border: 1px solid #fab302;
 }
   
 .hamburger {
@@ -448,10 +452,6 @@ hr .sign-up {
 
 .negative-top-sm {
     margin-top: -40px;
-}
-
-.white {
-    color: #fff;
 }
 
 .box-button:hover .white {
