@@ -145,74 +145,74 @@
                 {% endblock %}
 
 
-                <div class="row"> <!-- Horizontal Rule & Diamond -->
-                    <div class="col">
-                        <hr/>
+                <footer class="text-center base-footer white">
+    
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <img class="logo w-50" src="{% static 'images/header_logo.png' %}">
+                        </div>
                     </div>
-                    <div class="diamond">
-
+                        
+                    <div class="row justify-content-around">
+                        <div class="col-3">
+                        <h3>The Anvil</h5>
+                        <p>Ommpa Loompa</p>
+                        </div>
+                        <div class="col-3">
+                        <h3>The Gathering</h3>
+                        <p>Ommpa Loompa</p>
+                        </div>
+                        <div class="col-3">
+                        <h3>Gathering Wine</h4>
+                        <p>Ommpa Loompa</p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <hr/>
+                        
+                    <div class="row justify-content-around">
+                        <div class="col-12 footer-nav">
+                        <ul class="list-inline">
+                            <li class="list-inline-item px-3"><a href="#">Eat</a></li>
+                            <li class="list-inline-item px-3"><a href="#">Drink</a></li>
+                            <li class="list-inline-item px-3"><a href="#">Shop</a></li>
+                            <li class="list-inline-item px-3"><a href="#">Events</a></li>
+                            <li class="list-inline-item px-3"><a href="#">About</a></li>
+                            <li class="list-inline-item px-3"><a href="#">Menus</a></li>
+                            <li class="list-inline-item px-3"><a href="#">Private</a></li>
+                            <li class="list-inline-item px-3"><a href="#">Reservation</a></li>
+                        </ul>        
+                        </div>
+                          
                     </div>
-                </div> <!-- End Horizontal Rule & Diamond -->
+                        
+                    <div class="row justify-content-between mb-0">
+                        <div class="col-auto m-4">
+                            <p class="white">&copy; 2018 The Gathering</p>        
+                        </div>
 
-                <footer> <!-- Footer -->
-                    <div class="container" id="footer"> <!-- Container -->
+                        <div class="col-auto m-4 footer-social">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="tel:419-422-5930" class="social">
+                                        <i class="fa fa-phonek fa-lg" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com/thegatheringfindlay/" class="social">
+                                        <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/FindlayGathering/" class="social">
+                                        <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>       
+                        </div>
+                        
+                    </div>
+                    
+                </footer>
 
-                        <div class="row"> <!-- Row -->
-                            <div class="col-sm-2"> <!-- Logo -->
-                                <a href="{% url 'the_gathering:home' %}">
-                                    <img src="{% static 'images/logo.png' %}" alt="The Gathering - Fine Food &amp; Spirits" class="img-fluid">
-                                </a>
-                            </div> <!-- End Logo -->
-
-                            <div class="col-sm-1"></div> <!-- Spacer -->
-
-                            <div class="col-sm-5"> <!-- Address & Copyright -->
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        114 East Main Cross St. Findlay, OH 45840
-                                    </li>
-                                    <li class="list-inline-item">
-                                        Tel. 1 419 422 5930
-                                    </li>
-                                </ul>
-                                <p class="text-muted">&copy; 2018 The Gathering </p>
-                            </div> <!-- End Address & Copyright -->
-
-                            <div class="col-sm-4 text-sm-right text-xs-center"> <!-- Footer Navigation -->
-
-                                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                                        <a href="{% url 'the_gathering:menus' %}">Menu</a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="{% url 'the_gathering:about' %}">About</a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="{% url 'the_gathering:contact' %}">Contact</a>
-                                    </li>
-                                </ul>
-
-                                <ul class="list-inline">
-                                    <li class="list-inline-item cat-item">
-                                        <a href="https://www.instagram.com/thegatheringfindlay/" >
-                                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item cat-item">
-                                        <a href="https://www.facebook.com/FindlayGathering/" class="social">
-                                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-
-                            </div><!-- End Footer Navigation -->
-                        </div> <!-- End Row -->
-
-                    </div> <!-- End Container -->
-                </footer> <!-- End Footer -->
 
             </div> <!-- End Content -->
         </div><!-- end Wrapper -->

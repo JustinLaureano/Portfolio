@@ -4,13 +4,17 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i');
 
-body, h4 {
+body{
     font-family: 'Work Sans', sans-serif;
     background: #fcfcfc;
 }
 
 h1, h2, h3, .h3, .header-nav {
     font-family: 'Crimson Text', sans-serif;
+}
+
+h4 {
+    font-family: 'Work Sans', sans-serif; 
 }
 
 h1 {
@@ -571,10 +575,23 @@ hr .sign-up {
     right: 20px;
 }
 
-footer {
-    margin-top: 100px;
+.base-footer {
+    background-color: #222223;
+    margin: 75px -40px -60px -40px;
 }
 
+.base-footer .logo {
+    margin-top: -34px;
+}
+
+.footer-nav li:hover {
+    border-bottom: 3px solid #fab302;
+    margin-bottom: -3px;
+}
+
+.footer-social li:hover {
+    color: #FAB302;
+}
 
 
 /* ---------------------------------------------------
