@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var windowHeight = $(window).height();
-    var bodyHeight = $('.container-fluid').height() - $('footer').height();
+    var bodyHeight = $('.container-fluid').height();
     var footerHeight = $('footer').height();
     console.log(windowHeight);
     console.log(bodyHeight);

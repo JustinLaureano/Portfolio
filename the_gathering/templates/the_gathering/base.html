@@ -88,45 +88,46 @@
 
             <!-- Page Content Holder -->
             <div class="container-fluid" id="content">
-                <header><!-- Header -->
+                <header class="text-center base-header">
+                    <div class="row justify-content-end">
+                        <div class="col-auto mr-4">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Ph</a></li>
+                            <li class="list-inline-item"><a href="#">Fb</a></li>
+                            <li class="list-inline-item"><a href="#">In</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    
                     <div class="row">
-                        <div class="col">
-                            <div id="sidebarCollapse">
-                                <i class="fa fa-align-justify fa-lg" aria-hidden="true"></i>
+                        <div class="col-1 hamburger" id="sidebarCollapse">
+                            <i class="fa fa-align-justify fa-sm" aria-hidden="true"></i>
+                        </div>
+                        
+                        <div class="col-8 offset-1">
+                            <div class="row justify-content-between">
+                                <div class="col-auto"><a href="#" class="header-nav">Eat</a></div>
+                                <div class="col-auto"><a href="#" class="header-nav">Drink</a></div>
+                                
+                                <div class="col-4">
+                                    <a href="{% url 'the_gathering:home' %}" class="logo_text">
+                                        <img src="{% static 'images/header_logo_text.png' %}" alt="The Gathering - Fine Food &amp; Spirits">
+                                    </a>
+                                </div>
+                                
+                                <div class="col-auto"><a href="#" class="header-nav">About</a></div>
+                                <div class="col-auto"><a href="#" class="header-nav">Menus</a></div>
                             </div>
                         </div>
-
-                        <div class="col text-center">
-                            <a href="{% url 'the_gathering:home' %}">
-                                <img src="{% static 'images/header-logo.png' %}" class="img-fluid" alt="The Gathering - Fine Food &amp; Spirits">
-                            </a>
-                        </div>
-
-                        <div class="col">
-                            <ul class="list-unstyled components">
-                                <li class="text-right">
-                                    419 422 5930
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div> <!-- End row -->
-
-                </header><!-- End Header -->
-
-                <div class="row"> <!-- Horizontal Rule & Diamond -->
-                    <div class="col">
-                        <hr/>
                     </div>
-                    <div class="diamond">
-
+                    
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <img class="logo" src="{% static 'images/header_logo.png' %}">
+                        </div>    
                     </div>
-                    <div class="col">
-                        <hr/>
-                    </div>
-                </div> <!-- End Horizontal Rule & Diamond -->
-
-
+                            
+                </header>
 
                 {% block content %}
                 {% endblock %}

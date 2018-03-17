@@ -9,7 +9,7 @@ body, h4 {
     background: #fcfcfc;
 }
 
-h1, h2, h3, .h3 {
+h1, h2, h3, .h3, .header-nav {
     font-family: 'Crimson Text', sans-serif;
 }
 
@@ -58,6 +58,15 @@ a, a:hover, a:focus {
 
 span {
     font-weight: 300;
+}
+
+.header-nav, .header-nav:hover {
+    color: #fff; 
+}
+  
+.header-nav:hover {
+    border-bottom: 3px solid #fab302;
+    text-decoration: none;
 }
 
 .btn-light {
@@ -194,13 +203,48 @@ ul ul a {
     padding-left: 30px !important;
 }
 
+
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
 
-header {
-    height: 100px;
-    margin-bottom: 30px;
+#content {
+    padding: 40px;
+    padding-top: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+.base-header {
+    background-color: #222223;
+    height: 225px;
+    margin: -40px -40px 125px -40px;
+}
+  
+.logo {
+    background-color: #fff;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+  
+.logo:hover {
+    border: 3px solid #fab302;
+}
+  
+.hamburger {
+    color: #fff;
+}
+  
+.hamburger:hover {
+    color: #fab302;
 }
 
 .approved-stamp {
@@ -240,19 +284,6 @@ header {
     height: 1px;
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
-}
-
-#content {
-    padding: 40px;
-    padding-top: 40px;
-    min-height: 100vh;
-    transition: all 0.3s;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-#content.active {
-    width: 100%;
 }
 
 .box-image {

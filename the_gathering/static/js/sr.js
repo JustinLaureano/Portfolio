@@ -1,9 +1,9 @@
 window.sr = ScrollReveal();
 
 // index
-sr.reveal('header', {
+sr.reveal('.base-header', {
 duration: 2000,
-origin: 'bottom'
+origin: 'top'
 });
 sr.reveal('#welcome-left', {
 duration: 2000,

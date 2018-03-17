@@ -73,6 +73,10 @@ a:hover {
     LAYOUT STYLE
 ----------------------------------------------------- */
 
+header {
+    margin-top: 10px;
+}
+
 .short {
     position: absolute;
     bottom: 0;
@@ -110,7 +114,7 @@ a:hover {
     transition: font-weight .2s ease-in;
 
     &:hover {
-        font-size: 3em;
+
         font-weight: 700;
         cursor: pointer;
     }
@@ -145,7 +149,7 @@ a:hover {
 ----------------------------------------------------- */
 
 .side-nav ul li:hover {
-
+    font-size: 2em;
     font-weight: 700;
 }
 
