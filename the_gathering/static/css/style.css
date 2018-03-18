@@ -320,13 +320,20 @@ ul ul a {
     margin-bottom: 200px;
 }
 
-.box-text {
-    padding-top: 15%;
+.box-text, .box-text-event {
     padding-left: 8%;
     padding-right: 8%;
     min-height: 620px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
     z-index: 2;
+}
+
+.box-text {
+    padding-top: 15%;
+}
+
+.box-text-event {
+    padding-top: 10%;
 }
 
 #about-history-right, #reservation-right, #private-event-patio-left {

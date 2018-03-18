@@ -19,7 +19,7 @@
     <div class="col-md-6 listen-event-image" id="listen-event-image">
         <div class="box-image" style="background: url({{ event.event_image.url }}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
-    <div class="col-md-6 text-center box-text bg-white listen-event-text" id="listen-event-text">
+    <div class="col-md-6 text-center box-text-event bg-white listen-event-text" id="listen-event-text">
         <h2>{{ event.event_name }}</h2>
         <h5>{{ event.event_date }}</h5>
         <h5>{{ event.event_time }}</h5>
@@ -30,7 +30,7 @@
 </div> <!-- End Event -->
 {% else %}
 <div class="row box-row"> <!-- Event -->
-    <div class="col-md-6 order-2 order-md-1 box-text bg-black listen-event-text">
+    <div class="col-md-6 order-2 order-md-1 box-text-event bg-black listen-event-text">
         <h2>{{ event.event_name }}</h2>
         <h5 class="bg-black">{{ event.event_date }}</h5>
         <h5 class="bg-black">{{ event.event_time }}</h5>
