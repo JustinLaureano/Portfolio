@@ -2,58 +2,60 @@
 {% load staticfiles %}
 {% block content %}
 
-<div class="row">
+<div class="row project-landing">
     <div class="col-12 col-sm-3 offset-sm-1">
         <h1>The<br>Gathering</h1>
-        <p>
+        <p class="gray">
             A self-initiated website redesign concept for The Gathering, an upscale fine-dining restaurant located in downtown Findlay, OH.
         </p>
-        <a href="{% url 'the_gathering:home' %}" class="text-center view-btn">Visit Site</a>
+        <a href="{% url 'the_gathering:home' %}" class="view-btn my-3 py-2 px-4 text-center view-btn" target="blank">Visit Site</a>
     </div>
     <div class="col-12 col-sm-8">
-        <img src="{% static 'images/portfolio/gathering_home_laptop.png' %}" class="gathering-laptop" alt="The Gathering Laptop View">
+        <img src="{% static 'images/portfolio/gathering_home_laptop.png' %}" class="gathering-laptop" alt="The Gathering Laptop View" class="img-fluid">
     </div>
 </div>
-<div class="row">
+<div class="row my-5">
     <div class="col-12 col-sm-5 offset-sm-1">
         <p class="text-uppercase font-weight-bold">Identity</p>
-        <p>
-                In order to ensure that the website conveyed the level of detail and sophistication that The Gathering is known for, I used a clean and modern color palettte and comforting typography to make the user feel connected to the existing of the brand image.
+        <p class="gray">
+            In order to ensure that the website conveyed the level of detail and sophistication that The Gathering is known for, I used a clean and modern color palettte and comforting typography to make the user feel connected to the existing of the brand image.
         </p>
     </div>
     <div class="col-12 col-sm-5">
             <p class="text-uppercase font-weight-bold">Specs</p>
-            <p>
-                    A custom design was built on the Django web framework with Boostrap 4 used for a responsive, enjoyable experience on any sized device. The admin interface allows users to easliy manage menu items, reservations, and live event postings.
+            <p class=gray>
+                A custom design was built on the Django web framework with Boostrap 4 used for a responsive, enjoyable experience on any sized device. The admin interface allows users to easliy manage menu items, reservations, and live event postings.
             </p>
         </div>
 </div>
-<div class="row justify-content-center">
+<div class="row justify-content-center project-showcase">
     <div class="col-8">
-        <img src="{% static 'images/portfolio/gathering_full.png' %}" alt="The Gathering Full Homepage View">
+        <img src="{% static 'images/portfolio/gathering_full.png' %}" alt="The Gathering Full Homepage View" class="img-fluid">
     </div>
 </div>
-<div class="row gathering-phones">
-    <div class="col-3">
-        <img src="{% static 'images/portfolio/gathering_phone_reservation.png' %}" alt="The Gathering Reservation Page Mobile View">
+<div class="row gathering-phones justify-content-between">
+    <div class="col-4 project-phone p-sm-5">
+        <img src="{% static 'images/portfolio/gathering_phone_reservation.png' %}" alt="The Gathering Reservation Page Mobile View" class="img-fluid">
     </div>
-    <div class="col-3">
-        <img src="{% static 'images/portfolio/gathering_phone_patio.png' %}" alt="The Gathering Patio Information Phone View">
+    <div class="col-4 project-phone p-sm-5">
+        <img src="{% static 'images/portfolio/gathering_phone_patio.png' %}" alt="The Gathering Patio Information Phone View" class="img-fluid">
     </div>
-    <div class="col-3">
-        <img src="{% static 'images/portfolio/gathering_phone_menu.png' %}" alt="The Gathering Menu Phone View">
+    <div class="col-4 project-phone p-sm-5">
+        <img src="{% static 'images/portfolio/gathering_phone_menu.png' %}" alt="The Gathering Menu Phone View" class="img-fluid">
     </div>
 </div>
-<div class="row">
-    <div class="col-auto offset-sm-1">
-        <p class="text-uppercase font-weight-bold">Heading</p>
-        <p class="text-uppercase gray h2">Crimson Text</p>
-        <p class="text-uppercase gray crimson">abcdefghijklmnopqrstuvwxyz</p>
+<div class="row font-showcase">
+    <div class="col-12 offset-sm-1">
+        <p class="text-uppercase font-weight-bold gray mb-1">Heading</p>
+        <p class="text-uppercase font-weight-bold h3 crimson-text">Crimson Text</p>
+        <p class="text-uppercase gray crimson-text mb-5">abcdefghijklmnopqrstuvwxyz</p>
     </div>
-    <div class="col-auto offset-sm-1">
-            <p class="text-uppercase font-weight-bold">Body</p>
-            <p class="text-uppercase gray h2">Work Sans</p>
-            <p class="text-uppercase gray work-sans">abcdefghijklmnopqrstuvwxyz</p>
+    <div class="col-12 col-sm-7 offset-sm-1">
+            <p class="text-uppercase font-weight-bold gray mb-1">Body</p>
+            <p class="text-uppercase font-weight-bold h5 work-sans">Work Sans</p>
+            <p class="text-uppercase gray work-sans mb-0">abcdefghijklmnopqrstuvwxyz</p>
+            <p class="text-lowercase gray work-sans">abcdefghijklmnopqrstuvwxyz</p>
+            <p class="text-lowercase gray work-sans">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus magni, sint praesentium assumenda corporis eaque impedit esse qui ut?</p>
         </div>
 </div>
 

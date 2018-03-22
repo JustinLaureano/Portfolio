@@ -60,6 +60,14 @@ a:hover {
     color: var(--gold);
 }
 
+.crimson-text {
+    font-family: 'Crimson Text';
+}
+
+.work-sans {
+    font-family: 'Work Sans';
+}
+
 .bg-text {
     font-weight: 700;
     font-size: 14.5rem;
@@ -165,6 +173,22 @@ span {
     color: var(--dark);
 }
 
+.project-landing {
+    margin: 15vh 0 10vh 0;
+}
+
+.project-showcase {
+    margin: 15vh 0 15vh 0;
+}
+
+.project-phone {
+    position: relative;
+    top: 150px;
+}
+
+.font-showcase {
+    margin: 15vh 0 10vh 0;
+}
 /* Skills Section */
 
 
@@ -177,3 +201,23 @@ span {
 
 
 /* Footer */
+
+
+/* Gathering Project */
+.gathering-phones {
+    background: url('../images/portfolio/gathering_dining_room.png') no-repeat center;
+}
+
+/* Media Queries */
+@media (max-width: 575.98px) {
+    .project-phone {
+        top: 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .gathering-laptop {
+        position: relative;
+        left: 50px;
+    }
+}
