@@ -2,64 +2,186 @@
 {% load staticfiles %}
 {% block content %}
 
+<div class="header">
+    <div class="portfolio-of">
+        <span>The Web Portolio of</span>
+    </div>
+    <div id="logo">
+        <img src="{% static 'images/portfolio/logo.svg' %}" class="logo-img" alt="Justin Laureano" height="100px">
+        <div class="diamond"></div>
+    </div>
+    <div class="logo-name">
+        <span>Justin Laureano</span>
+    </div>
+    <div class="scroll-btn text-center">
+        <p>View Projects</p>
+        <i class="fas fa-chevron-down fa-lg"></i>
+    </div>
+</div>
 
-<div class="row m-t-20" id="index"> <!-- Project Area -->
-    <div class="col-8 offset-2">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="bg-text text-nowrap">PROJECT 52</h1>
-                <h4>01 Lead Developer</h4>
-                <img src="http://via.placeholder.com/700x250" class="img-fluid">
+<section class="projects my-5">
+    <div class="row">
+        <div class="col-12 text-center my-4">
+            <h2>Projects</h2>
+        </div>
+    </div>
+    <div class="row project-wrapper">
+        <div class="col-12 col-sm-3 offset-sm-1 d-flex align-items-center">
+            <h3 class="text-nowrap">The Gathering</h3>
+            <h3 class="bg-text">The Gathering</h3>
+        </div>
+        <div class="col-12 col-sm-7">
+            <div class="row mr-5">
+                <div class="col-4">
+                    <img src="{% static 'images/portfolio/gathering_home_phone.png' %}" class="gathering-home-phone" alt="The Gathering Mobile View">
+                </div>
+                <div class="col-8">
+                    <img src="{% static 'images/portfolio/gathering_home_tablet.png' %}" class="gathering-home-tablet" alt="The Gathering Tablet View">
+                </div>
             </div>
         </div>
     </div>
+    <div class="row mt-5">
+            <a href="{% url 'justin_laureano:project_1' %}" class="offset-8 view-btn my-3 py-2 px-4 text-center view-btn">View Project</a>
+    </div>
+</section>
 
-    <div class="col-auto m-t-5 overlap side-nav"> <!-- Side Nav -->
-        <div class="row">
-            <div class="col-auto">
-                <ul class="list-unstyled text-right">
-                    <li class="text-nowrap">
-                        <a href="{% url 'the_gathering:home' %}">THE GATHERING</a>
+<section class="skills my-5 text-center text-sm-left">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2>Skills</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-11 offset-1 my-4">
+            <h4>//Code</h4>
+        </div>
+        <div class="col-12 col-sm-3 offset-sm-1 mr-4">
+            <p class="text-uppercase font-weight-bold">Languages</p>
+            <ul class="list-unstyled gray">
+                <li>HTML5 / CSS3</li>
+                <li>Javascript / JQuery / AJAX</li>
+                <li>Python</li>
+            </ul>
+
+            <p class="text-uppercase font-weight-bold">Frameworks & Libraries</p>
+            <ul class="list-unstyled gray">
+                <li>Bootstrap 4</li>
+                <li>React.js</li>
+                <li>Angular.js</li>
+                <li>Django</li>
+            </ul>
+
+            <p class="text-uppercase font-weight-bold">CSS Preprocessors</p>
+            <ul class="list-unstyled gray">
+                <li>SASS</li>
+                <li>LESS</li>
+            </ul>
+        </div>
+        <div class="col-12 col-sm-3 mr-4">
+                <p class="text-uppercase font-weight-bold">Version Control</p>
+            <ul class="list-unstyled gray">
+                <li>Git</li>
+                <li>Github</li>
+            </ul>
+
+            <p class="text-uppercase font-weight-bold">Debugging</p>
+            <ul class="list-unstyled gray">
+                <li>Unit & Functional Testing</li>
+                <li>Chrome / Firefox Developer Tools</li>
+            </ul>
+
+            <p class="text-uppercase font-weight-bold">Terminal</p>
+            <ul class="list-unstyled gray">
+                <li>bash / zsh</li>
+            </ul>
+        </div>
+
+        <div class="col-12 col-sm-3 gray">
+            <p><span class="gray">"</span> Blah Blah Blah Blah Blah Blah<span class="gray">"</span></p>
+        </div>
+    </div>
+
+    <div class="row">
+            <div class="col-11 offset-sm-1 text-center text-sm-left my-4">
+                <h4>//Design</h4>
+            </div>
+            <div class="col-12 col-sm-3 offset-sm-1 mr-4">
+                <p class="text-uppercase font-weight-bold">Web Design</p>
+                <ul class="list-unstyled gray">
+                    <li>SEO</li>
+                    <li>Social Media Integration</li>
+                    <li>Mobile Friendliness</li>
+                    <li>Responsive Design</li>
+                    <li>UI / UX Wireframing</li>
+                </ul>
+
+                <p class="text-uppercase font-weight-bold">Software</p>
+                <ul class="list-unstyled gray">
+                    <li>Adobe Creative Suite</li>
+                    <li>Cinema4d</li>
+                </ul>
+
+            </div>
+            <div class="col-12 col-sm-3 mr-4">
+                <p class="text-uppercase font-weight-bold">Visual Design</p>
+                <ul class="list-unstyled gray">
+                    <li>Typography</li>
+                    <li>Scale & Proportion</li>
+                    <li>Color Theory</li>
+                    <li>Visual Heirarchy</li>
+                </ul>
+            </div>
+
+        </div>
+
+</section>
+
+<section class="about-me my-5 text-center text-sm-left">
+    <div class="row">
+        <div class="col-12 text-center my-4">
+            <h2>About Me</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center my-5">
+            <img src="{% static 'images/portfolio/family_phone.png' %}" alt="Family Photo" class="family-phone py-5">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-4 offset-sm-1 mr-4 gray">
+            <p>Hello! I am Justin Laureano. I am currently residing in beautiful Findlay, OH. I have been designing content for print and the web for about 6 years, ranging from branding design to interactive websites.</p>
+            <p>I spend my time away from designing with my lovely family and pursuing other hobbies such as woodworking, cooking, and reading.</p>
+        </div>
+        <div class="col-12 col-sm-4 gray">
+            <p>I am always looking forward to hearing about collaboration ideas and new interesting projects so please feel free to shoot me a message.</p>
+        </div>
+    </div>
+    <div class="row py-5">
+        <div class="col-12 col-sm-4 offset-sm-1 mr-4">
+            <h4>//Education</h4>
+            <p class="mt-3 gray">
+                <span class="text-uppercase font-weight-bold">Owens Community College</span><br>Associates of Applied Science<br>2012, Honors
+            </p>
+        </div>
+        <div class="col-12 col-sm-3">
+                <h4>//Contact</h4>
+                <ul class="list-unstyled mt-3">
+                    <li class="mb-2">
+                        <p class="text-uppercase font-weight-bold mb-0">Phone</p>
+                        <a href="tel:419-957-8952">419 957 8952</a>
                     </li>
-                    <li class="text-nowrap">
-                        <a href="{% url 'justin_laureano:project' %}">GALAXY BURGER</a>
+                    <li class="mb-2">
+                        <p class="text-uppercase font-weight-bold mb-0">Email</p>
+                        <a href="mailto:justinlaureano@gmail.com">justinlaureano@gmail.com</a>
                     </li>
-                    <li class="text-nowrap">
-                        <a href="{% url 'justin_laureano:project' %}">PROJECT 51</a>
-                    </li>
-                    <li class="text-nowrap">
-                        <a href="{% url 'justin_laureano:project' %}">VICIOUS CYCLE STUDIO</a>
+                    <li class="mb-2">
+                        <p class="text-uppercase font-weight-bold mb-0">Github</p>
+                        <a href="http://www.github.com/JustinLaureano/">github.com/JustinLaureano/</a>
                     </li>
                 </ul>
             </div>
-            <div class="col-1"></div>
-            <div class="col-1"> <!-- Circle Navigation Buttons -->
-
-            </div>
-        </div>
-
-
-    </div> <!-- End Side Nav -->
-
-</div> <!-- End Project Area -->
-
-<div class="row padding-left m-t-10"> <!-- Details Area -->
-
-    <div class="col-3"> <!-- Summary Area -->
-        <h3><strong>PROJECT 51</strong></h3>
-        <p>
-            Bacon ipsum dolor amet prosciutto buffalo meatloaf rump venison porchetta landjaeger biltong. Chuck ham tail, biltong shank corned beef jowl. Tenderloin t-bone ribeye, spare ribs fatback chicken shoulder turkey pork
-        </p>
-    </div> <!-- End Summary Area -->
-
-    <div class="col-3"> <!-- Tech Specs Area -->
-        <h3><strong>TECHNICAL SPECS</strong></h3>
-        <p>
-            Bacon ipsum dolor amet<br> prosciutto buffalo meatloaf rump venison porchetta<br> landjaeger biltong.
-        </p>
-    </div> <!-- End Tech Specs Area -->
-
-</div>
-
+    </div>
+</section>
 
 {% endblock %}

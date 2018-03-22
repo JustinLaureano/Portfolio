@@ -5,85 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Justin Laureano - Web Developer</title>
+    <title>Justin Laureano's Web Portfolio</title>
     <!-- Loads the path to your static files -->
     {% load staticfiles %}
     <!-- Bootstrap CSS CDN -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,900|Roboto:300,500,700|Crimson+Text:400,600|Work+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/main_style.css' %}">
 </head>
 <body>
-    <div class="bg"> <!-- Background container -->
+    <div class="bg-overlay"></div>
+    <div class="container-fluid">
 
-        <div class="container-fluid"> <!-- Container Fluid -->
+        {% block content %}
+        {% endblock %}
 
-            <header> <!-- Header -->
-                <div class="row justify-content-between">
-
-                    <div class="col-auto mr-auto">
-                        <h3><a href="{% url 'justin_laureano:home' %}">JUSTIN<strong>LAUREANO</strong></a></h3>
-                    </div>
-
-                    <div class="col-auto">
-                        <ul class="list-inline list-unstyled">
-                            <li class="list-inline-item">
-                                <a href="{% url 'justin_laureano:about' %}">About</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="{% url 'justin_laureano:project' %}">Work</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="{% url 'justin_laureano:contact' %}">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
+        <footer>
+            <div class="row">
+                <div class="col-12 text-center gray">
+                    <i class="fas fa-chevron-up fa-lg"></i>
+                    <p>Go To Top</p>
+                    <div class="triangle-top"></div>
                 </div>
+            </div>
+        </footer>
 
-            </header> <!-- End Header -->
-
-            {% block content %}
-            {% endblock %}
-
-            <footer> <!-- Footer -->
-
-                <div class="row">
-
-                    <div class="col-auto mr-auto"> <!-- Logo Area -->
-                        <a href="{% url 'justin_laureano:home' %}">JUSTIN<strong>LAUREANO</strong></a>
-                    </div> <!-- End Logo Area -->
-
-                    <div class="col-auto mr-auto"> <!-- Social Links -->
-                        <ul class="list-inline list-unstyled">
-                            <li class="list-inline-item">
-                                <a href="">Email</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="">Github</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="">LinkedIn</a>
-                            </li>
-                        </ul>
-                    </div> <!-- End Social Links -->
-
-                    <div class="col-auto padding-right"> <!-- Copyright -->
-                        <p>&copy;  Copyright 2018 Justin Laureano</p>
-                    </div> <!-- End Copyright -->
-
-                </div>
-
-            </footer> <!-- End Footer -->
-
-        </div> <!-- End Container Fluid -->
-
-    </div> <!-- End Background container -->
+    </div> <!--End Container -->
 
 
     <!-- jQuery CDN -->
-    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
     <!-- Bootstrap Js CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!-- jQuery Custom Scroller CDN -->
