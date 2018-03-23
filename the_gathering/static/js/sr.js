@@ -1,4 +1,37 @@
 window.sr = ScrollReveal();
+// Portfolio
+sr.reveal('.sr-top', {
+    duration: 1000,
+    origin: 'top',
+    distance: '50px',
+});
+
+sr.reveal('.sr-bottom', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+});
+
+sr.reveal('.sr-left', {
+    duration: 1000,
+    origin: 'left',
+    distance: '50px',
+});
+sr.reveal('.sr-left-delay', {
+    duration: 1000,
+    delay: 500,
+    origin: 'left',
+    distance: '50px',
+});
+
+sr.reveal('.sr-right', {
+    duration: 1000,
+    origin: 'right',
+    distance: '50px',
+});
+
+
+
 
 // index
 sr.reveal('.base-header', {
