@@ -11,6 +11,7 @@ $(window).scroll(function() {
                     'transform' : 'translate(0px, 0px)'});
     //   $('.logo-sm').css({'transform': 'translate(0px, 75px)'});
       console.log('now');
-      $('.projects').css({'margin-top' : '80px'});
+    //   $('.projects').css({'position' : 'relative',
+    //                     'top': '100px'});
   };
 });

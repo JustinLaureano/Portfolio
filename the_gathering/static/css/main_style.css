@@ -10,6 +10,9 @@
 }
 
 /* Global Styles */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Roboto', Arial, sans-serif;
@@ -94,6 +97,10 @@ a:hover {
     overflow: hidden;
 }
 
+#space {
+    height: 100px;
+}
+
 /* Header Section */
 .landing {
     width: 100%;
@@ -167,6 +174,10 @@ span {
     color: var(--gray);
 }
 
+.scroll-btn:hover a, .scroll-btn:hover p {
+    color: var(--light);
+}
+
 .scroll-btn p {
     font-size: .7rem;
     color: var(--gray);
@@ -186,8 +197,9 @@ span {
 }
 
 /* Projects Section */
+
 .project-wrapper {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .gathering-home-phone {
