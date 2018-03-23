@@ -9,6 +9,10 @@ body{
     background: #fcfcfc;
 }
 
+.container-fluid {
+    overflow: hidden;
+}
+
 h1, h2, h3, .h3, .header-nav {
     font-family: 'Crimson Text', sans-serif;
 }
