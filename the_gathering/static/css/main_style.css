@@ -160,8 +160,7 @@ span {
 .gathering-home-phone {
     width: 23vw;
     position: relative;
-    left: 80px;
-    top: 125px;
+    top: 5%;
     z-index: 5;
 }
 
@@ -233,11 +232,6 @@ span {
     }
     .detail {
         width: 100%;
-    }
-
-    .gathering-home-phone {
-        left: 36px;
-        top: 80px;
     }
 
     .gathering-laptop {
