@@ -95,7 +95,7 @@ a:hover {
 }
 
 /* Header Section */
-.header {
+.landing {
     width: 100%;
     height: 100vh;
     z-index: 10;
@@ -126,11 +126,16 @@ span {
     text-transform: uppercase;
 }
 
-#logo {
+.logo, .logo-sm {
     position: relative;
     display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.logo-sm {
+    top: 0px;
+    transition: 1s ease-in-out;
 }
 
 .logo-img {
@@ -138,9 +143,20 @@ span {
     left: 35px;
 }
 
+.logo-img-sm {
+    position: absolute;
+}
+
 .diamond {
     height: 148px;
     width: 148px;
+    transform: rotate(45deg);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.diamond-sm {
+    height: 40px;
+    width: 40px;
     transform: rotate(45deg);
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
@@ -156,9 +172,22 @@ span {
     color: var(--gray);
 }
 
+.header {
+    z-index: 150;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: -80px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 1);
+    transition: 1s ease-in-out;
+}
+
 /* Projects Section */
 .project-wrapper {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .gathering-home-phone {

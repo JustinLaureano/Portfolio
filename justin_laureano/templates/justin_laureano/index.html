@@ -2,11 +2,11 @@
 {% load staticfiles %}
 {% block content %}
 
-<div class="header">
+<div class="landing">
     <div class="portfolio-of">
         <span>The Web Portolio of</span>
     </div>
-    <div id="logo">
+    <div class="logo">
         <img src="{% static 'images/portfolio/logo.svg' %}" class="logo-img" alt="Justin Laureano" height="100px">
         <div class="diamond"></div>
     </div>
@@ -19,6 +19,15 @@
     </div>
 </div>
 
+<header class="row">
+    <div class="header col-12 py-3">
+        <div class="logo-sm">
+            <img src="{% static 'images/portfolio/logo.svg' %}" class="logo-img-sm" alt="Justin Laureano" height="25px">
+            <div class="diamond-sm"></div>
+        </div>
+    </div>
+</header>
+
 <section class="projects my-5">
     <div class="row overflow-hidden">
         <div class="col-12 text-center my-2">
@@ -26,7 +35,7 @@
         </div>
     </div>
     <div class="row project-wrapper">
-        <div class="col-3  offset-0 offset-sm-1 ml-2 ml-sm-0 d-flex align-items-center">
+        <div class="col-3  offset-0 offset-sm-1 ml-2 ml-sm-3 d-flex align-items-center">
             <h3 class="sr-left">The Gathering</h3>
             <h3 class="bg-text">The Gathering</h3>
         </div>
