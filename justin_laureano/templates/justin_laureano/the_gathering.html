@@ -2,6 +2,15 @@
 {% load staticfiles %}
 {% block content %}
 
+<header class="row">
+    <div class="header-static col-12 py-3">
+        <div class="logo-sm">
+            <img src="{% static 'images/portfolio/logo.svg' %}" class="logo-img-sm" alt="Justin Laureano" height="25px">
+            <div class="diamond-sm"></div>
+        </div>
+    </div>
+</header>
+
 <div class="row project-landing">
     <div class="col-10 col-sm-3 offset-1 align-self-center pl-0">
         <h1>The<br>Gathering</h1>
@@ -29,7 +38,7 @@
         </div>
 </div>
 <div class="row justify-content-center project-showcase">
-    <div class="col-8">
+    <div class="col-8 text-center">
         <img src="{% static 'images/portfolio/gathering_full.png' %}" alt="The Gathering Full Homepage View" class="img-fluid">
     </div>
 </div>

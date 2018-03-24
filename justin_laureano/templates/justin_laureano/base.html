@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="bg-overlay"></div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="top">
 
         {% block content %}
         {% endblock %}
@@ -27,8 +27,10 @@
         <footer>
             <div class="row">
                 <div class="col-12 text-center gray">
-                    <i class="fas fa-chevron-up fa-lg"></i>
-                    <p>Go To Top</p>
+                    <a href="#top" class="scroll-top-btn">
+                        <i class="fas fa-chevron-up fa-lg"></i>
+                        <p>Go To Top</p>
+                    </a>
                     <div class="triangle-top"></div>
                 </div>
             </div>
