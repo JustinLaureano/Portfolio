@@ -100,12 +100,12 @@ $(document).ready(function () {
         `;
 
         if ($(window).width() < 580) {
-           console.log('less');
+        //    console.log('less');
            $('#footer-nav-list').text('');
            $('#footer-nav-list').append(oneColumn);
 
         } else if ($(window).width() < 880) {
-            console.log('more');
+            // console.log('more');
             $('#footer-nav-list').text('');
             $('#footer-nav-list').append(twoColumn);
        } else {

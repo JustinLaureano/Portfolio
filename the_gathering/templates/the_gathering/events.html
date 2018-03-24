@@ -3,13 +3,11 @@
 {% block content %}
 
 <div class="row intro-text" id="listen-intro"> <!-- Listen Intro -->
-    <div class="col-2"></div>
-    <div class="col-6 align-self-end">
+    <div class="col-12 col-sm-6 offset-sm-2 align-self-end">
         <h1>Live Events</h1>
         <br>
         <p>With live music every weekend, frequent food, whiskey, and wine tastings, along with movie and trivia nights, there is always something to check out at the Gathering!</p>
     </div>
-    <div class="col-4"></div>
 </div> <!-- End Listen Intro -->
 
 
@@ -17,7 +15,7 @@
 {% if not forloop.counter|divisibleby:"2" %}
 <div class="row box-row" id="listen-event"> <!-- Event -->
     <div class="col-md-6 listen-event-image" id="listen-event-image">
-        <div class="box-image" style="background: url({{ event.event_image.url }}) no-repeat center center;background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
+        <div class="box-image" style="background: url({{ event.event_image.url }}) no-repeat center center; background-size: cover;-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;"></div>
     </div>
     <div class="col-md-6 text-center box-text-event bg-white listen-event-text" id="listen-event-text">
         <h2>{{ event.event_name }}</h2>
