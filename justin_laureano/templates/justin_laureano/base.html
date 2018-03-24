@@ -25,10 +25,10 @@
             </div>
             <div class="col-12">
                 <ul class="list-unstyled">
-                    <a href="(% url 'justin_laureano:home' %}"><li>Home</li></a>
-                    <a href="(% url 'justin_laureano:the_gathering' %}"><li>The Gathering</li></a>
-                    <a href="#space-skills" class="close-btn"><li>Skills</li></a>
-                    <a href="#space-about" class="close-btn"><li>About Me</li></a>
+                    <a href="{% url 'justin_laureano:home' %}"><li>Home</li></a>
+                    <a href="{% url 'justin_laureano:project_1' %}"><li>The Gathering</li></a>
+                    <a href="{% url 'justin_laureano:home' %}#space-skills" class="close-btn"><li>Skills</li></a>
+                    <a href="{% url 'justin_laureano:home' %}#space-about" class="close-btn"><li>About Me</li></a>
                     <li></li>
                 </ul>
             </div>

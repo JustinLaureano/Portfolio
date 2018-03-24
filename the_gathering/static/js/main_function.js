@@ -33,10 +33,4 @@ $(document).ready(function() {
     $('.close-btn').css({'fill-opacity' : '0'});
   });
 
-  skillsBtn.click(function() {
-    $('.main-nav').css({'z-index' : '-10',
-                        'opacity' : '0'});
-    $('.close-btn').css({'fill-opacity' : '0'});
-  });
-
 });
