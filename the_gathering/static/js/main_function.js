@@ -20,7 +20,7 @@ $(document).ready(function() {
 
   navLogo.click(function() {
     $('.main-nav').css({'z-index' : '999',
-                        'opacity' : '1'});
+                        'opacity' : '.95'});
     $('.close-btn').css({'fill-opacity' : '1'});
   });
 

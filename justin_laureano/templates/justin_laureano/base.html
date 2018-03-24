@@ -20,16 +20,15 @@
 <body>
     <nav class="main-nav">
         <div class="row text-center">
-            <div class="col-12">
+            <div class="col-12 fixed-top">
                 <span class="close-btn"><i class="fas fa-times fa-2x close-btn"></i></span>
             </div>
             <div class="col-12">
-                <ul class="list-unstyled">
-                    <a href="{% url 'justin_laureano:home' %}"><li>Home</li></a>
-                    <a href="{% url 'justin_laureano:project_1' %}"><li>The Gathering</li></a>
-                    <a href="{% url 'justin_laureano:home' %}#space-skills" class="close-btn"><li>Skills</li></a>
-                    <a href="{% url 'justin_laureano:home' %}#space-about" class="close-btn"><li>About Me</li></a>
-                    <li></li>
+                <ul class="list-unstyled h3">
+                    <a href="{% url 'justin_laureano:home' %}"><li class="my-2">Home</li></a>
+                    <a href="{% url 'justin_laureano:project_1' %}"><li class="my-2">The Gathering</li></a>
+                    <a href="{% url 'justin_laureano:home' %}#space-skills" class="close-btn"><li class="my-2">Skills</li></a>
+                    <a href="{% url 'justin_laureano:home' %}#space-about" class="close-btn"><li class="my-2">About Me</li></a>
                 </ul>
             </div>
             <div class="col-12">

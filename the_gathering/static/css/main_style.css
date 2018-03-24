@@ -43,7 +43,14 @@ body {
     color: var(light);
 }
 
+.fixed-top {
+    position: absolute;
+    top: 21px;
+    left: 0px;
+}
+
 .close-btn {
+    cursor: pointer;
     fill-opacity: 0;
     transition: 1s ease-in-out;
 }
@@ -91,6 +98,7 @@ a {
 a:hover {
     text-decoration: none;
     color: var(--light);
+    transition: 1s ease-in-out;
 }
 
 .crimson-text {
@@ -166,6 +174,7 @@ span {
 }
 
 .logo-sm {
+    cursor: pointer;
     top: 0px;
     transition: 1s ease-in-out;
 }
