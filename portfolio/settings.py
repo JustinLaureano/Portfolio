@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'the_gathering',
     'justin_laureano',
+    'trivia',
 ]
 
 MIDDLEWARE = [
