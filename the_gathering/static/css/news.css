@@ -1,0 +1,384 @@
+:root {
+    --yellow: #FFC40C;
+    --orange: #D87F27;
+    --beige: #F6E5C3;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    width: 100vw;
+}
+
+body {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.body-container {
+    position: absolute;
+    left: -100vw;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: var(--beige);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+select:active, select:focus {
+    outline: none;
+}
+
+option {
+    border-radius: 0px;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.nav-block-container {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 999;
+    height: 50px;
+    overflow: hidden;
+}
+
+.nav-block {
+    width: 175px;
+    height: 25px;
+    background: url("../images/white_down_arrow.svg") no-repeat center 65%;
+    background-color: #000;
+    position: relative;
+    top: 0px;
+    transition: .4s ease-in;
+}
+
+.main-nav {
+    position: fixed;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    color: #F6E5C3;
+    display: flex;
+    justify-content: center;
+    transition: .7s ease-in-out;
+    z-index: 998;
+}
+
+.main-nav a {
+    color: var(--beige);
+}
+
+.heading-nav h1 {
+    padding: 10px 0px;
+}
+
+.main-nav-block {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-nav {
+    border-top: 1px solid var(--beige);
+    border-bottom: 1px solid var(--beige);
+    margin: 100px 0px 50px 0px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.nav-links {
+    margin-bottom: 70px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.nav-links li {
+    font-size: 1.7rem;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.side-btn {
+    position:  absolute;
+    left: calc(50% - 100px);
+    top: calc(50% - 30px);
+    transform: rotate(90deg);
+    height: 30px;
+    width: 175px;
+    background: url('../images/white_down_arrow.svg') no-repeat center 65%;
+    background-color:  #000;
+    transition: .4s ease-in-out;
+}
+
+#photoviewer {
+    background-color: var(--yellow);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#front-page {
+    background-color: var(--orange);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+#google-news {
+    background-color: var(--beige);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+
+.site-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.page-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form-container, .photo-container {
+    display: flex;
+    width: 50%;
+}
+
+.form-container {
+    flex-direction: column;
+    justify-content: center;
+    transition: .4s ease-in-out;
+}
+
+.input-style {
+    overflow: hidden;
+    width: 60%;
+    margin: 10px 0 10px 10%;
+    background: var(--yellow) url("images/down_arrow.svg") no-repeat scroll 95% 35%;
+}
+
+.input-style select {
+    background: transparent;
+    border: none;
+    height: 2.5rem;
+    width: 115%;
+    font-size: 1.5rem;
+    padding: 10px 0px;
+    margin: 10px 0;
+    border-bottom: 1px solid #000;
+}
+
+label {
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin-left: 10%;
+}
+
+.photo-container {
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: .4s ease-in-out;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    transition: .4s ease-in-out;
+}
+
+.img-container {
+    background-color: #000;
+    opacity: 1;
+    position: relative;
+    transition: .4s ease-in-out;
+    text-align: center;
+}
+
+.img-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6rem;
+    color: #fff;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: .4s ease-in-out;
+    text-transform: uppercase;
+}
+
+.img-container:hover img {
+    position: relative;
+    opacity: .2;
+    width: 105%;
+}
+
+.img-container:hover .img-title {
+    opacity: 1;
+}
+
+.news-container, .google-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    width: 80%;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.heading {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 100px;
+    margin: 50px 0px;
+}
+
+.listing-container {
+    overflow: scroll;
+    margin-bottom: 25px;
+}
+
+.listing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-index {
+    width: 10%;
+}
+
+.article-data {
+    width: 80%;
+}
+
+.gnews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 65vh;
+    width: 100%;
+    overflow: scroll;
+    margin-bottom: 25px;
+}
+
+.gnews-data {
+    width: 28%;
+    padding: 5px 0px;
+    margin-bottom: 25px;
+}
+
+.gnews-data a:hover {
+    color: rgb(141, 141, 141);
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    h2 {
+        font-size: .9rem;
+    }
+
+    p {
+        font-size: .9rem;
+    }
+
+    .heading {
+        margin: 50px 0px 25px 0px;
+    }
+
+    .heading-nav h1 {
+        font-size: 3.2rem;
+    }
+
+    .gnews-data {
+        width: 100%;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    .input-style select {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1000px) {
+    .gnews-data {
+        width: 42%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .news-container, .google-container {
+        width: 65%;
+    }
+}
+
+@media (min-height: 1125px) {
+    .gnews-container {
+        margin-bottom: 50px;
+    }
+}

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'the_gathering',
     'justin_laureano',
     'trivia',
+    'news',
 ]
 
 MIDDLEWARE = [
