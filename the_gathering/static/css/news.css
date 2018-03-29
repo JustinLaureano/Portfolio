@@ -211,7 +211,8 @@ header {
     overflow: hidden;
     width: 60%;
     margin: 10px 0 10px 10%;
-    background: var(--yellow) url("images/down_arrow.svg") no-repeat scroll 95% 35%;
+    /* background: var(--yellow) url("images/down_arrow.svg") no-repeat scroll 95% 35%; */
+    background-size: 12px;
 }
 
 .input-style select {
@@ -223,6 +224,7 @@ header {
     padding: 10px 0px;
     margin: 10px 0;
     border-bottom: 1px solid #000;
+    border-radius: 0;
 }
 
 label {
@@ -365,6 +367,7 @@ label {
     }
 }
 
+
 @media (min-width: 577px) and (max-width: 1000px) {
     .gnews-data {
         width: 42%;
@@ -380,5 +383,73 @@ label {
 @media (min-height: 1125px) {
     .gnews-container {
         margin-bottom: 50px;
+    }
+}
+
+@media (max-height: 500px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 1.9rem;
+    }
+
+    .main-nav-block {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .heading-nav {
+        margin: 50px 0px 50px 0px;
+        white-space: normal;
+        width: 20%;
+        font-size: 2.5rem;
+        height: fit-content;
+        align-self: center;
+    }
+
+    .nav-links {
+        margin-bottom: 0;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info {
+        position: absolute;
+        bottom: -28%;
+        width: 100%;
+    }
+
+    .input-style select {
+        font-size: 1.1rem;
+    }
+
+    .news-container, .google-container {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .gnews-container {
+        width: 50%;
+        margin: 50px 0px 50px 50px;
+        height: auto;
+    }
+
+    .gnews-data {
+        width: 100%;
+    }
+
+    .listing-container {
+        margin: 50px 0px 50px 50px;
+        width: 50%;
     }
 }
