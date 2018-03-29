@@ -148,5 +148,32 @@ a:hover {
 @media (max-width: 575px) {
     .btn {
         width: 100%;
+        font-size: 1.5rem;
+    }
+
+    #quiz-box {
+        height: 80vh;
+    }
+
+    .buttons {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-height: 450px) {
+    #quiz-box {
+        height: 70vh;
+    }
+
+    #question {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    #progress {
+        margin: 10px 7.5%;
     }
 }

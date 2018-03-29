@@ -7,12 +7,12 @@ var titleCard = `<div class="title-card">
                     <div id="time">Time</div>
                 </div>`;
 
-var questionCard = `<h4 id="question">What movie character does Frank often confuse his life with?</h4>
+var questionCard = `<h4 id="question"></h4>
                     <div class="buttons">
-                        <button class="btn" id="btn0"><span id="choice0">Eggs</span></button>
-                        <button class="btn" id="btn1"><span id="choice1">Pudding</span></button>
-                        <button class="btn" id="btn2"><span id="choice2">Darko</span></button>
-                        <button class="btn" id="btn3"><span id="choice3">Lambone</span></button>
+                        <button class="btn" id="btn0"><span id="choice0"></span></button>
+                        <button class="btn" id="btn1"><span id="choice1"></span></button>
+                        <button class="btn" id="btn2"><span id="choice2"></span></button>
+                        <button class="btn" id="btn3"><span id="choice3"></span></button>
                     </div>`;
 
 var scoreCard = `<h4 id="score"></h4>
