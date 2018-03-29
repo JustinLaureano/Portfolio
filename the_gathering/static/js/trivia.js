@@ -97,6 +97,13 @@ Quiz.prototype.rightAnswer = function(button) {
 }
 
 Quiz.prototype.wrongAnswer = function(button) {
+    var choices = this.getQuestionIndex().choices;
+    for (var i = 0; i < choices.length; i++) {
+        if (choices[i] === this.getQuestionAnswer()) {
+            var correct = document.getElementById('btn' + i);
+        }
+    };
+    correct.style.border = "3px solid #1bb91b";
     button.style.border = "3px solid #ff0000";
 }
 
@@ -175,7 +182,7 @@ var scoreLevel = [
     "You're a stupid science bitch.",
     "It seems you must have a tenuous grasp on the human language in general.",
     "Can I offer you an egg in these trying times?",
-    "alright, alright, alright.",
+    "Alright, alright, alright.",
     "Oh, I bet you read a lotta Gordon Wood, huh? You read your Gordon Wood and you regurgitate it from a textbook and you think you're wicked awesome doin' that, And how 'bout 'dem apples? And all that Gordon Wood business.",
     "You haven't even begun to peak.",
     "When you're doing good in the game, you're doing good in life.",

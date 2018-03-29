@@ -176,4 +176,12 @@ a:hover {
     #progress {
         margin: 10px 7.5%;
     }
+
+    #rank {
+        font-size: .9rem;
+    }
+
+    #score {
+        margin: 5px 0px;
+    }
 }
