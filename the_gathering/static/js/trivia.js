@@ -80,15 +80,15 @@ Quiz.prototype.isEnded = function() {
     return this.questions.length === this.questionIndex;
 }
 
-Quiz.prototype.guess = function(button, answer) {
+Quiz.prototype.guess = function(event, button, answer) {
     if(this.getQuestionIndex().correctAnswer(answer)) {
         this.rightAnswer(button);
         this.score++;
     }
     else {
         this.wrongAnswer(button);
+        this.makeX(event);
     }
-
     this.questionIndex++;
 }
 
@@ -104,8 +104,19 @@ Quiz.prototype.wrongAnswer = function(button) {
         }
     };
     correct.style.border = "3px solid #1bb91b";
-    button.style.border = "3px solid #ff0000";
+    // button.style.border = "3px solid #ff0000";
 }
+
+Quiz.prototype.makeX = function() {
+    console.log(event.clientX, event.clientY);
+    var posX = event.clientX;
+    var posY = event.clientY;
+    var redX = document.getElementById("wrong-answer");
+
+    redX.style.left = posX + 'px';
+    redX.style.top = posY + 'px';
+    redX.style.visibility = 'visible';
+};
 
 function Question(text, choices, answer) {
     this.text = text;
@@ -123,14 +134,15 @@ function populate() {
     }
     else {
         quizBox.innerHTML = questionCard;
+        hideX();
 
         //show question
         var element = document.getElementById("question");
         element.innerHTML = quiz.getQuestionIndex().text + "?";
 
-
         // show choices
         var choices = quiz.getQuestionIndex().choices;
+
         for (var i = 0; i < choices.length; i++) {
             var element = document.getElementById("choice" + i);
             element.innerHTML = choices[i];
@@ -143,8 +155,8 @@ function populate() {
 
 function guess(id, guess) {
     var button = document.getElementById(id);
-    button.onclick = function () {
-        quiz.guess(button, guess);
+    button.onclick = function (event) {
+        quiz.guess(event, button, guess);
         setTimeout(function() {
             populate(); 
         }, 1500);
@@ -157,8 +169,13 @@ function showProgress() {
     element.innerHTML = "Question " + currentQuestionNumber + " of " + shuffleQuestions.length + ".";
 };
 
+function hideX() {
+    document.getElementById("wrong-answer").style.visibility = "hidden";
+};
+
 function showScores() {
     quizBox.innerHTML = scoreCard;
+    hideX();
     var score = document.getElementById('score');
     var rank = document.getElementById('rank');
 

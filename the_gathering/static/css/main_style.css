@@ -109,6 +109,14 @@ a:hover {
     font-family: 'Work Sans';
 }
 
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tnr {
+    font-family: 'Times New Roman', serif;
+}
+
 .bg-text {
     font-weight: 700;
     font-size: 14.5rem;
@@ -296,7 +304,26 @@ span {
     margin: 15vh 0 15vh 0;
 }
 
-.gathering-laptop {
+.showcase-item {
+    perspective: 450px;
+    margin: 100px 0px;
+}
+
+.showcase-img {
+    transform: rotateY(0deg);
+    transition: .5s ease-in-out;
+}
+
+.showcase-img:hover {
+    transform: rotateY(-4deg);
+    max-width: 104%;
+}
+
+.showcase-item:nth-child(2) .showcase-img:hover {
+    transform: rotateY(4deg);
+}
+
+.gathering-laptop, .news-home-laptop {
     height: 50vw;
 }
 
@@ -349,6 +376,10 @@ span {
 
     .news-photo-phone {
         width: 200%;
+    }
+
+    .showcase-item {
+        margin: 50px 0px;
     }
 }
 

@@ -85,7 +85,21 @@ a:hover {
     justify-content: center;
     align-items: center;
   }
-  
+
+#wrong-answer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    z-index: 800;
+    font-size: 6rem;
+    color: #ff0000;
+    visibility: hidden;
+}
+
 #quiz-box {
     display: flex;
     flex-direction: column;
