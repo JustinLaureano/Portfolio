@@ -8,3 +8,6 @@ def home_page(request):
 
 def the_gathering(request):
     return render(request, 'justin_laureano/the_gathering.html', {})
+
+def news(request):
+    return render(request, 'justin_laureano/news.html', {})

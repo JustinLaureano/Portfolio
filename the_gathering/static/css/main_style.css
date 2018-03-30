@@ -112,10 +112,16 @@ a:hover {
 .bg-text {
     font-weight: 700;
     font-size: 14.5rem;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.05);
     line-height: .8;
     position: relative;
     left: -370px !important;
+    white-space: nowrap;
+}
+
+.bg-text-news {
+    left: -110vw !important;
+    z-index: -1;
 }
 
 .gray {
@@ -259,6 +265,15 @@ span {
     width: 45vw;
 }
 
+.news-frontpage-phone, .news-photo-phone, .news-newsfeed-phone {
+    width: inherit;
+}
+
+.news-photo-phone {
+    width: 142%;
+    z-index: 20;
+}
+
 .view-btn {
     border: 2px solid rgba(255, 255, 255, 0.5);
     z-index: 50;
@@ -330,6 +345,10 @@ span {
 
     .gathering-laptop {
         margin-top: 10%;
+    }
+
+    .news-photo-phone {
+        width: 200%;
     }
 }
 

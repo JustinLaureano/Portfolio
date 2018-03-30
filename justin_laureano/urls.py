@@ -7,4 +7,5 @@ app_name = 'justin_laureano'
 urlpatterns = [
     path('', views.home_page, name='home'),
     path('project_1/', views.the_gathering, name='project_1'),
+    path('project_2/', views.news, name='project_2'),
 ]
