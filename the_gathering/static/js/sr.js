@@ -30,6 +30,40 @@ if (windowWidth > 450) {
         origin: 'left',
         distance: '50px',
     });
+
+    sr.reveal('.sr-left-sequence', {
+        duration: 1000,
+        origin: 'left',
+        distance: '400px',
+        opacity: 1,
+        scale: 1,
+    }, 50);
+
+    sr.reveal('.sr-about-sequence', {
+        duration: 1200,
+        origin: 'left',
+        distance: '300px',
+        opacity: 1,
+        scale: 1,
+    }, 50);
+
+    sr.reveal('.sr-intro-sequence', {
+        duration: 1200,
+        origin: 'left',
+        distance: '400px',
+        opacity: 1,
+        scale: 1,
+    }, 50);
+
+    sr.reveal('.sr-laptop-right', {
+        duration: 1300,
+        delay: 300,
+        origin: 'right',
+        distance: '90vw',
+        opacity: 1,
+        scale: 1,
+        easing: 'ease-out',
+    });
     
     sr.reveal('.sr-right', {
         duration: 1000,

@@ -149,6 +149,10 @@ a:hover {
     overflow: hidden;
 }
 
+.perspective {
+    perspective: 450px;
+}
+
 #space, #space-skills, #space-about {
     height: 100px;
 }
@@ -272,25 +276,50 @@ span {
     position: relative;
     top: 5%;
     z-index: 5;
+    transition: .5s ease-in-out;
+}
+
+.gathering-home-phone:hover, .trivia-question-phone:hover {
+    width: 25vw;
 }
 
 .gathering-home-tablet {
     width: 45vw;
+    transition: .5s ease-in-out;
+}
+.gathering-home-tablet:hover {
+    width: 46vw;
 }
 
 .news-frontpage-phone, .news-photo-phone, .news-newsfeed-phone {
     width: inherit;
+    transition: .5s ease-in-out;
+}
+
+.news-frontpage-phone:hover, .news-newsfeed-phone:hover {
+    width: 103%;
 }
 
 .news-photo-phone {
     width: 142%;
     z-index: 20;
+    transition: .5s ease-in-out;
+}
+
+.news-photo-phone:hover {
+    width: 146%;
 }
 
 .trivia-home-tablet {
     width: 45vw;
     position: relative;
     top: 20%;
+    transition: .5s ease-in-out;
+}
+
+.trivia-home-tablet:hover {
+    width: 47vw;
+    margin-bottom: 1vw;
 }
 
 .view-btn {
@@ -340,6 +369,11 @@ span {
 
 .gathering-laptop, .news-home-laptop {
     height: 50vw;
+    transition: .5s ease-in-out;
+}
+
+.gathering-laptop:hover {
+    height: 51vw;
 }
 
 .project-phone {
@@ -360,7 +394,13 @@ span {
 
 /* About Me Section */
 .family-phone {
+    width: 58vw;
+    transition: 1s ease-in-out;
+}
+
+.family-phone:hover {
     width: 60vw;
+    transform: rotateY(-3deg);
 }
 
 
@@ -397,8 +437,24 @@ span {
         width: 200%;
     }
 
+    .project-showcase {
+        margin: 11vh 0 12vh 0;
+    }
+
     .showcase-item {
         margin: 50px 0px;
+    }
+
+    .font-showcase {
+        margin: 18vh 0 6vh 0;
+    }
+
+    #news-project-showcase {
+        margin-bottom: 6vh;
+    }
+
+    #news-font-showcase {
+        margin-top: 0vh;
     }
 }
 

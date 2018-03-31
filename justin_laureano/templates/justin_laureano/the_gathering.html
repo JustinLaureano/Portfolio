@@ -12,27 +12,27 @@
 </header>
 
 <div class="row project-landing">
-    <div class="col-10 col-sm-3 offset-1 align-self-center pl-0">
-        <h1>The<br>Gathering</h1>
-        <p class="gray detail">
+    <div class="col-10 col-sm-3 offset-1 align-self-center pl-0 project-intro">
+        <h1 class="sr-intro-sequence">The<br>Gathering</h1>
+        <p class="gray detail py-2 sr-intro-sequence">
             A self-initiated website redesign concept for The Gathering, an upscale fine-dining restaurant located in downtown Findlay, OH.
         </p>
-        <a href="{% url 'the_gathering:home' %}" class="view-btn my-3 py-2 px-4 text-center view-btn" target="blank">Visit Site</a>
+        <a href="{% url 'the_gathering:home' %}" class="view-btn my-3 py-2 px-4 text-center view-btn sr-intro-sequence" target="blank">Visit Site</a>
     </div>
-    <div class="col-12 col-sm-8">
+    <div class="col-12 col-sm-8 sr-laptop-right">
         <img src="{% static 'images/portfolio/gathering_home_laptop.png' %}" class="gathering-laptop" alt="The Gathering Laptop View" class="img-fluid">
     </div>
 </div>
 <div class="row my-5">
-    <div class="col-10 col-sm-5 offset-1">
-        <p class="text-uppercase font-weight-bold">Identity</p>
-        <p class="gray">
+    <div class="col-10 col-sm-5 offset-1 overflow-hidden">
+        <p class="text-uppercase font-weight-bold sr-left-sequence">Identity</p>
+        <p class="gray sr-left-sequence">
             In order to ensure that the website conveyed the level of detail and sophistication that The Gathering is known for, I used a clean and modern color palettte and comforting typography to make the user feel connected to the existing of the brand image.
         </p>
     </div>
-    <div class="col-10 offset-1 col-sm-5 offset-sm-0">
-            <p class="text-uppercase font-weight-bold">Specs</p>
-            <p class=gray>
+    <div class="col-10 offset-1 col-sm-5 offset-sm-0 overflow-hidden">
+            <p class="text-uppercase font-weight-bold sr-left-sequence">Specs</p>
+            <p class="gray sr-left-sequence">
                 A custom design was built on the Django web framework with Boostrap 4 used for a responsive, enjoyable experience on any sized device. The admin interface allows users to easliy manage menu items, reservations, and live event postings.
             </p>
         </div>

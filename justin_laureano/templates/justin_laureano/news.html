@@ -14,7 +14,7 @@
 <div class="row project-landing">
     <div class="col-10 col-sm-3 offset-1 align-self-center pl-0">
         <h1 class="text-nowrap">News &<br>Photo Viewer</h1>
-        <p class="gray detail">
+        <p class="gray detail py-2">
             Featuring a magazine styled layout, this custom designed photo and newsfeed website keeps me in the know and entertained with no distractions.
         </p>
         <a href="{% url 'news:home' %}" class="view-btn my-3 py-2 px-4 text-center view-btn" target="blank">Visit Site</a>
@@ -37,18 +37,18 @@
             </p>
         </div>
 </div>
-<div class="row justify-content-center project-showcase">
-    <div class="col-8 text-center showcase-item">
+<div class="row justify-content-center project-showcase" id="news-project-showcase">
+    <div class="col-12 col-sm-8 text-center showcase-item">
         <img src="{% static 'images/news/news_photo_showcase.png' %}" alt="News &amp; Photo Viewer Tablet &amp; Phone View" class="img-fluid showcase-img">
     </div>
-    <div class="col-8 text-center showcase-item">
+    <div class="col-12 col-sm-8 text-center showcase-item">
         <img src="{% static 'images/news/news_newsfeed_showcase.png' %}" alt="News &amp; Photo Viewer Tablet &amp; Phone View" class="img-fluid showcase-img">
     </div>
-    <div class="col-8 text-center showcase-item">
+    <div class="col-12 col-sm-8 text-center showcase-item">
         <img src="{% static 'images/news/news_frontpage_showcase.png' %}" alt="News &amp; Photo Viewer Tablet &amp; Phone View" class="img-fluid showcase-img">
     </div>
 </div>
-<div class="row font-showcase">
+<div class="row font-showcase" id="news-font-showcase">
     <div class="col-12 offset-sm-1 mt-3 mt-sm-0">
         <p class="text-uppercase font-weight-bold gray mb-1">Heading</p>
         <p class="text-uppercase font-weight-bold h3 tnr">Times New Roman</p>
