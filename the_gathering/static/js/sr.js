@@ -24,6 +24,13 @@ if (windowWidth > 450) {
         origin: 'left',
         distance: '50px',
     });
+
+    sr.reveal('.sr-right', {
+        duration: 1000,
+        origin: 'right',
+        distance: '50px',
+    });
+
     sr.reveal('.sr-left-delay', {
         duration: 1000,
         delay: 500,
@@ -73,14 +80,17 @@ if (windowWidth > 450) {
         scale: 1,
         easing: 'ease-out',
     });
+
+    sr.reveal('.sr-phone-showcase', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '70vw',
+        opacity: 1,
+        scale: 1,
+        viewFactor: 0.2,
+    }, 300);
     
-    sr.reveal('.sr-right', {
-        duration: 1000,
-        origin: 'right',
-        distance: '50px',
-    });
-    
-    
+
     
     // The Gathering
     // index

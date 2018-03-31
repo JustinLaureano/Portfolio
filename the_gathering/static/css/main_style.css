@@ -372,7 +372,7 @@ span {
     transition: .5s ease-in-out;
 }
 
-.gathering-laptop:hover {
+.gathering-laptop:hover, .news-home-laptop:hover {
     height: 51vw;
 }
 
@@ -391,6 +391,14 @@ span {
 
 .font-showcase {
     margin: 18vh 0 10vh 0;
+}
+
+#news-project-showcase {
+    margin-bottom: 7vh;
+}
+
+#news-font-showcase {
+    margin-top: 5vh;
 }
 
 .carousel-inner img {
