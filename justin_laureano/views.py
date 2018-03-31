@@ -11,3 +11,6 @@ def the_gathering(request):
 
 def news(request):
     return render(request, 'justin_laureano/news.html', {})
+
+def trivia(request):
+    return render(request, 'justin_laureano/trivia.html', {})

@@ -23,6 +23,7 @@ h2 {
     padding: 0;
     margin: 0;
     color: var(--gold);
+    font-size: 2.7rem;
 }
 
 h3 {
@@ -40,24 +41,24 @@ a:hover {
 }
 
 #l-its {
-    font-size: 1.5rem;
+    font-size: 3rem;
     padding-left: 31px;
 }
 
 #l-always {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 #l-sunny {
-    font-size: 2.5rem;
+    font-size: 5rem;
 }
 
 #l-in {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 #l-philly {
-    font-size: 1.3rem;
+    font-size: 2.6rem;
     padding-right: 60px;
 }
 
@@ -74,7 +75,15 @@ a:hover {
     align-self: flex-start;
     margin: 20px 7.5%;
     visibility: hidden;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+}
+
+header {
+    visibility: hidden;
+}
+
+header h2 {
+    font-size: 2.5rem;
 }
 
 .container {
@@ -119,7 +128,7 @@ a:hover {
 
 #question, #score {
     padding: 0 25px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
@@ -160,9 +169,33 @@ a:hover {
 }
 
 @media (max-width: 575px) {
+    #l-its {
+        font-size: 1.5rem;
+    }
+    
+    #l-always {
+        font-size: 2rem;
+    }
+    
+    #l-sunny {
+        font-size: 2.5rem;
+    }
+    
+    #l-in {
+        font-size: 1rem;
+    }
+    
+    #l-philly {
+        font-size: 1.3rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
     .btn {
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     #quiz-box {
@@ -171,6 +204,10 @@ a:hover {
 
     .buttons {
         margin-bottom: 25px;
+    }
+
+    #progress {
+        margin: 10px 7.5%;
     }
 }
 

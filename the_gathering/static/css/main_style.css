@@ -120,6 +120,7 @@ a:hover {
 .bg-text {
     font-weight: 700;
     font-size: 14.5rem;
+    text-transform: uppercase;
     color: rgba(255, 255, 255, 0.05);
     line-height: .8;
     position: relative;
@@ -130,6 +131,10 @@ a:hover {
 .bg-text-news {
     left: -110vw !important;
     z-index: -1;
+}
+
+.bg-text-trivia {
+    left: -80vw !important;
 }
 
 .gray {
@@ -262,7 +267,7 @@ span {
     margin-top: 150px;
 }
 
-.gathering-home-phone {
+.gathering-home-phone, .trivia-question-phone {
     width: 23vw;
     position: relative;
     top: 5%;
@@ -280,6 +285,12 @@ span {
 .news-photo-phone {
     width: 142%;
     z-index: 20;
+}
+
+.trivia-home-tablet {
+    width: 45vw;
+    position: relative;
+    top: 20%;
 }
 
 .view-btn {
@@ -309,6 +320,10 @@ span {
     margin: 100px 0px;
 }
 
+.showcase-phone {
+    perspective: 450px;
+}
+
 .showcase-img {
     transform: rotateY(0deg);
     transition: .5s ease-in-out;
@@ -334,6 +349,10 @@ span {
 
 .font-showcase {
     margin: 18vh 0 10vh 0;
+}
+
+.carousel-inner img {
+    height: 55vh;
 }
 /* Skills Section */
 

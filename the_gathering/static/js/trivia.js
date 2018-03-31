@@ -2,6 +2,7 @@ var startBtn = document.getElementById('start-btn');
 var quizProgress = document.getElementById('progress');
 var quizBox = document.getElementById('quiz-box');
 var warning = document.getElementById('warning');
+var header = document.getElementById('header');
 
 var titleCard = `<div class="title-card">
                     <div id="time">Time</div>
@@ -175,6 +176,7 @@ function hideX() {
 
 function showScores() {
     quizBox.innerHTML = scoreCard;
+    quizProgress.style.visibility = 'hidden';
     hideX();
     var score = document.getElementById('score');
     var rank = document.getElementById('rank');
@@ -196,8 +198,8 @@ function quizReset() {
 
 var scoreLevel = [
     "Your're bloodline has run pure for a 1000 years",
-    "You're a stupid science bitch.",
     "It seems you must have a tenuous grasp on the human language in general.",
+    "It looks like you're more chaff than wheat.",
     "Can I offer you an egg in these trying times?",
     "Alright, alright, alright.",
     "Oh, I bet you read a lotta Gordon Wood, huh? You read your Gordon Wood and you regurgitate it from a textbook and you think you're wicked awesome doin' that, And how 'bout 'dem apples? And all that Gordon Wood business.",
@@ -248,6 +250,7 @@ shuffleQuestions = shuffle(questions).slice(0,10);
 var quiz = new Quiz(shuffleQuestions);
 
 startBtn.addEventListener('click', function() {
+    header.style.visibility = 'visible';
     quizProgress.style.visibility = 'visible';
     warning.style.visibility = "hidden";
     quizBox.innerHTML = titleCard;
