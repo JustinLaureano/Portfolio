@@ -376,6 +376,14 @@ span {
     height: 51vw;
 }
 
+.gathering-full, .gathering-phone {
+    transition: .5s ease-in-out;
+}
+
+.gathering-full:hover, .gathering-phone:hover {
+    max-width: 102%;
+}
+
 .project-phone {
     position: relative;
     top: 150px;

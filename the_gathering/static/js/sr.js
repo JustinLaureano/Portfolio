@@ -47,13 +47,22 @@ if (windowWidth > 450) {
         scale: 1,
     }, 50);
 
-    sr.reveal('.sr-intro-sequence', {
-        duration: 1200,
+    sr.reveal('.sr-font-sequence', {
+        duration: 1500,
         origin: 'left',
-        distance: '400px',
+        distance: '70vw',
         opacity: 1,
         scale: 1,
-    }, 50);
+        viewFactor: 0.1,
+    }, 100);
+
+    sr.reveal('.sr-intro-sequence', {
+        duration: 1500,
+        origin: 'left',
+        distance: '70vw',
+        opacity: 1,
+        scale: 1,
+    }, 100);
 
     sr.reveal('.sr-laptop-right', {
         duration: 1300,
