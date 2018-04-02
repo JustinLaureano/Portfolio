@@ -110,11 +110,23 @@ a:hover {
 }
 
 .montserrat {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .tnr {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Times New Roman';
+}
+
+.stardos {
+    font-family: 'Stardos Stencil';
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+.lemonada {
+    font-family: 'Lemonada';
 }
 
 .bg-text {

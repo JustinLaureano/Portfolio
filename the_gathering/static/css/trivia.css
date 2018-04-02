@@ -142,6 +142,7 @@ header h2 {
 .btn {
     background-color: black;
     color: white;
+    font-family: 'Lemonada';
     font-size: 1.8rem;
     margin: 5% 5%;
     padding: 5px;
