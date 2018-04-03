@@ -138,6 +138,7 @@ a:hover {
     position: relative;
     left: -370px !important;
     white-space: nowrap;
+    z-index: -1;
 }
 
 .bg-text-news {
@@ -450,6 +451,10 @@ span {
         z-index: 20;
     }
 
+    .scroll-btn {
+        bottom: 3%;
+    }
+
     .project-phone {
         top: 100px;
     }
@@ -461,8 +466,35 @@ span {
         margin-top: 10%;
     }
 
+    .gathering-home-tablet:hover {
+        width: 46vw;
+        position: relative;
+    }
+
+    .gathering-home-phone, .trivia-question-phone {
+        width: 25vw;
+    }
+
+    .gathering-home-phone:hover, .trivia-question-phone:hover {
+        width: 26vw;
+    }
+
+    .news-frontpage-phone, .news-newsfeed-phone {
+        width: 123%;
+    }
+
+    .news-frontpage-phone:hover, .news-newsfeed-phone:hover {
+        width: 130%;
+    }
+
     .news-photo-phone {
         width: 200%;
+        position: relative;
+        left: 8%;
+    }
+
+    .news-photo-phone:hover {
+        width: 220%;
     }
 
     .project-showcase {
@@ -483,6 +515,16 @@ span {
 
     #news-font-showcase {
         margin-top: 0vh;
+    }
+
+    .trivia-home-tablet {
+        width: 50vw;
+        right: 12%;
+    }
+
+    .trivia-home-tablet:hover {
+        width: 52vw;
+        right: 16%;
     }
 }
 
