@@ -1,0 +1,71 @@
+{% extends 'justin_laureano/base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<header class="row">
+    <div class="header-static col-12 py-3">
+        <div class="logo-sm">
+            <img src="{% static 'images/portfolio/logo.svg' %}" class="logo-img-sm" alt="Justin Laureano" height="25px">
+            <div class="diamond-sm"></div>
+        </div>
+    </div>
+</header>
+
+<div class="row project-landing">
+    <div class="col-10 col-sm-3 offset-1 align-self-center pl-0 project-intro">
+        <h1 class="sr-intro-sequence">Design<br>Gallery</h1>
+        <p class="gray detail py-2 sr-intro-sequence">
+            A self-initiated website redesign concept for The Gathering, an upscale fine-dining restaurant located in downtown Findlay, OH.
+        </p>
+        <a href="http://www.design.justinlaureano.com" class="view-btn my-3 py-2 px-4 text-center view-btn sr-intro-sequence" target="blank">Visit Site</a>
+    </div>
+    <div class="col-12 col-sm-8 sr-laptop-right">
+        <img src="{% static 'images/design/design_home_laptop.png' %}" class="design-laptop" alt="Design Gallery Laptop View" class="img-fluid">
+    </div>
+</div>
+<div class="row my-5">
+    <div class="col-10 col-sm-5 offset-1 overflow-hidden">
+        <p class="text-uppercase font-weight-bold sr-intro-sequence">Identity</p>
+        <p class="gray sr-intro-sequence">
+            In order to ensure that the website conveyed the level of detail and sophistication that The Gathering is known for, I used a clean and modern color palettte and comforting typography to make the user feel connected to the existing of the brand image.
+        </p>
+    </div>
+    <div class="col-10 offset-1 col-sm-5 offset-sm-0 overflow-hidden">
+            <p class="text-uppercase font-weight-bold sr-intro-sequence">Specs</p>
+            <p class="gray sr-intro-sequence">
+                A custom design was built on the Django web framework with Boostrap 4 used for a responsive, enjoyable experience on any sized device. The admin interface allows users to easliy manage menu items, reservations, and live event postings.
+            </p>
+        </div>
+</div>
+<div class="row justify-content-center project-showcase">
+    <div class="col-8 text-center">
+        <img src="{% static 'images/portfolio/gathering_full.png' %}" alt="The Gathering Full Homepage View" class="img-fluid gathering-full">
+    </div>
+</div>
+<div class="row gathering-phones justify-content-between">
+    <div class="col-4 project-phone p-sm-5 sr-phone-showcase">
+        <img src="{% static 'images/portfolio/gathering_phone_reservation.png' %}" alt="The Gathering Reservation Page Mobile View" class="img-fluid gathering-phone">
+    </div>
+    <div class="col-4 project-phone p-sm-5 sr-phone-showcase">
+        <img src="{% static 'images/portfolio/gathering_phone_patio.png' %}" alt="The Gathering Patio Information Phone View" class="img-fluid gathering-phone">
+    </div>
+    <div class="col-4 project-phone p-sm-5 sr-phone-showcase">
+        <img src="{% static 'images/portfolio/gathering_phone_menu.png' %}" alt="The Gathering Menu Phone View" class="img-fluid gathering-phone">
+    </div>
+</div>
+<div class="row font-showcase">
+    <div class="col-12 offset-sm-1 mt-3 mt-sm- overflow-hidden">
+        <p class="text-uppercase font-weight-bold gray mb-1 sr-font-sequence">Heading</p>
+        <p class="text-uppercase font-weight-bold h3 crimson-text sr-font-sequence">Crimson Text</p>
+        <p class="text-uppercase gray crimson-text mb-5 sr-font-sequence">abcdefghijklmnopqrstuvwxyz</p>
+    </div>
+    <div class="col-12 col-sm-7 offset-sm-1 overflow-hidden">
+            <p class="text-uppercase font-weight-bold gray mb-1 sr-font-sequence">Body</p>
+            <p class="text-uppercase font-weight-bold h5 work-sans sr-font-sequence">Work Sans</p>
+            <p class="text-uppercase gray work-sans mb-0 sr-font-sequence">abcdefghijklmnopqrstuvwxyz</p>
+            <p class="text-lowercase gray work-sans sr-font-sequence">abcdefghijklmnopqrstuvwxyz</p>
+            <p class="text-lowercase gray work-sans sr-font-sequence">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus magni, sint praesentium assumenda corporis eaque impedit esse qui ut.</p>
+        </div>
+</div>
+
+{% endblock %}

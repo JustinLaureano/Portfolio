@@ -284,7 +284,7 @@ span {
     margin-top: 150px;
 }
 
-.gathering-home-phone, .trivia-question-phone {
+.gathering-home-phone, .trivia-question-phone, .design-home-phone {
     width: 23vw;
     position: relative;
     top: 5%;
@@ -292,15 +292,15 @@ span {
     transition: .5s ease-in-out;
 }
 
-.gathering-home-phone:hover, .trivia-question-phone:hover {
+.gathering-home-phone:hover, .trivia-question-phone:hover, .design-home-phone:hover {
     width: 25vw;
 }
 
-.gathering-home-tablet {
+.gathering-home-tablet, .design-home-tablet {
     width: 45vw;
     transition: .5s ease-in-out;
 }
-.gathering-home-tablet:hover {
+.gathering-home-tablet:hover, .design-home-tablet:hover {
     width: 46vw;
 }
 

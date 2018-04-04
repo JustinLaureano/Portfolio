@@ -5,7 +5,6 @@ from django.shortcuts import render
 def home_page(request):
     return render(request, 'justin_laureano/index.html', {})
 
-
 def the_gathering(request):
     return render(request, 'justin_laureano/the_gathering.html', {})
 
@@ -14,3 +13,6 @@ def news(request):
 
 def trivia(request):
     return render(request, 'justin_laureano/trivia.html', {})
+
+def design(request):
+    return render(request, 'justin_laureano/design.html', {})
