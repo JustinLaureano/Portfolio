@@ -129,6 +129,14 @@ a:hover {
     font-family: 'Lemonada';
 }
 
+.oswald {
+    font-family: 'Oswald';
+}
+
+.droid {
+    font-family: 'Droid serif'
+}
+
 .bg-text {
     font-weight: 700;
     font-size: 14.5rem;
@@ -338,6 +346,7 @@ span {
 .view-btn {
     border: 2px solid rgba(255, 255, 255, 0.5);
     z-index: 50;
+    transition: .5s ease-in-out;
 }
 
 .view-btn:hover {
@@ -380,20 +389,20 @@ span {
     transform: rotateY(4deg);
 }
 
-.gathering-laptop, .news-home-laptop {
+.gathering-laptop, .news-home-laptop, .design-home-laptop {
     height: 50vw;
     transition: .5s ease-in-out;
 }
 
-.gathering-laptop:hover, .news-home-laptop:hover {
+.gathering-laptop:hover, .news-home-laptop:hover, .design-home-laptop:hover {
     height: 51vw;
 }
 
-.gathering-full, .gathering-phone {
+.gathering-full, .gathering-phone, .design-full, .design-phone {
     transition: .5s ease-in-out;
 }
 
-.gathering-full:hover, .gathering-phone:hover {
+.gathering-full:hover, .gathering-phone:hover, .design-full:hover, .design-phone:hover {
     max-width: 102%;
 }
 
