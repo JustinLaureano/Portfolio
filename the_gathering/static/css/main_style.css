@@ -18,6 +18,7 @@ html {
 body {
     font-family: 'Roboto', Arial, sans-serif;
     color: var(--light);
+    background-color: var(--black);
     background: url('../images/portfolio/wall_bg.jpg') no-repeat center;
     background-size: cover;
     font-size: .8rem;
@@ -371,6 +372,10 @@ span {
     margin: 100px 0px;
 }
 
+.showcase-margin {
+    margin-top: 12vh;
+}
+
 .showcase-phone {
     perspective: 450px;
 }
@@ -451,6 +456,13 @@ span {
 /* Gathering Project */
 .gathering-phones {
     background: url('../images/portfolio/gathering_dining_room.png') no-repeat center;
+    background-size: contain;
+}
+
+/* Design Project */
+.design-phones {
+    background: url('../images/design/findlay_bg.jpg') no-repeat center;
+    background-size: contain;
 }
 
 /* Media Queries */
@@ -471,8 +483,8 @@ span {
         width: 100%;
     }
 
-    .gathering-laptop {
-        margin-top: 10%;
+    .gathering-laptop, .design-home-laptop {
+        margin-top: 15%;
     }
 
     .gathering-home-tablet:hover {
@@ -551,5 +563,36 @@ span {
     .gathering-laptop {
         position: relative;
         left: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        width: 1200px;
+        overflow: visible;
+    }
+
+    .trivia-question-phone {
+        width: 18vw;
+    }
+
+    .trivia-question-phone:hover {
+        width: 19vw;
+    }
+
+    .trivia-home-tablet {
+        width: 36vw;
+    }
+
+    .trivia-home-tablet:hover {
+        width: 37vw;
+    }
+
+    .design-home-phone {
+        width: 21vw;
+    }
+
+    .design-home-phone:hover {
+        width: 22vw;
     }
 }
