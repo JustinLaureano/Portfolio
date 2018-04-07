@@ -22,7 +22,9 @@ if (windowWidth > 450) {
     sr.reveal('.sr-left', {
         duration: 1000,
         origin: 'left',
-        distance: '50px',
+        distance: '400px',
+        opacity: 1,
+        scale: 1,
     });
 
     sr.reveal('.sr-right', {

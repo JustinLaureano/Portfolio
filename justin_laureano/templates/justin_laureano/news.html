@@ -50,17 +50,21 @@
 </div>
 <div class="row font-showcase" id="news-font-showcase">
     <div class="col-12 offset-sm-1 mt-3 mt-sm-0">
-        <p class="text-uppercase font-weight-bold gray mb-1">Heading</p>
-        <p class="text-uppercase font-weight-bold h3 tnr">Times New Roman</p>
-        <p class="text-uppercase gray tnr mb-5">abcdefghijklmnopqrstuvwxyz</p>
+        <p class="text-uppercase font-weight-bold gray mb-1 sr-font-sequence">Heading</p>
+        <p class="text-uppercase font-weight-bold h3 tnr sr-font-sequence">Times New Roman</p>
+        <p class="text-uppercase gray tnr mb-5 sr-font-sequence">abcdefghijklmnopqrstuvwxyz</p>
     </div>
     <div class="col-12 col-sm-7 offset-sm-1">
-            <p class="text-uppercase font-weight-bold gray mb-1">Body</p>
-            <p class="text-uppercase font-weight-bold h5 work-sans">Montserrat</p>
-            <p class="text-uppercase gray montserrat mb-0">abcdefghijklmnopqrstuvwxyz</p>
-            <p class="text-lowercase gray montserrat">abcdefghijklmnopqrstuvwxyz</p>
-            <p class="text-lowercase gray montserrat">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus magni, sint praesentium assumenda corporis eaque impedit esse qui ut.</p>
+            <p class="text-uppercase font-weight-bold gray mb-1 sr-font-sequence">Body</p>
+            <p class="text-uppercase font-weight-bold h5 work-sans sr-font-sequence">Montserrat</p>
+            <p class="text-uppercase gray montserrat mb-0 sr-font-sequence">abcdefghijklmnopqrstuvwxyz</p>
+            <p class="text-lowercase gray montserrat sr-font-sequence">abcdefghijklmnopqrstuvwxyz</p>
+            <p class="text-lowercase gray montserrat sr-font-sequence">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus magni, sint praesentium assumenda corporis eaque impedit esse qui ut.</p>
         </div>
 </div>
-
+<div class="row mb-5">
+        <div class="col-12 col-sm-11 offset-sm-1 overflow-hidden">
+            <a href="{% url 'justin_laureano:project_3' %}"><h5 class="ml-3 mb-5 sr-font-sequence">Next: Trivia Game</h5></a>
+        </div>
+    </div>
 {% endblock %}
