@@ -28,9 +28,11 @@ if (windowWidth > 450) {
     });
 
     sr.reveal('.sr-right', {
-        duration: 1000,
+        duration: 1800,
         origin: 'right',
-        distance: '50px',
+        distance: '600px',
+        opacity: 1,
+        scale: 1,
     });
 
     sr.reveal('.sr-left-delay', {
