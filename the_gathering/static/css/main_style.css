@@ -302,7 +302,7 @@ span {
     margin-top: 150px;
 }
 
-.gathering-home-phone, .trivia-question-phone, .design-home-phone {
+.gathering-home-phone, .trivia-question-phone, .design-home-phone, .recipe_box-home-phone {
     width: 23vw;
     position: relative;
     top: 5%;
@@ -314,11 +314,11 @@ span {
     width: 25vw;
 }
 
-.gathering-home-tablet, .design-home-tablet {
+.gathering-home-tablet, .design-home-tablet, .recipe_box-home-tablet {
     width: 45vw;
     transition: .5s ease-in-out;
 }
-.gathering-home-tablet:hover, .design-home-tablet:hover {
+.gathering-home-tablet:hover, .design-home-tablet:hover, .recipe_box-home-tablet:hover {
     width: 46vw;
 }
 
@@ -403,16 +403,16 @@ span {
     transform: rotateY(4deg);
 }
 
-.gathering-laptop, .news-home-laptop, .design-home-laptop {
+.gathering-laptop, .news-home-laptop, .design-home-laptop, .recipe_box-category-laptop {
     height: 50vw;
     transition: .5s ease-in-out;
 }
 
-.gathering-laptop:hover, .news-home-laptop:hover, .design-home-laptop:hover {
+.gathering-laptop:hover, .news-home-laptop:hover, .design-home-laptop:hover, .recipe_box-category-laptop:hover {
     height: 51vw;
 }
 
-.gathering-full, .gathering-phone, .design-full, .design-phone {
+.gathering-full, .gathering-phone, .design-full, .design-phone, .recipe_box-home-phone {
     transition: .5s ease-in-out;
 }
 
@@ -492,20 +492,20 @@ span {
         width: 100%;
     }
 
-    .gathering-laptop, .design-home-laptop {
+    .gathering-laptop, .design-home-laptop, .recipe_box-category-laptop {
         margin-top: 15%;
     }
 
-    .gathering-home-tablet:hover {
+    .gathering-home-tablet:hover, .recipe_box-home-tablet:hover {
         width: 46vw;
         position: relative;
     }
 
-    .gathering-home-phone, .trivia-question-phone {
+    .gathering-home-phone, .trivia-question-phone, .recipe_box-home-phone {
         width: 25vw;
     }
 
-    .gathering-home-phone:hover, .trivia-question-phone:hover {
+    .gathering-home-phone:hover, .trivia-question-phone:hover, .recipe_box-home-phone:hover {
         width: 26vw;
     }
 
