@@ -5,6 +5,9 @@ from django.shortcuts import render
 def home_page(request):
     return render(request, 'justin_laureano/index.html', {})
 
+def recipe_box(request):
+    return render(request, 'justin_laureano/recipe_box.html', {})
+
 def the_gathering(request):
     return render(request, 'justin_laureano/the_gathering.html', {})
 

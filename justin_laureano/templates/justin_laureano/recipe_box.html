@@ -1,0 +1,76 @@
+{% extends 'justin_laureano/base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<header class="row">
+    <div class="header-static col-12 py-3">
+        <div class="logo-sm">
+            <img src="{% static 'images/portfolio/logo.svg' %}" class="logo-img-sm" alt="Justin Laureano" height="25px">
+            <div class="diamond-sm"></div>
+        </div>
+    </div>
+</header>
+
+<div class="row project-landing">
+    <div class="col-10 col-sm-3 offset-1 align-self-center pl-0 project-intro">
+        <h1 class="sr-intro-sequence">Recipe<br>Box</h1>
+        <p class="gray detail py-2 sr-intro-sequence">
+            A web application designed for storing recipes for personal or commercial use, built on the React framework. This is currently a work in progress.
+        </p>
+        <a href="http://www.github.com/JustinLaureano/RecipeBox" class="view-btn my-3 py-2 px-4 text-center view-btn sr-intro-sequence" target="blank">Visit Repo</a>
+    </div>
+    <div class="col-12 col-sm-8 sr-laptop-right">
+        <img src="{% static 'images/portfolio/gathering_home_laptop.png' %}" class="gathering-laptop" alt="The Gathering Laptop View" class="img-fluid">
+    </div>
+</div>
+<div class="row my-5">
+    <div class="col-10 col-sm-5 offset-1 overflow-hidden">
+        <p class="text-uppercase font-weight-bold sr-intro-sequence">Identity</p>
+        <p class="gray sr-intro-sequence">
+            The end goal of this project is a fully functional recipe storage application in which the user will be able to store, sort, edit, and share their own personal recipes.
+        </p>
+    </div>
+    <div class="col-10 offset-1 col-sm-5 offset-sm-0 overflow-hidden">
+            <p class="text-uppercase font-weight-bold sr-intro-sequence">Specs</p>
+            <p class="gray sr-intro-sequence">
+                This application is being built with React and Redux on the front-end and Firebase Realtime Databse for data storage.
+            </p>
+        </div>
+</div>
+<div class="row justify-content-center project-showcase">
+    <div class="col-8 text-center">
+        <img src="{% static 'images/portfolio/gathering_full.png' %}" alt="The Gathering Full Homepage View" class="img-fluid gathering-full">
+    </div>
+</div>
+<div class="row gathering-phones justify-content-between">
+    <div class="col-4 project-phone p-sm-5 sr-phone-showcase">
+        <img src="{% static 'images/portfolio/gathering_phone_reservation.png' %}" alt="The Gathering Reservation Page Mobile View" class="img-fluid gathering-phone">
+    </div>
+    <div class="col-4 project-phone p-sm-5 sr-phone-showcase">
+        <img src="{% static 'images/portfolio/gathering_phone_patio.png' %}" alt="The Gathering Patio Information Phone View" class="img-fluid gathering-phone">
+    </div>
+    <div class="col-4 project-phone p-sm-5 sr-phone-showcase">
+        <img src="{% static 'images/portfolio/gathering_phone_menu.png' %}" alt="The Gathering Menu Phone View" class="img-fluid gathering-phone">
+    </div>
+</div>
+<div class="row font-showcase">
+    <div class="col-12 col-sm-11 offset-sm-1 mt-3 overflow-hidden">
+        <p class="text-uppercase font-weight-bold gray mb-1 sr-font-sequence">Heading</p>
+        <p class="text-uppercase font-weight-bold h3 pt-sans sr-font-sequence">PT Sans</p>
+        <p class="text-uppercase gray pt-sans mb-5 sr-font-sequence">abcdefghijklmnopqrstuvwxyz</p>
+    </div>
+    <div class="col-12 col-sm-7 offset-sm-1 overflow-hidden">
+            <p class="text-uppercase font-weight-bold gray mb-1 sr-font-sequence">Body</p>
+            <p class="text-uppercase font-weight-bold h5 open-sans sr-font-sequence">Open Sans</p>
+            <p class="text-uppercase gray open-sans mb-0 sr-font-sequence">abcdefghijklmnopqrstuvwxyz</p>
+            <p class="text-lowercase gray open-sans sr-font-sequence">abcdefghijklmnopqrstuvwxyz</p>
+            <p class="text-lowercase gray open-sans sr-font-sequence">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus natus magni, sint praesentium assumenda corporis eaque impedit esse qui ut.</p>
+        </div>
+</div>
+<div class="row mb-5">
+    <div class="col-12 col-sm-11 offset-sm-1 overflow-hidden">
+        <a href="{% url 'justin_laureano:project_1' %}"><h5 class="ml-3 mb-5 sr-font-sequence">Next: The Gathering</h5></a>
+    </div>
+</div>
+
+{% endblock %}

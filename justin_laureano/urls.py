@@ -10,4 +10,5 @@ urlpatterns = [
     path('project_2/', views.news, name='project_2'),
     path('project_3/', views.trivia, name='project_3'),
     path('project_4/', views.design, name='project_4'),
+    path('project_5/', views.recipe_box, name='project_5'),
 ]

@@ -138,6 +138,14 @@ a:hover {
     font-family: 'Droid serif'
 }
 
+.open-sans {
+    font-family: 'Open Sans';
+}
+
+.pt-sans {
+    font-family: 'PT Sans'
+}
+
 .bg-text {
     font-weight: 700;
     font-size: 14.5rem;
